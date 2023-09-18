@@ -5,20 +5,67 @@ end
 fish_vi_key_bindings
 bind -M insert \cn down-or-search
 bind -M insert \cp up-or-search
-bind -M insert \cD accept-autosuggestion
+bind -M insert \cF accept-autosuggestion
 set -g fish_prompt_pwd_dir_length 0
 
-alias v nvim
+abbr --add v 'nvim'
+
+abbr --add td 'mullvad connect ; sleep 5 ; mullvad status ; transmission-daemon'
+abbr --add te 'transmission-remote --exit ; sleep 5 ; mullvad disconnect'
+abbr --add ta --set-cursor 'transmission-remote -a "%"'
+abbr --add tr 'transmission-remote -tall --remove'
+abbr --add tl 'transmission-remote --list'
+abbr --add tw 'watch -n3 transmission-remote --list'
+
+abbr --add mc 'mullvad connect'
+abbr --add md 'mullvad disconnect'
+abbr --add ms 'mullvad status'
+
 abbr --add killi 'docker rm -f (docker ps -aq)'
 abbr --add killc 'docker rmi -f (docker images -aq)'
-alias fzo 'nvim (fzf --preview "bat -n --color=always {}")'
-alias fzp 'fzf --preview "bat -n --color=always {}"'
-alias fzc 'cd (fzf --preview "bat -n --color=always {}" | awk -F/ "NF{NF--};1" OFS=/)'
-alias fzd 'cd $(find . -type d -print | fzf)'
+
+abbr --add fzo 'nvim (fzf --preview "bat -n --color=always {}")'
+abbr --add fzp 'fzf --preview "bat -n --color=always {}"'
+abbr --add fzc 'cd (fzf --preview "bat -n --color=always {}" | awk -F/ "NF{NF--};1" OFS=/)'
+abbr --add fzd 'cd $(find . -type d -print | fzf)'
+
 abbr --add gp 'git add --all; git commit -a -m "auto commit"; git push'
-abbr --add gpu 'git pull'
+abbr --add gu 'git pull'
+
 abbr --add t 'termdown --no-figlet'
-abbr --add x 'exit'
+
+abbr --add autor 'sudo pacman -Rns $(pacman -Qtdq)'
+abbr --add useri 'bash -c "comm -23 <(pacman -Qqett | sort) <(pacman -Qqg base-devel | sort | uniq)"'
+
+abbr --add m 'aerc'
+tmux new-session -s aerc -d "$(which --skip-alias aerc)" 2> /dev/null
+tmux new-session -s notes -d "cd ~/Documents/notes && nvim index.md" 2> /dev/null
+abbr --add s 'cmus'
+tmux new-session -s cmus -d "$(which --skip-alias cmus)" 2> /dev/null
+abbr --add y 'ytfzf --detach --video-pref="bestvideo[height<=?1080]"'
+abbr --add n 'cd ~/.newsboat; newsboat'
+tmux new-session -s newsboat -d "$(which --skip-alias newsboat)" 2> /dev/null
+abbr --add p 'podboat -a'
+tmux new-session -s podboat -d "$(which --skip-alias podboat)" 2> /dev/null
+abbr --add ym --set-cursor 'yt-dlp -x --audio-format mp3 "%"'
+abbr --add sp --set-cursor 'spotdl "%"'
+abbr --add z --set-cursor 'zathura % &'
+abbr --add py 'source ~/.local/pip/venvs/env1/bin/activate.fish'
+abbr --add pyr 'source ~/.local/pip/venvs/env1/bin/activate.fish ; python'
+abbr --add i 'scli'
+tmux new-session -s scli -d "$(which --skip-alias scli)" 2> /dev/null
+abbr --add sf 'source ~/.config/fish/config.fish'
+abbr --add st 'tmux source ~/.tmux.conf'
+abbr --add l 'clear'
+
+abbr --add bs 'bluetoothctl connect AC:BF:71:11:0B:24' 
+abbr --add be 'bluetoothctl connect B4:1A:1D:DE:1A:FE' 
+abbr --add bh 'bluetoothctl connect 14:3F:A6:A7:B9:73' 
+abbr --add bsd 'bluetoothctl disconnect AC:BF:71:11:0B:24' 
+abbr --add bed 'bluetoothctl disconnect B4:1A:1D:DE:1A:FE' 
+abbr --add bhd 'bluetoothctl disconnect 14:3F:A6:A7:B9:73' 
+
+abbr --add rgf "rg --files | rg"
 
 source /home/david/.config/fish/path.fish
 
@@ -28,11 +75,16 @@ set -Ux VISUAL nvim
 
 function r
     set tmp (mktemp)
-    lf -last-dir-path=$tmp $argv
-    if [ -f $tmp ]
+    # `command` is needed in case `lfcd` is aliased to `lf`
+    command lf -last-dir-path=$tmp $argv
+    if test -f "$tmp"
         set dir (cat $tmp)
         rm -f $tmp
-        [ -d $dir ]; and [ $dir != (pwd) ]; and cd $dir
+        if test -d "$dir"
+            if test "$dir" != (pwd)
+                cd $dir
+            end
+        end
     end
 end
 
@@ -47,13 +99,6 @@ function run_python
 
     eval $command
 end
-
-function lat
-    lualatex *.tex
-    zathura *.pdf
-end
-
-abbr --add rgf "rg --files | rg"
 
 function fish_prompt --description 'Write out the prompt'
     set -l last_pipestatus $pipestatus
@@ -89,5 +134,8 @@ end
 
 if status is-interactive
 and not set -q TMUX
-    exec tmux
+    exec tmux new -s main
 end
+
+# Created by `pipx` on 2023-09-07 01:09:04
+set PATH $PATH /home/david/.local/bin
