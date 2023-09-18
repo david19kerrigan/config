@@ -1,0 +1,6 @@
+theme = "gruvbox"
+
+[editor.lsp]
+auto-signature-help = false
+display-signature-help-docs = false
+snippets = false

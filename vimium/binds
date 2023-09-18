@@ -1,0 +1,5 @@
+map S goBack
+map D goForward
+map R nextTab
+map E previousTab
+map e scrollPageUp

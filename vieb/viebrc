@@ -1,0 +1,17 @@
+nmap E <previousTab>
+nmap R <nextTab>
+nmap x <:close>
+nmap e <scrollPageUpHalf>
+nmap d <scrollPageDownHalf>
+nmap S <backInHistory>
+nmap D <forwardInHistory>
+nmap u <:set userstyle!>
+set adblocker=update
+set guifontsize=11
+set follownewtabswitch=false
+set darkreader=true
+colorscheme oneline
+set nativetheme=dark
+nmap t <:tabnew><toExploreMode>
+nmap o <toExploreMode>
+set searchengine=https://searx.be/search?q=%s

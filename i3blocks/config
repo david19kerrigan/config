@@ -1,0 +1,37 @@
+[TIME_DATE]
+command=date +" %I:%M%p  󰃭 %a %b %d %Y"
+interval=15
+color=#fab387
+
+[weather_NOAA]
+label=󰇧 
+command=/home/david/.config/i3blocks/weather_NOAA/weather_NOAA
+LAT=40
+LON=-75
+interval=600
+color=#a6e3a1
+
+[volume]
+command=/home/david/.config/i3blocks/volume/volume
+LABEL=󰋋 Volume: 
+interval=60
+signal=10
+color=#f5c2e7
+
+[DISK]
+command=df -h / | awk '/\//{ printf(" %4s / %s\n", $4, $2) }'
+interval=15
+color=#89b4fa
+
+[temperature]
+command=( sensors | grep Tdie: | awk -F'[:+]' '{gsub(/^[ \t]+|[ \t]+$/, "", $3); print $3}' && nvidia-smi -q -d temperature | grep "GPU Current" | awk -F ':' '{gsub(/^[ \t]+/, "", $2); print "GPU " $2}' | sed 's/\(.*\) C/\1°C/' ) | paste -sd ' ' -
+label= CPU 
+interval=5
+color=#eba0ac
+#separator=false
+
+[memory]
+command=/home/david/.config/i3blocks/memory/memory
+label=󰍛 
+interval=5
+color=#b4befe
