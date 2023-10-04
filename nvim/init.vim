@@ -1,16 +1,15 @@
 " Setup plugins
 call plug#begin()
 
+" Colors
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'nvim-treesitter/nvim-treesitter'
+
 Plug 'christoomey/vim-tmux-navigator' 
 Plug 'junegunn/fzf.vim'
-Plug 'vimwiki/vimwiki'
-
-" For LSP
+Plug 'vimwiki/vimwiki', { 'for': 'markdown' }
 Plug 'neovim/nvim-lspconfig'
-Plug 'williamboman/mason.nvim'
-Plug 'williamboman/mason-lspconfig.nvim'
+Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
 
 " Autocomplete
 Plug 'hrsh7th/cmp-nvim-lsp'

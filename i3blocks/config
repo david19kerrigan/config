@@ -3,11 +3,8 @@ command=date +" %I:%M%p  󰃭 %a %b %d %Y"
 interval=15
 color=#fab387
 
-[weather_NOAA]
-label=󰇧 
-command=/home/david/.config/i3blocks/weather_NOAA/weather_NOAA
-LAT=40
-LON=-75
+[weather]
+command=/home/david/.config/i3blocks/weather
 interval=600
 color=#a6e3a1
 

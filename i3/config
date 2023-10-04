@@ -68,8 +68,8 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 #bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # change volume or toggle mute
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && pkill -RTMIN+10 i3blocks
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && pkill -RTMIN+10 i3blocks
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && pkill -RTMIN+10 i3blocks
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && pkill -RTMIN+10 i3blocks
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && pkill -RTMIN+10 i3blocks
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -81,7 +81,8 @@ bindsym $mod+Return exec kitty
 # start browser
 bindsym $mod+u exec qutebrowser
 bindsym $mod+y exec brave
-bindsym $mod+f exec "flameshot full --clipboard"
+bindsym $mod+f exec "import -window root png:- | xclip -selection clipboard -t image/png"
+
 bindsym $mod+$mod2+s exec "tmux switch-client -t cmus"
 bindsym $mod+$mod2+m exec "tmux switch-client -t aerc"
 bindsym $mod+$mod2+i exec "tmux switch-client -t scli"
@@ -89,7 +90,12 @@ bindsym $mod+$mod2+n exec "tmux switch-client -t newsboat"
 bindsym $mod+$mod2+p exec "tmux switch-client -t podboat"
 bindsym $mod+$mod2+h exec "tmux switch-client -t main"
 bindsym $mod+$mod2+o exec "tmux switch-client -t notes"
-bindsym $mod+$mod2+k exec "tmux kill-server"
+bindsym $mod+$mod2+l exec "tmux switch-client -t softwarecashmoney"
+bindsym $mod+$mod2+w exec "tmux switch-client -t weechat"
+bindsym $mod+Shift+w exec "tmux kill-server"
+
+bindsym $mod+p exec "/home/david/.local/bin/ppassmenu"
+bindsym $mod+q exec "/home/david/.local/bin/otpmenu"
 
 # kill focused window
 bindsym $mod+$mod2+q kill
@@ -183,7 +189,7 @@ assign [class = "Lutris"] $ws3
 assign [class = "prismlauncher"] $ws3
 for_window [class="mpv"] sticky enable, fullscreen disable, floating enable, resize set 640 400, move position 1280 700
 no_focus [class="mpv"]
-exec --no-startup-id i3-msg 'exec qutebrowser; exec kitty'
+exec --no-startup-id i3-msg 'exec qutebrowser; exec kitty; workspace $ws2'
 #exec --no-startup-id i3-msg 'exec blueman-applet'
 
 # switch to workspace
@@ -215,7 +221,11 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+#bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec i3-msg 'exit'
+bindsym $mod+Shift+p exec 'poweroff'
+bindsym $mod+Shift+s exec systemctl suspend
+bindsym $mod+Shift+o exec xset dpms force off
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -290,7 +300,8 @@ bar {
 
 for_window [class="^.*"] border pixel 2
 
-exec --no-startup-id feh --bg-scale /home/david/config/wallpapers/wall.jpg
+exec --no-startup-id feh --bg-scale /home/david/Pictures/wall.jpg
+exec --no-startup-id udiskie&
 
 # Meida player controls
 bindsym XF86AudioPlay exec playerctl play-pause

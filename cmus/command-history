@@ -1,0 +1,52 @@
+set lib_sort=album albumartist date discnumber tracknumber title filename play_count
+set shuffle=false
+set repeat?
+set repeat=false
+seek 0
+seek 2m
+seek 09
+seek 1m
+seek 5m
+bind common q quit
+unbind common q
+bind q quit
+colorscheme dracula
+colorscheme nord
+colorscheme amazon
+colorscheme zenburn
+colorscheme solarized-dark
+colorscheme night
+colorscheme jellybeans
+q
+set resume=false
+bind -f common q shell tmux switch-client -l
+quit
+shell screen -d cmus
+update
+set shuffle
+shuffle
+seek
+set resume=true
+help
+?
+set continue=true
+set auto_reshuffle
+seek 10m
+2m
+seek 
+seek 3m
+colorscheme?
+colorscheme
+seek 30s
+set 
+resume
+set mpris=true
+unbind -f q
+unbind q
+bind q !quit
+quit -i
+color
+seek 15m
+chapters
+colorscheme spotify
+load

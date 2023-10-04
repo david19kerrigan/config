@@ -1,0 +1,6 @@
+#!/bin/bash
+
+article=$(cat "${1:--}")
+
+title="$(awk -F: '/Podcast Download URL:/ {gsub(/^[[:space:]]+|[[:space:]]+$/, "", $2); gsub(/^[[:space:]]+|[[:space:]]+$/, "", $3); print $2 ":" $3}' <<< "$article")"
+setsid -f mpv --no-terminal --save-position-on-quit $title | sed 's/ (type//' &

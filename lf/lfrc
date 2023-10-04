@@ -1,3 +1,8 @@
 map <backspace2> delete
-set previewer ~/.config/lf/pv.sh
-map i $LESSOPEN='| ~/.config/lf/pv.sh %s' less -R $f
+
+set previewer ctpv
+set cleaner ctpvclear
+&ctpv -s $id
+&ctpvquit $id
+
+map i $LESSOPEN='| ~/.config/lf/inspect.sh %s' less -R $f

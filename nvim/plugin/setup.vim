@@ -1,11 +1,10 @@
 " Set theme
 set background=dark
 colorscheme catppuccin-mocha
+set wrap
 
-" vim wiki stuff
 let mapleader=" "
-let g:vimwiki_list = [{'path': '~/Documents/notes',
-\ 'syntax': 'markdown', 'ext': '.md'}]
+let g:vimwiki_list = [{'path': '~/Documents/notes', 'syntax': 'markdown', 'ext': '.md'}, {'path': '~/Documents/softwarecashmoney', 'syntax': 'markdown', 'ext': '.md'}]
 set nocompatible
 filetype plugin on
 syntax on
@@ -23,20 +22,22 @@ set undolevels=100
 set listchars=tab:\ \  list
 
 " Set custom indents
-autocmd FileType sql setlocal tabstop=2 shiftwidth=2 expandtab
-autocmd FileType terraform setlocal tabstop=2 shiftwidth=2 expandtab
-autocmd FileType python setlocal tabstop=4 shiftwidth=4 expandtab
+autocmd FileType * setlocal tabstop=4 shiftwidth=4 noexpandtab
+autocmd FileType python setlocal tabstop=4 shiftwidth=4 expandtab " python formatters use spaces
 
 " Formatting code
-autocmd FileType rust nnoremap <buffer> <Leader>f :w<CR>:!cargo fmt<CR>
-autocmd FileType python nnoremap <buffer> <Leader>f :w<CR>:!black .<CR>
+autocmd FileType python nnoremap <buffer> <Leader>f :w<CR>:silent exec "!black ."<CR>
+
+" Spell check .tex
+autocmd FileType tex setlocal spell spelllang=en_us
+autocmd BufEnter *.ms set filetype=groff
+autocmd FileType groff setlocal spell spelllang=en_us
 
 " Automatically run GitPull() when opening a Markdown file
 autocmd VimEnter */notes/** silent execute '!git reset --hard origin/main && git pull'
 
-" matching only on code files
-autocmd FileType rust,python inoremap { {}<Esc>ha|inoremap ( ()<Esc>ha|inoremap [ []<Esc>ha|inoremap " ""<Esc>ha|inoremap ' ''<Esc>ha|inoremap ` ``<Esc>ha|inoremap < <><Esc>ha
-autocmd FileType vimwiki inoremap = ==<Esc>ha|inoremap [ []<Esc>ha
+" autocmd VimEnter *.md Goyo
+autocmd BufEnter * TSBufEnable highlight
 
 " Disable cmp on non code files
 let list = ['go', 'python']
@@ -46,14 +47,18 @@ autocmd FileType * if index(list, &ft) < 0 | lua require'cmp'.setup.buffer {
 \   }
 \ }
 
-" Misc Stuff
+" Misc Settings
 set autochdir
 set noswf
 set clipboard=unnamedplus
 set pumheight=10
-set cmdheight=0
-autocmd BufEnter * TSBufEnable highlight
+set cmdheight=1
 set statusline+=%F
 
-noremap <C-e> 10<C-e>
-noremap <C-y> 10<C-y>
+" keybinds
+noremap <C-e> 5<C-e>
+noremap <C-y> 5<C-y>
+noremap <leader>gp :silent exec '!git add --all && git commit -a -m "vim push" && git push'<CR>
+noremap <leader>gu :silent exec '!git reset --hard origin/main && git pull'<CR>
+noremap <leader>n :noh<CR>
+noremap <leader>c :cclose<CR>
