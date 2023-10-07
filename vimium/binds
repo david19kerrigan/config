@@ -1,5 +1,5 @@
-map S goBack
-map D goForward
-map R nextTab
-map E previousTab
+map a goBack
+map s goForward
+map r nextTab
+map w previousTab
 map e scrollPageUp
