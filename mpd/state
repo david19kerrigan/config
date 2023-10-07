@@ -1,0 +1,43 @@
+sw_volume: 100
+audio_device_state:1:pulse
+state: pause
+current: 20
+time: 38.448000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Games/FTL/01 Ftl: Faster Than Light - Original Soundtrack Space Cruise (Title).mp3
+1:Games/FTL/02 Ftl: Faster Than Light - Original Soundtrack MilkyWay (Explore).mp3
+2:Games/FTL/03 Ftl: Faster Than Light - Original Soundtrack Civil (Explore).mp3
+3:Games/FTL/04 Ftl: Faster Than Light - Original Soundtrack Cosmos (Explore).mp3
+4:Games/FTL/05 Ftl: Faster Than Light - Original Soundtrack Deepspace (Explore).mp3
+5:Games/FTL/06 Ftl: Faster Than Light - Original Soundtrack Debris (Explore).mp3
+6:Games/FTL/07 Ftl: Faster Than Light - Original Soundtrack Mantis (Explore).mp3
+7:Games/FTL/08 Ftl: Faster Than Light - Original Soundtrack Engi (Explore).mp3
+8:Games/FTL/09 Ftl: Faster Than Light - Original Soundtrack Colonial (Explore).mp3
+9:Games/FTL/10 Ftl: Faster Than Light - Original Soundtrack Wasteland (Explore).mp3
+10:Games/FTL/11 Ftl: Faster Than Light - Original Soundtrack Rockmen (Explore).mp3
+11:Games/FTL/12 Ftl: Faster Than Light - Original Soundtrack Void (Explore).mp3
+12:Games/FTL/13 Ftl: Faster Than Light - Original Soundtrack Zoltan (Explore).mp3
+13:Games/FTL/14 Ftl: Faster Than Light - Original Soundtrack Federation.mp3
+14:Games/FTL/15 Ftl: Faster Than Light - Original Soundtrack MilkyWay (Battle).mp3
+15:Games/FTL/16 Ftl: Faster Than Light - Original Soundtrack Civil (Battle).mp3
+16:Games/FTL/17 Ftl: Faster Than Light - Original Soundtrack Cosmos (Battle).mp3
+17:Games/FTL/18 Ftl: Faster Than Light - Original Soundtrack Deepspace (Battle).mp3
+18:Games/FTL/19 Ftl: Faster Than Light - Original Soundtrack Debris (Battle).mp3
+19:Games/FTL/20 Ftl: Faster Than Light - Original Soundtrack Mantis (Battle).mp3
+20:Games/FTL/21 Ftl: Faster Than Light - Original Soundtrack Engi (Battle).mp3
+21:Games/FTL/22 Ftl: Faster Than Light - Original Soundtrack Colonial (Battle).mp3
+22:Games/FTL/23 Ftl: Faster Than Light - Original Soundtrack Wasteland (Battle).mp3
+23:Games/FTL/24 Ftl: Faster Than Light - Original Soundtrack Rockmen (Battle).mp3
+24:Games/FTL/25 Ftl: Faster Than Light - Original Soundtrack Void (Battle).mp3
+25:Games/FTL/26 Ftl: Faster Than Light - Original Soundtrack Zoltan (Battle).mp3
+26:Games/FTL/27 Ftl: Faster Than Light - Original Soundtrack Last Stand.mp3
+27:Games/FTL/28 Ftl: Faster Than Light - Original Soundtrack Victory.mp3
+28:Games/FTL/29 Ftl: Faster Than Light - Original Soundtrack Horror.mp3
+playlist_end

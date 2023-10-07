@@ -79,26 +79,16 @@ floating_modifier $mod
 bindsym $mod+Return exec kitty
 
 # start browser
-bindsym $mod+u exec qutebrowser
-bindsym $mod+y exec brave
+bindsym $mod+u exec qutebrowser ; exec i3-msg workspace $ws1
+bindsym $mod+n exec signal-desktop; exec i3-msg workspace $ws3
+bindsym $mod+y exec brave ; exec i3-msg workspace $ws3
 bindsym $mod+f exec "import -window root png:- | xclip -selection clipboard -t image/png"
-
-bindsym $mod+$mod2+s exec "tmux switch-client -t cmus"
-bindsym $mod+$mod2+m exec "tmux switch-client -t aerc"
-bindsym $mod+$mod2+i exec "tmux switch-client -t scli"
-bindsym $mod+$mod2+n exec "tmux switch-client -t newsboat"
-bindsym $mod+$mod2+p exec "tmux switch-client -t podboat"
-bindsym $mod+$mod2+h exec "tmux switch-client -t main"
-bindsym $mod+$mod2+o exec "tmux switch-client -t notes"
-bindsym $mod+$mod2+l exec "tmux switch-client -t softwarecashmoney"
-bindsym $mod+$mod2+w exec "tmux switch-client -t weechat"
-bindsym $mod+Shift+w exec "tmux kill-server"
 
 bindsym $mod+p exec "/home/david/.local/bin/ppassmenu"
 bindsym $mod+q exec "/home/david/.local/bin/otpmenu"
 
 # kill focused window
-bindsym $mod+$mod2+q kill
+bindsym $mod+$mod2+q kill ; exec i3-msg workspace $ws2
 
 # start dmenu (a program launcher)
 bindsym $mod+o exec --no-startup-id "dmenu_run -nf '#BBBBBB' -nb '#222222' -sb '#005577' -sf '#EEEEEE' -fn 'monospace-10'"
@@ -189,7 +179,7 @@ assign [class = "Lutris"] $ws3
 assign [class = "prismlauncher"] $ws3
 for_window [class="mpv"] sticky enable, fullscreen disable, floating enable, resize set 640 400, move position 1280 700
 no_focus [class="mpv"]
-exec --no-startup-id i3-msg 'exec qutebrowser; exec kitty; workspace $ws2'
+exec --no-startup-id i3-msg 'exec kitty; workspace $ws2'
 #exec --no-startup-id i3-msg 'exec blueman-applet'
 
 # switch to workspace
@@ -223,7 +213,7 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 #bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 bindsym $mod+Shift+e exec i3-msg 'exit'
-bindsym $mod+Shift+p exec 'poweroff'
+bindsym $mod+Shift+p exec poweroff
 bindsym $mod+Shift+s exec systemctl suspend
 bindsym $mod+Shift+o exec xset dpms force off
 
@@ -302,14 +292,25 @@ for_window [class="^.*"] border pixel 2
 
 exec --no-startup-id feh --bg-scale /home/david/Pictures/wall.jpg
 exec --no-startup-id udiskie&
+exec --no-startup-id mpd /home/david/.mpd/mpd.conf
 
 # Meida player controls
-bindsym XF86AudioPlay exec playerctl play-pause
-bindsym XF86AudioPause exec playerctl play-pause
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioPlay exec mpc toggle && playerctl play-pause
+bindsym XF86AudioPause exec mpc toggle && playerctl play-pause
+bindsym XF86AudioNext exec mpc next && playerctl next
+bindsym XF86AudioPrev exec mpc prev && playerctl previous
 bindsym XF86AudioRewind exec playerctl position 10-
 bindsym XF86AudioForward exec playerctl position 10+
+
+#bindsym XF86AudioPlay exec mocp -G  && playerctl play-pause
+#bindsym XF86AudioPause exec mocp -G && playerctl play-pause
+#bindsym XF86AudioNext exec mocp -f && playerctl next
+#bindsym XF86AudioPrev exec mocp -r && playerctl previous
+#bindsym XF86AudioRewind exec playerctl position 10-
+#bindsym XF86AudioForward exec playerctl position 10+
+
+bindsym $mod+Shift+w exec "tmux kill-server"
+bindsym $mod+$mod2+a exec tmux send-keys ":q" ENTER && tmux switch-client -t main && tmux kill-session -a
 
 gaps inner 0
 gaps outer 0
