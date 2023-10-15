@@ -54,6 +54,8 @@ set clipboard=unnamedplus
 set pumheight=10
 set cmdheight=1
 set statusline+=%F
+set ignorecase
+set smartcase
 
 " keybinds
 noremap <C-e> 5<C-e>
