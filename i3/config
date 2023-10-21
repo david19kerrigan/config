@@ -272,7 +272,7 @@ for_window [class="^.*"] border pixel 2
 
 exec --no-startup-id feh --bg-scale /home/david/Pictures/wall.jpg
 exec --no-startup-id mpd /home/david/.mpd/mpd.conf
-exec --no-startup-id xinput set-prop 'TPPS/2 IBM TrackPoint' 'libinput Accel Speed' 1
+#exec --no-startup-id xinput set-prop 'TPPS/2 IBM TrackPoint' 'libinput Accel Speed' 1
 exec --no-startup-id /home/david/.local/bin/startscreen.sh
 
 # Meida player controls
