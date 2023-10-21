@@ -8,12 +8,6 @@ command=/home/david/.config/i3blocks/weather
 interval=600
 color=#a6e3a1
 
-[monitors]
-command=xrandr --listactivemonitors | awk '(NR>1)' | awk -F ' ' '{print $4}' | paste -s -d ' '
-label=󰍹 Monitors: 
-interval=60
-color=#f2cdcd
-
 [volume]
 command=/home/david/.config/i3blocks/volume/volume
 LABEL=󰋋 Volume: 
