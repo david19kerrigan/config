@@ -33,19 +33,4 @@ function block() // Function will block the website.
     }
 }
 
-var date1 = new Date();
-var hours = date1.getHours(); // Hours
-var day = date1.getDay(); // Day of the week
-
-if (day === 6) // If it's a Saturday
-{
-    if (hours >= 5 && hours <= 9) //  Doesn't hurt to add a few more hours of work.
-    {
-        block();
-    }
-}
-
-else if (hours >= 6 && hours <= 17 && day !== 0) // If hours are 7 AM to 6 PM (inclusive) and not a Sunday
-{
-    block();
-}
+block()

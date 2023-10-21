@@ -2,7 +2,7 @@ macro v set browser "setsid -f mpv --loop" ; open-in-browser ; set browse
 macro p pipe-to "cat | ~/.config/newsboat/player"  
 browser "qutebrowser"
 
-player "mpv --no-audio-display"
+player "mpv --no-audio-display --loop-file=no"
 download-path "~/Downloads/%N"
 podlist-format "%b"
 download-filename-format "%F - %n - %t"
@@ -57,5 +57,5 @@ bind-key G end
 bind-key g home
 bind-key d pagedown
 bind-key u pageup
-bind-key a toggle-article-read
+#bind-key a toggle-article-read
 bind-key c toggle-show-read-feeds
