@@ -62,10 +62,6 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # Use pactl to adjust volume in PulseAudio.
 #set $refresh_i3status killall -SIGUSR1 i3status
-#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
-#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
-#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-#bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # change volume or toggle mute
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && pkill -RTMIN+10 i3blocks
@@ -91,7 +87,7 @@ bindsym $mod+q exec "/home/david/.local/bin/otpmenu"
 bindsym $mod+$mod2+q kill ; exec i3-msg workspace $ws2
 
 # start dmenu (a program launcher)
-bindsym $mod+o exec --no-startup-id "dmenu_run -nf '#BBBBBB' -nb '#222222' -sb '#005577' -sf '#EEEEEE' -fn 'monospace-10'"
+bindsym $mod+o exec --no-startup-id dmenu_run -nf '#BBBBBB' -nb '#222222' -sb '#005577' -sf '#EEEEEE' -fn 'monospace-10'
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -145,7 +141,7 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
-bindsym $mod+b exec "xdotool type $(grep -v '^#' ~/config/bookmarks/marks | dmenu -i -l 50 | cut -d' ' -f1)"
+bindsym $mod+b exec "xdotool type $(grep -v '^#' ~/Documents/marks | dmenu -i -l 50 | cut -d' ' -f1)"
 
 # focus the child container
 #bindsym $mod+d focus child
@@ -164,17 +160,12 @@ set $ws9 "9"
 set $ws10 "10"
 
 # create workspaces, populate with applicatios, refocus on ws1
-#exec --no-startup-id i3-msg 'workspace $ws1; exec qutebrowser'
-#exec --no-startup-id 'sh -c "sleep 2"'
-#exec --no-startup-id i3-msg 'workspace $ws2; exec kitty'
-#exec --no-startup-id i3-msg 'workspace $ws3; exec signal'
-#exec --no-startup-id 'sh -c "sleep 5"'
-#exec --no-startup-id i3-msg 'workspace $ws1'
 assign [class = "qutebrowser"] $ws1
 assign [class = "kitty"] $ws2
 assign [class = "Signal"] $ws3
 assign [class = "steam"] $ws3
 assign [class = "Brave-browser"] $ws3
+assign [class = "Zathura"] $ws3
 assign [class = "Lutris"] $ws3
 assign [class = "prismlauncher"] $ws3
 for_window [class="mpv"] sticky enable, fullscreen disable, floating enable, resize set 640 400, move position 1280 700
@@ -216,6 +207,9 @@ bindsym $mod+Shift+e exec i3-msg 'exit'
 bindsym $mod+Shift+p exec poweroff
 bindsym $mod+Shift+s exec systemctl suspend
 bindsym $mod+Shift+o exec xset dpms force off
+bindsym $mod+Shift+1 exec /home/david/.local/bin/laptop.sh
+bindsym $mod+Shift+2 exec /home/david/.local/bin/docked.sh
+bindsym $mod+Shift+3 exec /home/david/.local/bin/both.sh
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -244,13 +238,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# class                 border  bground text    indicator child_border
-#client.focused          #83CAFA #51A2DA #FFFFFF #26a269   #26a269
-#client.focused_inactive #8C8C8C #4C4C4C #FFFFFF #4C4C4C   #8C8C8C
-#client.unfocused        #4C4C4C #222222 #888888 #292D2E   #222222
-#client.urgent           #EC69A0 #DB3279 #FFFFFF #DB3279   #DB3279
-#client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
-
 client.focused          #83CAFA #51A2DA #FFFFFF $teal     $teal
 client.focused_inactive #8C8C8C #4C4C4C #FFFFFF $crust     $crust
 client.unfocused        #4C4C4C #222222 #888888 $crust     $crust  
@@ -277,22 +264,16 @@ bar {
     urgent_workspace   #EC69A0 #DB3279 #FFFFFF
     binding_mode       #b691d3 #A07CBC #FFFFFF
 
-    #focused_workspace  #26a269 #26a269 #FFFFFF
-    #active_workspace   #3C6EB4 #294172 #FFFFFF
-    #inactive_workspace #4C4C4C #4C4C4C #888888
-    #urgent_workspace   #EC69A0 #DB3279 #FFFFFF
-    #binding_mode       #b691d3 #A07CBC #FFFFFF
-
   }
-  #status_command i3status
   status_command i3blocks
 }
 
 for_window [class="^.*"] border pixel 2
 
 exec --no-startup-id feh --bg-scale /home/david/Pictures/wall.jpg
-exec --no-startup-id udiskie&
 exec --no-startup-id mpd /home/david/.mpd/mpd.conf
+exec --no-startup-id xinput set-prop 'TPPS/2 IBM TrackPoint' 'libinput Accel Speed' 1
+exec --no-startup-id /home/david/.local/bin/startscreen.sh
 
 # Meida player controls
 bindsym XF86AudioPlay exec mpc toggle && playerctl play-pause
@@ -302,12 +283,8 @@ bindsym XF86AudioPrev exec mpc prev && playerctl previous
 bindsym XF86AudioRewind exec playerctl position 10-
 bindsym XF86AudioForward exec playerctl position 10+
 
-#bindsym XF86AudioPlay exec mocp -G  && playerctl play-pause
-#bindsym XF86AudioPause exec mocp -G && playerctl play-pause
-#bindsym XF86AudioNext exec mocp -f && playerctl next
-#bindsym XF86AudioPrev exec mocp -r && playerctl previous
-#bindsym XF86AudioRewind exec playerctl position 10-
-#bindsym XF86AudioForward exec playerctl position 10+
+bindsym XF86MonBrightnessUp exec brightnessctl set +10%
+bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
 
 bindsym $mod+Shift+w exec "tmux kill-server"
 bindsym $mod+$mod2+a exec tmux send-keys ":q" ENTER && tmux switch-client -t main && tmux kill-session -a
