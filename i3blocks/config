@@ -8,6 +8,12 @@ command=/home/david/.config/i3blocks/weather
 interval=600
 color=#a6e3a1
 
+[monitors]
+command=xrandr --listactivemonitors | awk '(NR>1)' | awk -F ' ' '{print $4}' | paste -s -d ' '
+label=󰍹 Monitors: 
+interval=60
+color=#f2cdcd
+
 [volume]
 command=/home/david/.config/i3blocks/volume/volume
 LABEL=󰋋 Volume: 
@@ -15,17 +21,22 @@ interval=60
 signal=10
 color=#f5c2e7
 
+[battery]
+command=acpi -b | grep -E -o '[0-9][0-9]?%'
+label=󰁹 Battery: 
+interval=60
+color=#cdd6f4
+
 [DISK]
 command=df -h / | awk '/\//{ printf(" %4s / %s\n", $4, $2) }'
 interval=15
 color=#89b4fa
 
 [temperature]
-command=( sensors | grep Tdie: | awk -F'[:+]' '{gsub(/^[ \t]+|[ \t]+$/, "", $3); print $3}' && nvidia-smi -q -d temperature | grep "GPU Current" | awk -F ':' '{gsub(/^[ \t]+/, "", $2); print "GPU " $2}' | sed 's/\(.*\) C/\1°C/' ) | paste -sd ' ' -
+command=sensors | grep "Package id 0:" | awk '-F ' ' {print $4}'
 label= CPU 
 interval=5
 color=#eba0ac
-#separator=false
 
 [memory]
 command=/home/david/.config/i3blocks/memory/memory
