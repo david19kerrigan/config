@@ -1,6 +1,0 @@
-preview audio audio/* {{
-    echo -e "\\033[40mBinary"
-}}
-preview web text/html {{
-    cat "$f" | w3m -T text/html
-}}
