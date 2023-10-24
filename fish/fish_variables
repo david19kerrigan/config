@@ -3,12 +3,12 @@
 SETUVAR BAT_THEME:ansi
 SETUVAR DZR_CBC:g4el58wc0zvf9na1
 SETUVAR --export EDITOR:nvim
-SETUVAR --export GPG_TTY:/dev/pts/1
-SETUVAR --export LIBVA_DRIVER_NAME:nvidia
+SETUVAR --export GPG_TTY:not\x20a\x20tty
+SETUVAR --export LIBVA_DRIVER_NAME:i965
 SETUVAR --export QT_QPA_PLATFORMTHEME:qt5ct
 SETUVAR QT_STYLE_OVERRIDE:adwaita
 SETUVAR --export TERM:screen\x2d256color
-SETUVAR --export VDPAU_DRIVER:nvidia
+SETUVAR --export VDPAU_DRIVER:va_gl
 SETUVAR --export VISUAL:nvim
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:555\x1ebrblack

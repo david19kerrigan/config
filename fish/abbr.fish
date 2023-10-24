@@ -67,5 +67,15 @@ abbr --add rgf "rg --files | rg"
 abbr --add kc "pkill -9 cmus && pkill -9 mpris"
  
 abbr --add sr "ffmpeg -y -f x11grab -s 1920x1080 -framerate 60 -i :0.0 -f pulse -i bluez_output.AC_BF_71_11_0B_24.1.monitor ~/Downloads/out.mp4"
-abbr --add rs "rsync --recursive /home/david/Documents/code/server/* root@45.77.108.152:/usr/share/nginx/"
+abbr --add rs "pass -c pass/server ; rsync --recursive /home/david/Documents/codes/server/* root@45.77.108.152:/usr/share/nginx/ ; ssh root@45.77.108.152 systemctl restart goweb"
 abbr --add cw "curl 'wttr.in/NewYorkCity?u'"
+
+abbr --add is "iwctl station wlan0 scan"
+abbr --add ig "iwctl station wlan0 get-networks"
+abbr --add ic "iwctl station wlan0 connect"
+abbr --add io "iwctl station wlan0 show"
+
+abbr --add scr "xrandr --output LVDS-1 --off ; xrandr --output DP-2 --primary; /home/david/.fehbg"
+abbr --add scr1 "xrandr --output DP-2 --primary; /home/david/.fehbg"
+
+abbr --add u "yay --noconfirm"
