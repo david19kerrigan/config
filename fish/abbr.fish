@@ -3,7 +3,7 @@ abbr --add soff 'xset dpms force off'
 
 abbr --add yuzu-mem "sudo sysctl -w vm.max_map_count=262144"
 
-abbr --add ns "cd ~/Documents/softwarecashmoney ; nvim index.md"
+abbr --add ns "cd ~/Documents/hagakure ; nvim index.md"
 
 abbr --add v 'nvim'
 
