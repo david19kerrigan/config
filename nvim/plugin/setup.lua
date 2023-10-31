@@ -24,13 +24,20 @@ vim.api.nvim_create_autocmd({ "BufWrite" }, {
   end,
 })
 
+vim.api.nvim_create_autocmd({ "VimEnter" }, {
+  pattern = '*/notes/**',
+  callback = function()
+    vim.fn.jobstart('git reset --hard origin/main && git pull', {detach=true})
+  end,
+})
+
 -- setup fzf
 vim.keymap.set('n', '<leader>h', '<cmd>History<CR>')
-vim.keymap.set('n', '<leader>b', '<cmd>Buffers<CR>')
+-- vim.keymap.set('n', '<leader>fb', '<cmd>Buffers<CR>')
 
 -- keybinds
-vim.keymap.set('x', '<leader>p', "\"_dp")
-vim.keymap.set('x', '<leader>P', "\"_dP")
+vim.keymap.set('x', '<leader>P', "\"_dp")
+vim.keymap.set('x', '<leader>p', "\"_dP")
 vim.keymap.set('n', '<leader>t', "<cmd>terminal<CR>a")
 vim.keymap.set('i', '<C-l>', "<Right>")
 vim.keymap.set('i', '<C-h>', "<Left>")
@@ -134,6 +141,12 @@ sources = cmp.config.sources({
 
 -- Set up lspconfig.
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
+require('lspconfig')['clangd'].setup {
+capabilities = capabilities,
+}
+require('lspconfig')['zls'].setup {
+capabilities = capabilities,
+}
 require('lspconfig')['gopls'].setup {
 capabilities = capabilities,
 }

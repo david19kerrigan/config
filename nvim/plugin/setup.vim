@@ -24,6 +24,9 @@ set listchars=tab:\ \  list
 " Set custom indents
 autocmd FileType * setlocal tabstop=4 shiftwidth=4 noexpandtab
 autocmd FileType python setlocal tabstop=4 shiftwidth=4 expandtab " python formatters use spaces
+autocmd FileType zig setlocal tabstop=4 shiftwidth=4 expandtab " zig formatters use spaces
+autocmd FileType cpp setlocal tabstop=2 shiftwidth=2 expandtab
+autocmd FileType c setlocal tabstop=2 shiftwidth=2 expandtab
 
 " Formatting code
 autocmd FileType python nnoremap <buffer> <Leader>f :w<CR>:silent exec "!black ."<CR>
@@ -34,13 +37,13 @@ autocmd BufEnter *.ms set filetype=groff
 autocmd FileType groff setlocal spell spelllang=en_us
 
 " Automatically run GitPull() when opening a Markdown file
-autocmd VimEnter */notes/** silent execute '!git reset --hard origin/main && git pull'
+" autocmd VimEnter */notes/** silent execute '!git reset --hard origin/main && git pull'
 
 " autocmd VimEnter *.md Goyo
 autocmd BufEnter * TSBufEnable highlight
 
 " Disable cmp on non code files
-let list = ['go', 'python']
+let list = ['go', 'python', 'zig', 'cpp', 'c']
 autocmd FileType * if index(list, &ft) < 0 | lua require'cmp'.setup.buffer {
 \   completion = {
 \     autocomplete = false

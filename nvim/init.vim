@@ -5,11 +5,18 @@ call plug#begin()
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'nvim-treesitter/nvim-treesitter'
 
+" Misc
 Plug 'christoomey/vim-tmux-navigator' 
 Plug 'junegunn/fzf.vim'
-Plug 'vimwiki/vimwiki', { 'for': 'markdown' }
 Plug 'neovim/nvim-lspconfig'
+
+" Debugger
+Plug 'mfussenegger/nvim-dap'
+Plug 'rcarriga/nvim-dap-ui'
+
+" Writing
 Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
+Plug 'vimwiki/vimwiki', { 'for': 'markdown' }
 
 " Autocomplete
 Plug 'hrsh7th/cmp-nvim-lsp'
