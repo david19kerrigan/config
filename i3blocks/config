@@ -9,17 +9,11 @@ interval=600
 color=#a6e3a1
 
 [volume]
-command=/home/david/.config/i3blocks/volume/volume
-LABEL=󰋋 Volume: 
-interval=60
+command=/home/david/.config/i3blocks/volume/vol
+label=󰋋 Volume: 
+interval=once
 signal=10
 color=#f5c2e7
-
-[battery]
-command=acpi -b | grep -E -o '[0-9][0-9]?%'
-label=󰁹 Battery: 
-interval=60
-color=#cdd6f4
 
 [DISK]
 command=df -h / | awk '/\//{ printf(" %4s / %s\n", $4, $2) }'
@@ -27,10 +21,17 @@ interval=15
 color=#89b4fa
 
 [temperature]
-command=sensors | grep "Package id 0:" | awk '-F ' ' {print $4}'
+command=sensors | grep "Package id 0:" | awk -F ' ' '{print $4}'
 label= CPU 
-interval=5
+interval=3
 color=#eba0ac
+#separator=false
+
+[Battery]
+command=/home/david/.config/i3blocks/battery.sh
+label=󰁹 Battery 
+interval=60
+color=#cdd6f4
 
 [memory]
 command=/home/david/.config/i3blocks/memory/memory

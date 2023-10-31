@@ -1,12 +1,13 @@
 macro v set browser "setsid -f mpv --loop" ; open-in-browser ; set browse
 macro p pipe-to "cat | ~/.config/newsboat/player"  
-browser "qutebrowser"
+browser "brave"
 
-player "mpv --no-audio-display --loop-file=no"
-download-path "~/Downloads/%N"
+player "mpv --no-audio-display"
+download-path "~/Music/Podcasts/%N"
 podlist-format "%b"
-download-filename-format "%F - %n - %t"
+download-filename-format "%t.%e"
 delete-played-files yes
+max-downloads 10
 
 
 bind-key D pb-download
@@ -57,5 +58,5 @@ bind-key G end
 bind-key g home
 bind-key d pagedown
 bind-key u pageup
-#bind-key a toggle-article-read
+bind-key a toggle-article-read
 bind-key c toggle-show-read-feeds

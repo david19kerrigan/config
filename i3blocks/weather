@@ -32,6 +32,6 @@ elif [[ "${WEATHER_MAIN}" = *Clear* ]]; then
   echo "${ICON_SUNNY} Temp: ${WEATHER_TEMP}${SYMBOL_CELSIUS}"
 elif [[ "${WEATHER_MAIN}" = *Fog* ]] || [[ "${WEATHER_MAIN}" = *Mist* ]]; then
   echo "${ICON_FOG} Temp: ${WEATHER_TEMP}${SYMBOL_CELSIUS}"
-else
-  echo "${WEATHER_MAIN} ${WEATHER_TEMP}${SYMBOL_CELSIUS}"
+#else
+#  echo "${WEATHER_MAIN} ${WEATHER_TEMP}${SYMBOL_CELSIUS}"
 fi
