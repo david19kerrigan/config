@@ -3,3 +3,5 @@ map s goForward
 map r nextTab
 map w previousTab
 map e scrollPageUp
+map <c-e> scrollFullPageUp
+map <c-d> scrollFullPageDown
