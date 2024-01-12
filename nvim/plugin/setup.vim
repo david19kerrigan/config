@@ -67,3 +67,4 @@ noremap <leader>gp :silent exec '!git add --all && git commit -a -m "vim push" &
 noremap <leader>gu :silent exec '!git reset --hard origin/main && git pull'<CR>
 noremap <leader>n :noh<CR>
 noremap <leader>c :cclose<CR>
+noremap <leader>tn :tabnew<CR>:Ex<CR>
