@@ -1,6 +1,4 @@
-theme = "gruvbox"
+theme = "catppuccin_mocha"
 
-[editor.lsp]
-auto-signature-help = false
-display-signature-help-docs = false
-snippets = false
+[editor]
+line-number = "relative"
