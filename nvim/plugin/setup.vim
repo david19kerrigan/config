@@ -1,5 +1,5 @@
 " Set theme
-set background=light
+set background=dark
 colorscheme NeoSolarized
 set wrap
 set notermguicolors
@@ -56,7 +56,7 @@ set listchars=tab:\ \  list
 autocmd FileType * setlocal tabstop=4 shiftwidth=4 noexpandtab
 autocmd FileType python setlocal tabstop=4 shiftwidth=4 expandtab " python formatters use spaces
 autocmd FileType zig setlocal tabstop=4 shiftwidth=4 expandtab " zig formatters use spaces
-autocmd FileType cpp setlocal tabstop=2 shiftwidth=2 expandtab
+autocmd FileType cpp setlocal tabstop=4 shiftwidth=4 expandtab
 autocmd FileType c setlocal tabstop=2 shiftwidth=2 expandtab
 
 " Formatting code
