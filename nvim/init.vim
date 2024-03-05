@@ -2,13 +2,19 @@
 call plug#begin()
 
 " Colors
-Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'nvim-treesitter/nvim-treesitter'
 
 " Misc
 Plug 'christoomey/vim-tmux-navigator' 
 Plug 'junegunn/fzf.vim'
 Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'ptzz/lf.vim'
+Plug 'voldikss/vim-floaterm'
+Plug 'mbbill/undotree'
+Plug 'dgagn/diagflow.nvim'
+Plug 'overcache/NeoSolarized'
 
 " Debugger
 Plug 'mfussenegger/nvim-dap'
