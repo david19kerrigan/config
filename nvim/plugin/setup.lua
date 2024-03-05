@@ -1,13 +1,8 @@
+
 --- set formatter outside of LSP block so it can be overriden in setup.vim
 vim.keymap.set('n', '<leader>f', function()
   vim.lsp.buf.format { async = true }
 end, opts)
-
--- show all diagnostics by default
-vim.diagnostic.config({ virtual_text = {severity = {min = vim.diagnostic.severity.HINT}},
-	signs = {severity = {min = vim.diagnostic.severity.HINT}},
-	underline = {severity = {min = vim.diagnostic.severity.HINT}},
-})
 
 -- remember cursor position
 vim.api.nvim_create_autocmd({'BufWinEnter'}, {
@@ -38,18 +33,17 @@ vim.keymap.set('n', '<leader>h', '<cmd>History<CR>')
 -- keybinds
 vim.keymap.set('x', '<leader>P', "\"_dp")
 vim.keymap.set('x', '<leader>p', "\"_dP")
-vim.keymap.set('n', '<leader>t', "<cmd>terminal<CR>a")
-vim.keymap.set('i', '<C-l>', "<Right>")
-vim.keymap.set('i', '<C-h>', "<Left>")
-vim.keymap.set('i', '<C-j>', "<Down>")
-vim.keymap.set('i', '<C-k>', "<Up>")
+vim.keymap.set('n', '<leader>tr', "<cmd>terminal<CR>a")
 vim.keymap.set('i', '<C-s>', "<esc>:w<enter>")
 vim.keymap.set('n', '<C-s>', "<esc>:w<enter>")
 vim.keymap.set('n', 'ZX', "<cmd>q!<CR>")
-vim.keymap.set('n', '<leader>e', "<cmd>Ex<CR><enter>")
+vim.keymap.set('n', '<leader>e', "<cmd>LfCurrentFile<CR><enter>")
 vim.keymap.set('n', '<leader>ls', "<cmd>LspStop<CR><enter>")
 vim.keymap.set('n', '<leader>sv', "<cmd>sp<CR><enter>")
 vim.keymap.set('n', '<leader>sh', "<cmd>vs<CR><enter>")
+
+vim.g.lf_width = 1920
+vim.g.lf_height = 1080
 
 --Goyo
 vim.keymap.set('n', '<leader>o', "<cmd>Goyo<CR><enter>")
@@ -63,6 +57,18 @@ vim.api.nvim_create_autocmd('LspAttach', {
   callback = function(ev)
     -- Enable completion triggered by <c-x><c-o>
     vim.bo[ev.buf].omnifunc = 'v:lua.vim.lsp.omnifunc'
+
+	vim.diagnostic.config({ 
+		virtual_text = {severity = {min = vim.diagnostic.severity.HINT}},
+		signs = {severity = {min = vim.diagnostic.severity.HINT}},
+		underline = {severity = {min = vim.diagnostic.severity.HINT}},
+	})
+
+	vim.o.signcolumn='yes:1'
+
+	require('diagflow').setup({
+		toggle_event = { 'InsertEnter', 'InsertLeave' }, -- if InsertEnter, can toggle the diagnostics on inserts
+	})
 
     -- Buffer local mappings.
     -- See `:help vim.lsp.*` for documentation on any of the below functions
@@ -103,7 +109,7 @@ mapping = cmp.mapping.preset.insert({
   ['<C-f>'] = cmp.mapping.scroll_docs(4),
   ['<C-y>'] = cmp.mapping.complete(),
   ['<C-e>'] = cmp.mapping.abort(),
-  ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
+  ['<C-y>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
 }),
 sources = cmp.config.sources({
   { name = 'nvim_lsp' },
@@ -142,6 +148,12 @@ sources = cmp.config.sources({
 
 -- Set up lspconfig.
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
+require('lspconfig')['rust_analyzer'].setup {
+capabilities = capabilities,
+}
+require('lspconfig')['jdtls'].setup {
+capabilities = capabilities,
+}
 require('lspconfig')['clangd'].setup {
 capabilities = capabilities,
 }
@@ -159,4 +171,19 @@ vim.diagnostic.config({
 	signs = {severity = {min = vim.diagnostic.severity.ERROR}},
 	underline = {severity = {min = vim.diagnostic.severity.ERROR}},
 })
+}
+
+require('telescope').setup{
+  defaults = {
+    vimgrep_arguments = {
+      'rg',
+      '--color=never',
+      '--no-heading',
+      '--with-filename',
+      '--line-number',
+      '--column',
+      '--smart-case',
+      '--hidden',
+    },
+}
 }
