@@ -3,6 +3,7 @@ call plug#begin()
 
 " Colors
 Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'maxmx03/solarized.nvim'
 
 " Misc
 Plug 'christoomey/vim-tmux-navigator' 
@@ -14,7 +15,6 @@ Plug 'ptzz/lf.vim'
 Plug 'voldikss/vim-floaterm'
 Plug 'mbbill/undotree'
 Plug 'dgagn/diagflow.nvim'
-Plug 'overcache/NeoSolarized'
 
 " Debugger
 Plug 'mfussenegger/nvim-dap'
