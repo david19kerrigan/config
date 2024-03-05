@@ -10,7 +10,6 @@ bind -M insert \cF accept-autosuggestion
 
 set -g fish_prompt_pwd_dir_length 0
 
-
 set GPG_TTY $(tty)
 #set -Ux TERM screen-256color
 

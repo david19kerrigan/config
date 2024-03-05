@@ -3,7 +3,7 @@ abbr --add soff 'xset dpms force off'
 
 abbr --add yuzu-mem "sudo sysctl -w vm.max_map_count=262144"
 
-abbr --add ns "cd ~/Documents/hagakure ; nvim index.md"
+abbr --add ns "cd ~/Documents/scm ; nvim index.md"
 
 abbr --add v 'nvim'
 
@@ -46,11 +46,11 @@ abbr --add z --set-cursor 'zathura % &'
 abbr --add i 'gurk.sh'
 
 abbr --add ym --set-cursor 'yt-dlp -x --audio-format mp3 "%"'
-abbr --add sp --set-cursor 'spotdl "%"'
+abbr --add sp --set-cursor 'spotdl "%" ; mpc update'
 abbr --add sc --set-cursor 'scdl -l "%"'
 
-abbr --add py 'source ~/.local/pip/venvs/env1/bin/activate.fish'
-abbr --add pyr 'source ~/.local/pip/venvs/env1/bin/activate.fish ; python'
+abbr --add py 'source ~/.local/share/pyenv/venv1/bin/activate.fish'
+abbr --add pyr 'source ~/.local/share/pyenv/venv1/bin/activate.fish ; python'
 abbr --add sf 'source ~/.config/fish/config.fish'
 abbr --add st 'tmux source ~/.tmux.conf'
 abbr --add l 'clear'
@@ -78,7 +78,7 @@ abbr --add io "iwctl station wlan0 show"
 
 abbr --add scr "xrandr --output LVDS-1 --off ; xrandr --output DP-2 --primary; /home/david/.fehbg"
 abbr --add scr1 "xrandr --output DP-2 --primary; /home/david/.fehbg"
-abbr --add xb --set-cursor "xrandr --output LVDS-1 --brightness 1.%"
+abbr --add xb --set-cursor "xrandr --output eDP-1 --brightness 1.%"
 
 abbr --add u "yay --noconfirm ; yay -Sc --noconfirm ; sudo pacman -Rns \$(pacman -Qtdq)"
 abbr --add me --set-cursor "mpc seek %:00"
