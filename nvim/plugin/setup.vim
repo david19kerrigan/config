@@ -2,7 +2,7 @@
 set background=light
 colorscheme NeoSolarized
 set wrap
-set termguicolors
+set notermguicolors
 
 function MyTabLabel(n)
   let buflist = tabpagebuflist(a:n)
