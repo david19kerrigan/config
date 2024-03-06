@@ -1,6 +1,6 @@
 " Set theme
 set background=dark
-colorscheme gruvbox
+colorscheme catppuccin-macchiato
 set wrap
 set termguicolors
 

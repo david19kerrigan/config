@@ -3,7 +3,7 @@ call plug#begin()
 
 " Colors
 Plug 'nvim-treesitter/nvim-treesitter'
-Plug 'ellisonleao/gruvbox.nvim'
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 
 " Misc
 Plug 'christoomey/vim-tmux-navigator' 
