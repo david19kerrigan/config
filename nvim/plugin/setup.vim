@@ -1,6 +1,6 @@
 " Set theme
 set background=dark
-colorscheme catppuccin-macchiato
+colorscheme catppuccin-latte
 set wrap
 set termguicolors
 
