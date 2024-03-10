@@ -1,6 +1,6 @@
 " Set theme
-set background=dark
-colorscheme catppuccin-latte
+set background=light
+colorscheme gruvbox
 set wrap
 set termguicolors
 
