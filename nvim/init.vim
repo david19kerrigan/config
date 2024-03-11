@@ -3,6 +3,8 @@ call plug#begin()
 
 " Colors
 Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'ishan9299/nvim-solarized-lua'
 Plug 'ellisonleao/gruvbox.nvim'
 
 " Misc
