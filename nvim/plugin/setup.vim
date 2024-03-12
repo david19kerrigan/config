@@ -1,6 +1,6 @@
 " Set theme
 set background=light
-colorscheme solarized
+colorscheme gruvbox
 set wrap
 set termguicolors
 
