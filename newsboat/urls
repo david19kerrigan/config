@@ -1,34 +1,27 @@
+# Websites
+"-------- Websites --------"
+https://archlinux.org/feeds/news/ site
+https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml
+https://hnrss.org/frontpage
+https://rss.slashdot.org/Slashdot/slashdotMain
+
+
 # Youtube
 "-------- Youtube --------"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA video
-https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA video
-https://www.youtube.com/feeds/videos.xml?channel_id=UCsvn_Po0SmunchJYOWpOxMg video
-https://www.youtube.com/feeds/videos.xml?channel_id=UCG-3rEW4IrDNa7-9iGByc2A video
-https://www.youtube.com/feeds/videos.xml?channel_id=UCSdma21fnJzgmPodhC9SJ3g video
-https://www.youtube.com/feeds/videos.xml?channel_id=UCi8C7TNs2ohrc6hnRQ5Sn2w video
-https://www.youtube.com/feeds/videos.xml?channel_id=UC6ext5UAbrLT2e5y5BC6RTQ video
-https://www.youtube.com/feeds/videos.xml?channel_id=UCyQrL08LlvUHcl6snYDfo7g video
-https://www.youtube.com/feeds/videos.xml?channel_id=UC8ENHE5xdFSwx71u3fDH5Xw video
-https://www.youtube.com/feeds/videos.xml?channel_id=UC3jf-WdvQaIl3Gp-SKMHZLA video
-https://www.youtube.com/feeds/videos.xml?channel_id=UCFCEuCsyWP0YkP3CZ3Mr01Q video
-https://www.youtube.com/feeds/videos.xml?channel_id=UCcaTUtGzOiS4cqrgtcsHYWg video
-https://www.youtube.com/feeds/videos.xml?channel_id=UC5UAwBUum7CPN5buc-_N1Fw video
-https://www.youtube.com/feeds/videos.xml?channel_id=UCr3-nboMGszNCuqbB1uVISA video
-https://www.youtube.com/feeds/videos.xml?channel_id=UCKTehwyGCKF-b2wo0RKwrcg video
-https://www.youtube.com/feeds/videos.xml?channel_id=UCbvDQKzAJ5GwCjTrv4FWkxg video
-
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA video # Luke smith
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA video # Mental Outlaw
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsvn_Po0SmunchJYOWpOxMg video # dunkey
+https://www.youtube.com/feeds/videos.xml?channel_id=UCG-3rEW4IrDNa7-9iGByc2A video # NH
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSdma21fnJzgmPodhC9SJ3g video # jakey
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6ext5UAbrLT2e5y5BC6RTQ video # adam friedland
+https://www.youtube.com/feeds/videos.xml?channel_id=UCyQrL08LlvUHcl6snYDfo7g video # Winton
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3jf-WdvQaIl3Gp-SKMHZLA video # gerbert 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFCEuCsyWP0YkP3CZ3Mr01Q video # plain bagel
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbvDQKzAJ5GwCjTrv4FWkxg video # jordan
 
 
 # Podcasts
 "-------- Podcasts --------"
-https://anchor.fm/s/7595edc/podcast/rss podcast
 https://audioboom.com/channels/5111301.rss podcast
 https://lexfridman.com/feed/podcast/ podcast
 https://www.patreon.com/rss/cumtownRSS?auth=Sk3CTXwaTx0Aw_bT2PxSmYnN-st3sdxB podcast
-https://feeds.transistor.fm/programming-throwdown podcast
-
-# Websites
-"-------- Websites --------"
-https://archlinux.org/feeds/news/ site
-https://andrewkelley.me/rss.xml site
-https://ziglang.org/news/index.xml site
