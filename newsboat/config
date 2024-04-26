@@ -18,8 +18,8 @@ bind-key a pb-toggle-download-all
 
 color listnormal blue default
 color listnormal_unread cyan default
-color listfocus black yellow standout bold
-color listfocus_unread black yellow standout bold
+color listfocus black default standout bold
+color listfocus_unread black default standout bold
 color info red black bold
 color article white default bold
 
