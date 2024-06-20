@@ -439,9 +439,9 @@ def_key "N"
 
 # not used but bound
 def_key "J"
-    move_sort_order_down
+	push_characters "jjjjjjj"
 def_key "K"
-    move_sort_order_up
+	push_characters "kkkkkkk"
 def_key "h"
   jump_to_parent_directory
 def_key "l"
