@@ -154,7 +154,7 @@ capabilities = capabilities,
 require('lspconfig')['jdtls'].setup {
 capabilities = capabilities,
 }
-require('lspconfig')['clangd'].setup {
+require('lspconfig')['ccls'].setup {
 capabilities = capabilities,
 }
 require('lspconfig')['zls'].setup {

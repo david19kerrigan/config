@@ -17,6 +17,7 @@ Plug 'ptzz/lf.vim'
 Plug 'voldikss/vim-floaterm'
 Plug 'mbbill/undotree'
 Plug 'dgagn/diagflow.nvim'
+Plug 'nvim-neotest/nvim-nio'
 
 " Debugger
 Plug 'mfussenegger/nvim-dap'
