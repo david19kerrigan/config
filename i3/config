@@ -42,7 +42,7 @@ floating_modifier $mod
 bindsym $mod+Return exec kitty
 
 # start browser
-bindsym $mod+u exec brave; exec i3-msg workspace $ws1
+bindsym $mod+u exec librewolf; exec i3-msg workspace $ws1
 bindsym $mod+f exec "import -window root png:- | xclip -selection clipboard -t image/png"
 
 bindsym $mod+p exec "/home/david/.local/bin/ppassmenu -fn JetBrainsMono"
@@ -124,7 +124,7 @@ assign [class = "Lutris"] $ws3
 assign [class = "prismlauncher"] $ws3
 for_window [class="mpv"] sticky enable, fullscreen disable, floating enable, resize set 640 400, move position 1280 700
 no_focus [class="mpv"]
-exec --no-startup-id i3-msg 'exec kitty; exec brave; workspace $ws2'
+exec --no-startup-id i3-msg 'exec kitty; exec librewolf; workspace $ws2'
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
