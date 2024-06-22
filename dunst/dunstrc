@@ -2,7 +2,7 @@
 frame_color = "#8caaee"
 separator_color= frame
 corner_radius=0
-font="JetBrainsMono 12"
+font="JetBrainsMono 10"
 
 [urgency_low]
 background = "#303446"
