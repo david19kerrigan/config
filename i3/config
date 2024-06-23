@@ -43,6 +43,7 @@ bindsym $mod+Return exec kitty
 
 # start browser
 bindsym $mod+u exec librewolf; exec i3-msg workspace $ws1
+bindsym $mod+y exec signal-desktop; exec i3-msg workspace $ws3
 bindsym $mod+f exec "import -window root png:- | xclip -selection clipboard -t image/png"
 
 bindsym $mod+p exec "/home/david/.local/bin/ppassmenu -fn JetBrainsMono"
