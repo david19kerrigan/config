@@ -36,8 +36,6 @@ autocmd FileType tex setlocal spell spelllang=en_us
 autocmd BufEnter *.ms set filetype=groff
 autocmd FileType groff setlocal spell spelllang=en_us
 
-autocmd BufEnter * TSBufEnable highlight
-
 " Misc Settings
 set autochdir
 set noswf
