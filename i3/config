@@ -212,6 +212,7 @@ for_window [class="^.*"] border pixel 2
 
 exec --no-startup-id feh --bg-scale /home/david/Documents/config/wallpapers/mac.heic
 exec --no-startup-id mpd /home/david/.mpd/mpd.conf
+exec --no-startup-id picom -b
 exec --no-startup-id redshift -l 41:-74
 exec --no-startup-id bash ~/.config/polybar/launch.sh --blocks
 
