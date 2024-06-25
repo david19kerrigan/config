@@ -28,9 +28,6 @@ autocmd FileType zig setlocal tabstop=4 shiftwidth=4 expandtab " zig formatters 
 autocmd FileType cpp setlocal tabstop=4 shiftwidth=4 expandtab
 autocmd FileType c setlocal tabstop=4 shiftwidth=4 expandtab
 
-" Formatting code
-autocmd FileType python nnoremap <buffer> <Leader>f :w<CR>:silent exec "!black ."<CR>
-
 " Spell check .tex
 autocmd FileType tex setlocal spell spelllang=en_us
 autocmd BufEnter *.ms set filetype=groff
