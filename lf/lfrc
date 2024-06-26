@@ -1,8 +1,5 @@
 map <backspace2> delete
-
-set previewer ctpv
-set cleaner ctpvclear
-&ctpv -s $id
-&ctpvquit $id
-
+set drawbox
+set icons
+set previewer ~/.config/lf/inspect.sh
 map i $LESSOPEN='| ~/.config/lf/inspect.sh %s' less -R $f
