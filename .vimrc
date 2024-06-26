@@ -11,7 +11,10 @@ set mouse=a
 set autoindent
 set laststatus=2
 set undofile
-set undodir=/home/david/.local/share/nvim/undo//
+set undodir=/home/david/.local/share/vim/undo//
 set undolevels=100
 set ignorecase
 set smartcase
+set hlsearch
+let mapleader=" "
+noremap <leader>n :noh<CR>
