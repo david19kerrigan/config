@@ -12,4 +12,3 @@ tmux kill-server
 killall librewolf
 kitty
 librewolf
-
