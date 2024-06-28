@@ -2,16 +2,17 @@
 # VERSION: 3.0
 SETUVAR BAT_THEME:ansi
 SETUVAR DZR_CBC:g4el58wc0zvf9na1
-SETUVAR --export EDITOR:edit
-SETUVAR --export GPG_TTY:not\x20a\x20tty
+SETUVAR --export EDITOR:vim
+SETUVAR --export GPG_TTY:/dev/pts/1
 SETUVAR --export LIBVA_DRIVER_NAME:i965
 SETUVAR --export QT_QPA_PLATFORMTHEME:qt5ct
 SETUVAR QT_STYLE_OVERRIDE:adwaita
 SETUVAR --export RUST_BACKTRACE:1
 SETUVAR --export TERM:screen\x2d256color
 SETUVAR --export VDPAU_DRIVER:va_gl
-SETUVAR --export VISUAL:edit
+SETUVAR --export VISUAL:vim
 SETUVAR __fish_initialized:3400
+SETUVAR editor:vim
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:blue
@@ -42,3 +43,4 @@ SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
 SETUVAR fish_user_paths:/home/david/\x2econfig/emacs/bin\x1e/home/david/\x2elocal/bin\x1e/home/david/go/bin\x1e/home/david/\x2ecargo/bin\x1e/sbin
+SETUVAR visual:vim
