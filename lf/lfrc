@@ -11,3 +11,9 @@ cmd on-cd &{{
 
 # trigger on-cd upon startup
 on-cd
+
+map e my-edit $f
+
+cmd my-edit &{{
+    nvr --remote-send ':tabnew<CR>' ; nvr --remote $f
+}}

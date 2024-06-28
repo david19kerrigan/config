@@ -1,11 +1,11 @@
+abbr --add edit "nvr --remote-send ':tabnew<CR>' ; nvr --remote"
+abbr --add v "rm /tmp/nvimsocket ; nvim --listen /tmp/nvimsocket"
 abbr --add suspend "sudo systemctl suspend"
 abbr --add soff 'xset dpms force off'
 
 abbr --add yuzu-mem "sudo sysctl -w vm.max_map_count=262144"
 
 abbr --add ns "cd ~/Documents/scm ; nvim index.md"
-
-abbr --add v 'nvim'
 
 abbr --add td 'mullvad connect ; sleep 5 ; mullvad status ; transmission-daemon'
 abbr --add te 'transmission-remote --exit ; sleep 5 ; mullvad disconnect'
