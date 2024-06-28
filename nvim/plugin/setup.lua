@@ -3,6 +3,8 @@ vim.keymap.set('n', '<leader>f', function()
   vim.lsp.buf.format { async = true }
 end, opts)
 
+require("oil").setup()
+
 -- remember cursor position
 vim.api.nvim_create_autocmd({'BufWinEnter'}, {
   desc = 'return cursor to where it was last time closing the file',
@@ -32,17 +34,10 @@ vim.keymap.set('n', '<leader>h', '<cmd>History<CR>')
 -- keybinds
 vim.keymap.set('x', '<leader>P', "\"_dp")
 vim.keymap.set('x', '<leader>p', "\"_dP")
-vim.keymap.set('n', '<leader>tr', "<cmd>terminal<CR>a")
 vim.keymap.set('i', '<C-s>', "<esc>:w<enter>")
 vim.keymap.set('n', '<C-s>', "<esc>:w<enter>")
 vim.keymap.set('n', 'ZX', "<cmd>q!<CR>")
-vim.keymap.set('n', '<leader>e', "<cmd>LfCurrentFile<CR><enter>")
 vim.keymap.set('n', '<leader>ls', "<cmd>LspStop<CR><enter>")
-vim.keymap.set('n', '<leader>sv', "<cmd>sp<CR><enter>")
-vim.keymap.set('n', '<leader>sh', "<cmd>vs<CR><enter>")
-
-vim.g.lf_width = 1920
-vim.g.lf_height = 1080
 
 --Goyo
 vim.keymap.set('n', '<leader>o', "<cmd>Goyo<CR><enter>")

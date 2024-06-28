@@ -3,25 +3,25 @@ call plug#begin()
 
 " Colors
 Plug 'nvim-treesitter/nvim-treesitter'
-Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
-Plug 'ishan9299/nvim-solarized-lua'
 Plug 'ellisonleao/gruvbox.nvim'
 
 " Misc
 Plug 'christoomey/vim-tmux-navigator' 
-Plug 'junegunn/fzf.vim'
-Plug 'neovim/nvim-lspconfig'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'ptzz/lf.vim'
-Plug 'voldikss/vim-floaterm'
 Plug 'mbbill/undotree'
+
+" Files
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'stevearc/oil.nvim'
+
+" LSP
 Plug 'dgagn/diagflow.nvim'
-Plug 'nvim-neotest/nvim-nio'
+Plug 'neovim/nvim-lspconfig'
 
 " Debugger
 Plug 'mfussenegger/nvim-dap'
 Plug 'rcarriga/nvim-dap-ui'
+Plug 'nvim-neotest/nvim-nio'
 
 " Writing
 Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
