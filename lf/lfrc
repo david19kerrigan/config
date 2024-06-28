@@ -10,9 +10,3 @@ cmd on-cd &{{
 }}
 
 on-cd
-
-map e my-edit $f
-
-cmd my-edit &{{
-    nvr --remote-send ':tabnew<CR>' ; nvr --remote $f
-}}

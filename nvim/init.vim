@@ -10,7 +10,6 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'mbbill/undotree'
 
 " LSP
-Plug 'dgagn/diagflow.nvim'
 Plug 'neovim/nvim-lspconfig'
 
 " Debugger
