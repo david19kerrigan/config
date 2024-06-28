@@ -34,6 +34,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
 
 	require('diagflow').setup({
 		toggle_event = { 'InsertEnter', 'InsertLeave' }, -- if InsertEnter, can toggle the diagnostics on inserts
+		update_event = { 'BufEnter' },
 	})
 
     -- Buffer local mappings.
