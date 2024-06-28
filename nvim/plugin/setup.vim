@@ -59,6 +59,6 @@ noremap <C-e> 5<C-e>
 noremap <C-y> 5<C-y>
 noremap <leader>n :noh<CR>
 noremap <leader>c :cclose<CR>
-nnoremap gt :tabprevious<CR>
+nnoremap <j-tab> :tabprevious<CR>
 nnoremap <tab> :tabnext<CR>
 nnoremap <leader>ut :UndotreeToggle<CR>
