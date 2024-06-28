@@ -598,57 +598,30 @@ startup_screen = media_library
 #
 mpd_music_dir =       "~/Music"
 
-# Visualizer
-visualizer_fifo_path = "/tmp/mpd.fifo"
-visualizer_output_name = "fifo"
-visualizer_type = "spectrum" (spectrum/wave)
-
-playlist_disable_highlight_delay = 0
-
-# Playlist
-song_columns_list_format = "(3f)[black]{n} (40)[default]{t|f} (25)[red]{a} (30)[blue]{b} (4f)[black]{l}"
-#"$L(9)[black]{l} (20)[red]{a} (30)[blue]{b} $L(20)[default]{t}"
-now_playing_prefix = "$b"
-now_playing_suffix = "$/b"
-playlist_display_mode = "columns" (classic/columns)
-autocenter_mode = "no"
-centered_cursor = "no"
-cyclic_scrolling = "no"
-mouse_list_scroll_whole_page = "no"
-#song_list_format = "{$8$9}{[%l] >> }{%t }$R{%a - %b}"
-song_list_format = "$1$9%l$1$9 $1¦$9 $2%a$9 $1¦$9 $5%b$9 $R$1$9%t$1$9 $1¦$9 $1%n$9"
-# $0$8$8%l$0$8 $1¦$7 $7%a$7 $1¦$7 $6%t$1 $R $1%b$1"
-song_library_format = "{%n > }{%t}|{%f}"
-
-# Bars
-song_status_format = "{%a - }{%t - }{%b}"
-#"$8%t $1• $2%a $1•{ $5%b $1• }$7%y$1"
-#progressbar_look = "||]"
-progressbar_look = "-> "
-#"-??"
-titles_visibility = "no"
-header_visibility = "no"
-statusbar_visibility = "no"
-#now_playing_prefix = "?"
-
-# Browser
-browser_playlist_prefix = "$2plist »$9 "
-browser_display_mode = "columns" (classic/columns)
-
-# Colors
-discard_colors_if_item_is_selected = "yes"
-header_window_color = "black"
-volume_color = "cyan"
-state_line_color = "black"
-state_flags_color = "green"
-main_window_color = "default"
-color1 = "default"
-color2 = "green"
-progressbar_color = "yellow"
-statusbar_color = "black"
-visualizer_color = "cyan"
-
-# Others
-song_window_title_format = "MPD: {%a > }{%t}{ [%b{ Disc %d}]}|{%f}"
-search_engine_display_mode = "columns" (classic/columns)
-follow_now_playing_lyrics = "yes"
+message_delay_time = "1"
+visualizer_type = "spectrum"
+song_list_format = {$4%a - }{%t}|{$8%f$9}$R{$3(%l)$9}
+song_status_format = $b{{$8"%t"}} $3by {$4%a{ $3in $7%b{ (%y)}} $3}|{$8%f}
+song_library_format = {%n - }{%t}|{%f}
+alternative_header_first_line_format = $b$1$aqqu$/a$9 {%t}|{%f} $1$atqq$/a$9$/b
+alternative_header_second_line_format = {{$4$b%a$/b$9}{ - $7%b$9}{ ($4%y$9)}}|{%D}
+current_item_prefix = $(cyan)$r$b
+current_item_suffix = $/r$(end)$/b
+current_item_inactive_column_prefix = $(magenta)$r
+current_item_inactive_column_suffix = $/r$(end)
+playlist_display_mode = columns
+browser_display_mode = columns
+progressbar_look = ->
+#media_library_primary_tag = album_artist
+media_library_albums_split_by_date = no
+#startup_screen = "media_library"
+display_volume_level = no
+ignore_leading_the = yes
+external_editor = nvim
+use_console_editor = yes
+empty_tag_color = magenta
+main_window_color = white
+progressbar_color = black:b
+progressbar_elapsed_color = blue:b
+statusbar_color = red
+statusbar_time_color = cyan:b
