@@ -9,11 +9,6 @@ Plug 'ellisonleao/gruvbox.nvim'
 Plug 'christoomey/vim-tmux-navigator' 
 Plug 'mbbill/undotree'
 
-" Files
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'stevearc/oil.nvim'
-
 " LSP
 Plug 'dgagn/diagflow.nvim'
 Plug 'neovim/nvim-lspconfig'
@@ -25,7 +20,6 @@ Plug 'nvim-neotest/nvim-nio'
 
 " Writing
 Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
-Plug 'vimwiki/vimwiki', { 'for': 'markdown' }
 
 " Autocomplete
 Plug 'hrsh7th/cmp-nvim-lsp'

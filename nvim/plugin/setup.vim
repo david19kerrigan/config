@@ -1,4 +1,3 @@
-" Set theme
 set background=dark
 colorscheme gruvbox
 set wrap
@@ -59,16 +58,10 @@ autocmd FileType zig setlocal tabstop=4 shiftwidth=4 expandtab " zig formatters 
 autocmd FileType cpp setlocal tabstop=4 shiftwidth=4 expandtab
 autocmd FileType c setlocal tabstop=4 shiftwidth=4 expandtab
 
-" Formatting code
-autocmd FileType python nnoremap <buffer> <Leader>f :w<CR>:silent exec "!black ."<CR>
-
 " Spell check .tex
 autocmd FileType tex setlocal spell spelllang=en_us
 autocmd BufEnter *.ms set filetype=groff
 autocmd FileType groff setlocal spell spelllang=en_us
-
-" Automatically run GitPull() when opening a Markdown file
-" autocmd VimEnter */notes/** silent execute '!git reset --hard origin/main && git pull'
 
 " autocmd VimEnter *.md Goyo
 autocmd BufEnter * TSBufEnable highlight
@@ -80,8 +73,6 @@ autocmd FileType * if index(list, &ft) < 0 | lua require'cmp'.setup.buffer {
 \     autocomplete = false
 \   }
 \ }
-
-"vim.cmd [[autocmd CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})]]
 
 " Misc Settings
 set autochdir
@@ -98,12 +89,6 @@ noremap <C-e> 5<C-e>
 noremap <C-y> 5<C-y>
 noremap <leader>n :noh<CR>
 noremap <leader>c :cclose<CR>
-nnoremap <leader>e :Oil .<CR>
-nnoremap <leader>tn :tabnew<CR>:Oil .<CR>
-nnoremap <leader>tr :tabnew<CR>:terminal<CR>a
-nnoremap <leader>ff :tabnew<CR><cmd>Telescope find_files<cr>
-nnoremap <leader>fg :tabnew<CR><cmd>Telescope live_grep<cr>
-nnoremap <leader>fr <cmd>Telescope lsp_references<cr>
 nnoremap gt :tabprevious<CR>
 nnoremap <tab> :tabnext<CR>
 nnoremap <leader>ut :UndotreeToggle<CR>

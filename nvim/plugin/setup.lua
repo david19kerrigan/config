@@ -1,10 +1,3 @@
-require("oil").setup()
-
---- set formatter outside of LSP block so it can be overriden in setup.vim
-vim.keymap.set('n', '<leader>f', function()
-  vim.lsp.buf.format { async = true }
-end, opts)
-
 -- remember cursor position
 vim.api.nvim_create_autocmd({'BufWinEnter'}, {
   desc = 'return cursor to where it was last time closing the file',
@@ -12,28 +5,7 @@ vim.api.nvim_create_autocmd({'BufWinEnter'}, {
   command = 'silent! normal! g`"zvzz',
 })
 
--- Sync markdown files on save, BufWrite not VimLeave
-vim.api.nvim_create_autocmd({ "BufWrite" }, {
-  pattern = '*/notes/**',
-  callback = function()
-    vim.fn.jobstart('git add --all && git commit -a -m "vim" && git push', {detach=true})
-  end,
-})
-
-vim.api.nvim_create_autocmd({ "VimEnter" }, {
-  pattern = '*/notes/**',
-  callback = function()
-    vim.fn.jobstart('git reset --hard origin/main && git pull', {detach=true})
-  end,
-})
-
--- setup fzf
-vim.keymap.set('n', '<leader>h', '<cmd>History<CR>')
--- vim.keymap.set('n', '<leader>fb', '<cmd>Buffers<CR>')
-
 -- keybinds
-vim.keymap.set('x', '<leader>P', "\"_dp")
-vim.keymap.set('x', '<leader>p', "\"_dP")
 vim.keymap.set('i', '<C-s>', "<esc>:w<enter>")
 vim.keymap.set('n', '<C-s>', "<esc>:w<enter>")
 vim.keymap.set('n', 'ZX', "<cmd>q!<CR>")
@@ -165,19 +137,4 @@ vim.diagnostic.config({
 	signs = {severity = {min = vim.diagnostic.severity.ERROR}},
 	underline = {severity = {min = vim.diagnostic.severity.ERROR}},
 })
-}
-
-require('telescope').setup{
-  defaults = {
-    vimgrep_arguments = {
-      'rg',
-      '--color=never',
-      '--no-heading',
-      '--with-filename',
-      '--line-number',
-      '--column',
-      '--smart-case',
-      '--hidden',
-    },
-}
 }
