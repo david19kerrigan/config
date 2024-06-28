@@ -100,9 +100,9 @@ noremap <leader>n :noh<CR>
 noremap <leader>c :cclose<CR>
 nnoremap <leader>e :Oil .<CR>
 nnoremap <leader>tn :tabnew<CR>:Oil .<CR>
-nnoremap <leader>tr :terminal<CR>a
-nnoremap <leader>ff <cmd>Telescope find_files<cr>
-nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>tr :tabnew<CR>:terminal<CR>a
+nnoremap <leader>ff :tabnew<CR><cmd>Telescope find_files<cr>
+nnoremap <leader>fg :tabnew<CR><cmd>Telescope live_grep<cr>
 nnoremap <leader>fr <cmd>Telescope lsp_references<cr>
 nnoremap gt :tabprevious<CR>
 nnoremap <tab> :tabnext<CR>

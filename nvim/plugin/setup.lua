@@ -1,9 +1,9 @@
+require("oil").setup()
+
 --- set formatter outside of LSP block so it can be overriden in setup.vim
 vim.keymap.set('n', '<leader>f', function()
   vim.lsp.buf.format { async = true }
 end, opts)
-
-require("oil").setup()
 
 -- remember cursor position
 vim.api.nvim_create_autocmd({'BufWinEnter'}, {
