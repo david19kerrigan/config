@@ -1,15 +1,14 @@
-map <backspace2> delete
 set drawbox
 set icons
 set previewer ~/.config/lf/inspect.sh
-map i $LESSOPEN='| ~/.config/lf/inspect.sh %s' less -R $f
 
-# set pane_path when changing directory
+map i $LESSOPEN='| ~/.config/lf/inspect.sh %s' less -R $f
+map <backspace2> delete
+
 cmd on-cd &{{
     printf "\e]7;$PWD\e\\" > /dev/tty
 }}
 
-# trigger on-cd upon startup
 on-cd
 
 map e my-edit $f
