@@ -16,7 +16,6 @@ set GPG_TTY $(tty)
 # tmux it up
 if status is-interactive
 	and not set -q TMUX
-		#tmux new-session -s cmus -d "fish" && tmux send-keys "cmus" #ENTER
 		exec tmux new -s main 
 end
 
