@@ -2,7 +2,7 @@ autocmd vimenter * ++nested colorscheme gruvbox
 syntax on
 
 set termguicolors
-set background=light
+set background=dark
 set rnu
 set number
 set clipboard=unnamedplus

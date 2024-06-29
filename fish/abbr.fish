@@ -1,5 +1,4 @@
-abbr --add edit "nvr --remote-send ':tabnew<CR>' ; nvr --remote"
-abbr --add v "rm /tmp/nvimsocket ; nvim --listen /tmp/nvimsocket"
+abbr --add v "vim"
 abbr --add suspend "sudo systemctl suspend"
 abbr --add soff 'xset dpms force off'
 

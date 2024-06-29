@@ -1,4 +1,4 @@
-set background=light
+set background=dark
 colorscheme gruvbox
 set wrap
 set termguicolors
