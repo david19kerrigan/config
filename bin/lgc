@@ -12,3 +12,4 @@ INITIAL_QUERY="${*:-}"
     --preview 'bat --color=always {1} --highlight-line {2}' \
     --preview-window 'up,60%,border-bottom,+{2}+3/3,~3' \
     --bind 'enter:become(echo $(echo {1} | awk -F/ "NF{NF--};1" OFS=/) && exit)')
+	--exclude tags
