@@ -123,8 +123,8 @@ assign [class = "Brave-browser"] $ws1
 assign [class = "LibreWolf"] $ws1
 assign [class = "Lutris"] $ws3
 assign [class = "prismlauncher"] $ws3
-for_window [class="mpv"] sticky enable, fullscreen disable, floating enable, resize set 640 400, move position 1280 700
-no_focus [class="mpv"]
+#for_window [class="mpv"] sticky enable, fullscreen disable, floating enable, resize set 640 400, move position 1280 700
+#no_focus [class="mpv"]
 exec --no-startup-id i3-msg 'exec kitty; exec librewolf; workspace $ws2'
 
 # switch to workspace
