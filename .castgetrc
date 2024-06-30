@@ -1,0 +1,15 @@
+[JRE]
+url=https://feeds.megaphone.fm/GLT1412515089
+spool=/home/david/Podcasts/JRE
+
+[El-Segundo]
+url=https://feeds.buzzsprout.com/2152621.rss
+spool=/home/david/Podcasts/El-Segundo
+
+[Marketplace]
+url=https://www.marketplace.org/feed/podcast/marketplace
+spool=/home/david/Podcasts/Marketplace
+
+[Goldman]
+url=https://feeds.megaphone.fm/GLD9218176758
+spool=/home/david/Podcasts/Goldman
