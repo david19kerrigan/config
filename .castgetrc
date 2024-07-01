@@ -1,6 +1,6 @@
 [*]
 filename=%(date)_%(title).mp3
-id3leadartist=Podcast
+id3leadartist=Podcasts
 
 [JRE]
 url=https://feeds.megaphone.fm/GLT1412515089
