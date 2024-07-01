@@ -124,7 +124,6 @@ assign [class = "LibreWolf"] $ws1
 assign [class = "Lutris"] $ws3
 assign [class = "prismlauncher"] $ws3
 assign [class = "mpv"] $ws3
-exec --no-startup-id i3-msg 'exec kitty; exec librewolf; workspace $ws2'
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -209,7 +208,8 @@ client.background       #FFFFFF
 
 for_window [class="^.*"] border pixel 2
 
-exec --no-startup-id feh --bg-scale /home/david/Documents/config/wallpapers/dark.jpg
+exec --no-startup-id feh --bg-scale /home/david/Documents/config/wallpapers/light.jpg
+exec --no-startup-id select_mode
 exec --no-startup-id mpd /home/david/.mpd/mpd.conf
 exec --no-startup-id picom -b
 exec --no-startup-id redshift -l 41:-74
@@ -224,5 +224,3 @@ bindsym XF86AudioRewind exec mpc seek -10 && playerctl position 10-
 bindsym XF86AudioForward exec mpc seek +10 && playerctl position 10+
 
 bindsym $mod+Shift+w exec "tmux kill-server"
-bindsym $mod+Shift+n exec bash ~/.config/polybar/launch.sh --blocks
-bindsym $mod+$mod2+a exec tmux send-keys ":q" ENTER && tmux switch-client -t main && tmux kill-session -a
