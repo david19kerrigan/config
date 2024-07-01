@@ -11,4 +11,4 @@ cmd on-cd &{{
 
 on-cd
 
-map m push %mkdir<space>
+map a push %mkdir<space>
