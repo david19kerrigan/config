@@ -506,7 +506,7 @@ startup_screen = media_library
 #
 #tag_editor_extended_numeration = no
 #
-#media_library_sort_by_mtime = no
+media_library_sort_by_mtime = no
 #
 #enable_window_title = yes
 #
