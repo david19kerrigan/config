@@ -208,8 +208,9 @@ client.background       #FFFFFF
 
 for_window [class="^.*"] border pixel 2
 
-exec --no-startup-id feh --bg-scale /home/david/Documents/config/wallpapers/light.jpg
 exec --no-startup-id select_mode
+exec --no-startup-id castget -1
+exec --no-startup-id mpc update
 exec --no-startup-id mpd /home/david/.mpd/mpd.conf
 exec --no-startup-id picom -b
 exec --no-startup-id redshift -l 41:-74
