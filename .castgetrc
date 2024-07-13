@@ -6,18 +6,10 @@ id3leadartist=Podcasts
 url=https://feeds.megaphone.fm/GLT1412515089
 spool=/home/david/Music/Podcasts
 
-[El-Segundo]
-url=https://feeds.buzzsprout.com/2152621.rss
-spool=/home/david/Music/Podcasts
-
 [Marketplace]
 url=https://www.marketplace.org/feed/podcast/marketplace
 spool=/home/david/Music/Podcasts
 id3album=Marketplace
-
-[Goldman]
-url=https://feeds.megaphone.fm/GLD9218176758
-spool=/home/david/Music/Podcasts
 
 [Masters-In-Business]
 url=https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/5873a3cb-298f-40bc-b71f-ae2b0013000d/podcast.rss
@@ -28,3 +20,7 @@ id3album=Bloomberg
 url=https://feeds.simplecast.com/4LZRim3c
 spool=/home/david/Music/Podcasts
 id3album=Inside Economics
+
+[Goldman]
+url=https://feeds.megaphone.fm/GLD9218176758
+spool=/home/david/Music/Podcasts

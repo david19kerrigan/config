@@ -2,7 +2,7 @@ autocmd vimenter * ++nested colorscheme gruvbox
 syntax on
 
 set termguicolors
-set background=dark
+set background=light
 set rnu
 set number
 set clipboard=unnamedplus
@@ -24,3 +24,5 @@ noremap <C-e> 5<C-e>
 noremap <C-y> 5<C-y>
 noremap <leader>t :tn<CR>
 noremap <leader>n :noh<CR>
+
+autocmd FileType mail set nowrap
