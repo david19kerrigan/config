@@ -2,7 +2,7 @@ autocmd vimenter * ++nested colorscheme gruvbox
 syntax on
 
 set termguicolors
-set background=light
+set background=dark
 set rnu
 set number
 set clipboard=unnamedplus
@@ -18,6 +18,8 @@ set smartcase
 set hlsearch
 set tabstop=4
 set shiftwidth=4
+set softtabstop=4
+set expandtab
 
 let mapleader=" "
 noremap <C-e> 5<C-e>
