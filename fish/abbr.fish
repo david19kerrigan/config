@@ -1,4 +1,4 @@
-abbr --add v "vim"
+abbr --add v "nvim"
 abbr --add suspend "sudo systemctl suspend"
 abbr --add soff 'xset dpms force off'
 
