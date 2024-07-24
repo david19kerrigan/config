@@ -1,5 +1,5 @@
 " Set theme
-set background=light
+set background=dark
 colorscheme gruvbox
 set wrap
 set termguicolors
@@ -37,3 +37,4 @@ set smartcase
 noremap <C-e> 5<C-e>
 noremap <C-y> 5<C-y>
 noremap ZX :q!<CR>
+noremap <leader>n :noh<CR>
