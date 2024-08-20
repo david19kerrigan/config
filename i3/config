@@ -161,15 +161,15 @@ bindsym $mod+$mod2+9 move container to workspace number $ws9
 bindsym $mod+$mod2+0 move container to workspace number $ws10
 
 # reload the configuration file
-bindsym $mod+Shift+c reload
+bindsym $mod+$mod2+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
+bindsym $mod+$mod2+Shift+r restart
 # exit i3 (logs you out of your X session)
 #bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
-bindsym $mod+Shift+e exec i3-msg 'exit'
-bindsym $mod+Shift+p exec poweroff
-bindsym $mod+Shift+s exec systemctl suspend
-bindsym $mod+Shift+o exec sleep 1 && xset dpms force off
+bindsym $mod+$mod2+Shift+e exec i3-msg 'exit'
+bindsym $mod+$mod2+Shift+p exec poweroff
+bindsym $mod+$mod2+Shift+s exec systemctl suspend
+bindsym $mod+$mod2+Shift+o exec sleep 1 && xset dpms force off
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -223,4 +223,4 @@ bindsym XF86AudioPrev exec mpc prev && playerctl previous
 bindsym XF86AudioRewind exec mpc seek -10 && playerctl position 10-
 bindsym XF86AudioForward exec mpc seek +10 && playerctl position 10+
 
-bindsym $mod+Shift+w exec "tmux kill-server"
+bindsym $mod+$mod2+Shift+w exec "tmux kill-server"
