@@ -102,8 +102,6 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
-bindsym $mod+b exec "xdotool type $(grep -v '^#' ~/config/bookmarks/marks | dmenu -i -l 50 | cut -d' ' -f1)"
-
 set $ws1 "1"
 set $ws2 "2"
 set $ws3 "3"
@@ -216,11 +214,11 @@ exec --no-startup-id redshift -l 41:-74
 exec --no-startup-id bash ~/.config/polybar/launch.sh --blocks
 
 # Meida player controls
-bindsym XF86AudioPlay exec mpc toggle && playerctl play-pause
-bindsym XF86AudioPause exec mpc toggle && playerctl play-pause
-bindsym XF86AudioNext exec mpc next && playerctl next
-bindsym XF86AudioPrev exec mpc prev && playerctl previous
-bindsym XF86AudioRewind exec mpc seek -10 && playerctl position 10-
-bindsym XF86AudioForward exec mpc seek +10 && playerctl position 10+
+bindsym XF86AudioPlay exec "mpc toggle ; playerctl play-pause"
+bindsym XF86AudioPause exec "mpc toggle ; playerctl play-pause"
+bindsym XF86AudioNext exec "mpc next ; playerctl next"
+bindsym XF86AudioPrev exec "mpc prev ; playerctl previous"
+bindsym XF86AudioRewind exec "mpc seek -10 ; playerctl position 10-"
+bindsym XF86AudioForward exec "mpc seek +10 ; playerctl position 10+"
 
 bindsym $mod+$mod2+Shift+w exec "tmux kill-server"
