@@ -1,2 +1,1 @@
 */20 * * * * /usr/bin/mailsync
-*/20 * * * * /sbin/castget ; /sbin/mpc update
