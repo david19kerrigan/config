@@ -1,4 +1,4 @@
-#!/home/david/.local/share/pyenv/venv1/bin/python
+#!/home/david/.local/pip/venvs/env1/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

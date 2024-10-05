@@ -48,7 +48,7 @@ abbr --add ym --set-cursor 'yt-dlp -x --audio-format mp3 "%"'
 abbr --add sp --set-cursor 'spotdl "%" ; mpc update'
 abbr --add sc --set-cursor 'scdl -l "%"'
 
-abbr --add py 'source ~/.local/share/pyenv/venv1/bin/activate.fish'
+abbr --add py 'source ~/.local/pip/venvs/env1/bin/activate.fish'
 abbr --add pyr 'source ~/.local/share/pyenv/venv1/bin/activate.fish ; python'
 abbr --add sf 'source ~/.config/fish/config.fish'
 abbr --add st 'tmux source ~/.tmux.conf'
