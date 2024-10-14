@@ -6,7 +6,7 @@ sed -i 's/set background=light/set background=dark/' /home/david/Documents/confi
 sed -i 's/set background=light/set background=dark/' /home/david/Documents/config/.vimrc
 sed -i 's/light/dark/' /home/david/Documents/config/bat/config
 sed -i 's/light.jpg/dark.jpg/' /home/david/.config/i3/config
-sed -i "s/local mode  = 'dark'/local mode  = 'light'/" /home/david/.cache/vis-plug/themes/vis-gruvbox/gruvbox.lua
+sed -i "s/local mode\t= 'light'/local mode\t= 'dark'/" /home/david/.cache/vis-plug/themes/vis-gruvbox/gruvbox.lua
 feh --bg-scale /home/david/Documents/config/wallpapers/dark.jpg
 cp /home/david/Documents/config/zathura/zathura-dark /home/david/Documents/config/zathura/zathurarc
 tmux kill-server
