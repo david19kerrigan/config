@@ -9,8 +9,6 @@ sed -i "s/local mode\t= 'dark'/local mode\t= 'light'/" /home/david/.cache/vis-pl
 feh --bg-scale /home/david/Documents/config/wallpapers/light.jpg
 cp /home/david/Documents/config/zathura/zathura-light /home/david/Documents/config/zathura/zathurarc
 
-killall librewolf
-killall kitty
+killall librewolf ; killall kitty
+kitty ; librewolf
 
-librewolf
-kitty
