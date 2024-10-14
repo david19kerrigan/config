@@ -13,11 +13,12 @@ set -g fish_prompt_pwd_dir_length 0
 set GPG_TTY $(tty)
 #set -Ux TERM screen-256color
 
-# tmux it up
-#if status is-interactive
-	#and not set -q TMUX
-		#exec tmux new -s main 
-#end
+# Start X at login
+if status is-login
+    if test -z "$DISPLAY" -a "$XDG_VTNR" = 1
+        exec startx -- -keeptty
+    end
+end
 
 source ~/.config/fish/abbr.fish
 source ~/.config/fish/prompt.fish
