@@ -14,10 +14,10 @@ set GPG_TTY $(tty)
 #set -Ux TERM screen-256color
 
 # tmux it up
-if status is-interactive
-	and not set -q TMUX
-		exec tmux new -s main 
-end
+#if status is-interactive
+	#and not set -q TMUX
+		#exec tmux new -s main 
+#end
 
 source ~/.config/fish/abbr.fish
 source ~/.config/fish/prompt.fish

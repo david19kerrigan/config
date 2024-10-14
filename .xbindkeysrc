@@ -1,0 +1,23 @@
+"pactl set-sink-volume @DEFAULT_SINK@ +5%"
+    XF86AudioRaiseVolume
+
+"pactl set-sink-volume @DEFAULT_SINK@ -5%"
+    XF86AudioLowerVolume 
+
+"exec mpc toggle ; playerctl play-pause"
+    XF86AudioPlay 
+
+"exec mpc toggle ; playerctl play-pause"
+    XF86AudioPause 
+
+"exec mpc next ; playerctl next"
+    XF86AudioNext 
+
+"exec mpc prev ; playerctl previous"
+    XF86AudioPrev 
+
+"exec mpc seek -10 ; playerctl position 10-"
+    XF86AudioRewind 
+
+"exec mpc seek +10 ; playerctl position 10+"
+    XF86AudioForward 

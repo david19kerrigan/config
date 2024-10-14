@@ -79,7 +79,7 @@ abbr --add scr "xrandr --output LVDS-1 --off ; xrandr --output DP-2 --primary; /
 abbr --add scr1 "xrandr --output DP-2 --primary; /home/david/.fehbg"
 abbr --add xb --set-cursor "xrandr --output eDP-1 --brightness 1.%"
 
-abbr --add u "yay --noconfirm ; yay -Sc --noconfirm ; sudo pacman -Rns \$(pacman -Qtdq)"
+abbr --add u "yay --noconfirm ; sudo pacman -Rns \$(pacman -Qtdq)"
 abbr --add me --set-cursor "mpc seek %:00"
 
 abbr --add tpf "sudo thinkfan-ui"
