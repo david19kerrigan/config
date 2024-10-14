@@ -1,7 +1,6 @@
 /* See LICENSE file for copyright and license details. */
 
-/* interval between updates (in ms) */
-const unsigned int interval = 15000;
+/* interval between updates (in ms) */ const unsigned int interval = 15000;
 
 /* text to show if no value can be retrieved */
 static const char unknown_str[] = "n/a";
