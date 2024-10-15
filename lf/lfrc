@@ -1,5 +1,3 @@
-set drawbox
-set icons
 set previewer ~/.config/lf/inspect.sh
 
 map i $LESSOPEN='| ~/.config/lf/inspect.sh %s' less -R $f
