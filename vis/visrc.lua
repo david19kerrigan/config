@@ -6,9 +6,9 @@ end)
 
 vis.events.subscribe(vis.events.WIN_OPEN, function(win)
 	vis:command('set rnu')
-	vis:command('set tw 2')
 	vis:command('set et on')
 	vis:command('set ai on')
+	vis:command('set tw 4')
 end)
 
 local plug = require('vis-plug/init')
@@ -16,14 +16,9 @@ local plug = require('vis-plug/init')
 -- configure plugins in an array of tables with git urls and options 
 local plugins = {
   { 'kupospelov/vis-ctags' },
-	{ 'milhnl/vis-backspace' },
+  { 'milhnl/vis-backspace' },
   { 'samlwood/vis-gruvbox', theme = true, file = 'gruvbox' },
-	{ 'jocap/vis-filetype-settings', file = 'vis-filetype-settings' },
 }
 
 -- require and optionally install plugins on init
 plug.init(plugins, true)
-
-settings = {
-    cpp = {"set tw 4"},
-}
