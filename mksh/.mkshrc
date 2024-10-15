@@ -1,0 +1,48 @@
+set -o vi
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+
+f() {
+    # `command` is needed in case `lfcd` is aliased to `lf`
+    cd "$(command lf -print-last-dir "$@")"
+}
+
+gcm() {
+    if [ -z "$1" ]; then
+        echo "Please provide a commit message."
+        return 1
+    fi
+    git commit -a -m "$1" && git push
+}
+
+PS1="$(printf "\033[0;34m%s\033[1;33m@\033[0;35m%s\033[0;35m \033[0;36m~ $ \033[0m" $(logname) $(hostname -s))"
+#PS1="$(printf "\033[0;34m%s\033[1;33m@\033[0;35m%s\033[0;35m \033[0;36m${PWD##*/} $ \033[0m" $(logname) $(hostname -s))"
+
+#function _cd {
+  #\cd "$@"
+  #PS2="$(printf "\033[0;34m%s\033[1;33m@\033[0;35m%s\033[0;35m \033[0;36m${PWD##*/} $ \033[0m" $(logname) $(hostname -s))"
+#}
+#alias cd=_cd
+#cd "$PWD"
+
+HISTFILE="$HOME/.mksh_history"
+HISTSIZE=100000
+
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/Users/david.kerrigan/.local/bin:$PATH"
+export PATH="/Users/david.kerrigan/bin:$PATH"
+export PATH="/Users/david.kerrigan/Downloads/gradle-8.2.1/bin:$PATH"
+export EDITOR="vis"
+export PYENV_ROOT="$HOME/.pyenv"
+alias pye='eval "$(pyenv init -)"'
+alias c="cd ; clear"
+alias fo='hx $(fzf --preview "bat -n --color=always {}")'
+alias ho='hx $(find . | fzf --preview "bat -n --color=always {}")'
+alias hp='find . | fzf --preview "bat -n --color=always {}"'
+alias fp='fzf --preview "bat -n --color=always {}"'
+#alias fc='cd $(fzf --preview "bat -n --color=always {}" | awk -F/ "NF{NF--};1" OFS=/)'
+alias fd='cd $(find . -type d -print | fzf)'
+alias gp='git add --all; git commit -a -m "auto commit"; git push'
+alias gu='git pull'
+alias lc="source lgcd ; r"
+alias gb="git rev-parse --abbrev-ref HEAD"
