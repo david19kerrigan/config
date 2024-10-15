@@ -15,3 +15,5 @@ r () {
 }
 
 export PS1="\e[0;34m\u\e[1;33m@\e[0;35m\h \e[0;36m\W \$ \e[m"
+
+shopt -s histappend
