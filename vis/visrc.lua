@@ -18,7 +18,12 @@ local plugins = {
   { 'kupospelov/vis-ctags' },
 	{ 'milhnl/vis-backspace' },
   { 'samlwood/vis-gruvbox', theme = true, file = 'gruvbox' },
+	{ 'jocap/vis-filetype-settings', file = 'vis-filetype-settings' },
 }
 
 -- require and optionally install plugins on init
 plug.init(plugins, true)
+
+settings = {
+    cpp = {"set tw 4"},
+}
