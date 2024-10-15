@@ -17,8 +17,7 @@ local plug = require('vis-plug/init')
 local plugins = {
   { 'kupospelov/vis-ctags' },
 	{ 'milhnl/vis-backspace' },
-  --{ 'samlwood/vis-gruvbox', theme = true, file = 'gruvbox' },
-  { 'dracula/vis', theme = true, file = 'base16-dracula' },
+  { 'samlwood/vis-gruvbox', theme = true, file = 'gruvbox' },
 }
 
 -- require and optionally install plugins on init
