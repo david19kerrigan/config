@@ -3,7 +3,7 @@ picom &
 slstatus &
 /home/david/.fehbg &
 mpd &
-kitty &
+st &
 xbindkeys &
 librewolf &
 exec dwm
