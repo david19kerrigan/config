@@ -44,5 +44,6 @@ alias fp='fzf --preview "bat -n --color=always {}"'
 alias fd='cd $(find . -type d -print | fzf)'
 alias gp='git add --all; git commit -a -m "auto commit"; git push'
 alias gu='git pull'
-alias lc="source lgcd ; r"
 alias gb="git rev-parse --abbrev-ref HEAD"
+alias autor="sudo pacman -Rsn $(pacman -Qdtq)"
+alias upd="yay --noconfirm ; yay -Sc --noconfirm ; autor"
