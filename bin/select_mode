@@ -1,9 +1,0 @@
-#!/bin/sh
-current_hour=$(date +%H)
-threshold_hour=19
-
-if [ $current_hour -ge $threshold_hour ]; then
-    dark_mode
-else
-    light_mode
-fi
