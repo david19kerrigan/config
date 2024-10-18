@@ -19,6 +19,7 @@ HISTFILE="$HOME/.mksh_history"
 HISTSIZE=100000
 
 export EDITOR="vis"
+export GPG_TTY=$(tty)
 
 alias c="cd ; clear"
 
