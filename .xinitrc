@@ -6,4 +6,5 @@ mpd &
 st &
 xbindkeys &
 librewolf &
+dunst &
 exec dwm
