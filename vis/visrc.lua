@@ -2,6 +2,7 @@
 require('vis')
 
 vis.events.subscribe(vis.events.INIT, function()
+	vis:command('map normal ZX :q!<Enter>')
 end) 
 
 vis.events.subscribe(vis.events.WIN_OPEN, function(win)
