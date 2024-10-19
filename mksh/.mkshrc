@@ -30,6 +30,7 @@ HISTSIZE=100000
 export EDITOR="vis"
 export GPG_TTY=$(tty)
 export PATH=$PATH:~/.local/bin
+export NNN_ORDER='r:/home/david/Downloads/Podcasts'
 
 alias c="cd ; clear"
 
