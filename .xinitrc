@@ -5,6 +5,7 @@ slstatus &
 mpd &
 st &
 xbindkeys &
-librewolf &
+firefox &
+pipewire &
 dunst &
 exec dwm
