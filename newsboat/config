@@ -1,20 +1,4 @@
-macro v set browser "setsid -f mpv --loop" ; open-in-browser ; set browse
-macro p pipe-to "cat | ~/.config/newsboat/player"  
-browser "brave"
-
-player "mpv --no-audio-display"
-download-path "~/Music/Podcasts/%N"
-podlist-format "%b"
-download-filename-format "%t.%e"
-delete-played-files yes
-max-downloads 10
-
-
-bind-key D pb-download
-bind-key x pb-delete
-bind-key p pb-play
-bind-key a pb-toggle-download-all 
-
+browser "firefox"
 
 color listnormal blue default
 color listnormal_unread cyan default

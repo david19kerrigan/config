@@ -14,5 +14,6 @@ ln -s ~/Documents/config/.ncmpcpp ~/
 ln -s ~/Documents/config/bin ~/.local/
 ln -s ~/Documents/config/mpv ~/.config/
 ln -s ~/Documents/config/greg ~/.config/
+ln -s ~/Documents/config/newsboat ~/.config/
 ln -s ~/Documents/config/gtk-3.0 ~/.config/
 ln -s ~/Documents/config/gtk-4.0 ~/.config/
