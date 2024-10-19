@@ -2,9 +2,9 @@ browser "firefox"
 
 color listnormal blue default
 color listnormal_unread cyan default
-color listfocus black default standout bold
-color listfocus_unread black default standout bold
-color info red black bold
+color listfocus yellow color234 bold
+color listfocus_unread yellow color234 bold
+color info red default
 color article white default bold
 
 highlight all "---.*---" yellow
