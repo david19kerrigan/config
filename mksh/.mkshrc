@@ -37,14 +37,16 @@ alias fzc='cd $(fzf --preview "bat -n --color=always {}" | awk -F/ "NF{NF--};1" 
 alias gtp='git add --all; git commit -a -m "auto commit"; git push'
 alias gtu='git pull'
 alias gtb="git rev-parse --abbrev-ref HEAD"
-alias upd="yay --noconfirm ; yay -Sc --noconfirm ; autor"
+alias upd="sudo xbps-install -Su"
+alias autor="sudo xbps-remove -o"
+alias useri="sudo xbps-query -m"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias neo='neomutt'
 alias ncm='ncmpcpp'
-alias iws='iwctl station wlan0 scan'
-alias iwg='iwctl station wlan0 get-networks'
-alias iwc='iwctl station wlan0 connect'
+alias iws='iwctl station wlp37s0 scan'
+alias iwg='iwctl station wlp37s0 get-networks'
+alias iwc='iwctl station wlp37s0 connect'
 alias pys='source /home/david/.local/pip/venvs/env1/bin/activate'
 alias btd='bluetoothctl devices'
 alias bts='bluetoothctl scan on'
@@ -52,4 +54,4 @@ alias btp='bluetoothctl scan on'
 alias btc='bluetoothctl connect'
 alias xbi='sudo xbps-install'
 alias xbr='sudo xbps-remove -R'
-alias xbq='sudo xbps-query -R'
+alias xbq='sudo xbps-query -Rs'
