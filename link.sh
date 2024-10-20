@@ -8,7 +8,7 @@ ln -s ~/Documents/config/.tmux.conf ~/
 ln -s ~/Documents/config/picom.conf ~/.config/
 ln -s ~/Documents/config/.xinitrc ~/
 ln -s ~/Documents/config/.xbindkeysrc ~/
-ln -s ~/Documents/config/.gnupg ~/
+ln -s ~/Documents/config/.gnupg/gpg-agent.conf ~/.gnupg/
 ln -s ~/Documents/config/.mpd ~/
 ln -s ~/Documents/config/.ncmpcpp ~/
 ln -s ~/Documents/config/bin ~/.local/
