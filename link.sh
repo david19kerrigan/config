@@ -4,6 +4,7 @@ ln -s ~/Documents/config/mksh/.mkshrc ~/
 ln -s ~/Documents/config/mksh/.profile ~/
 ln -s ~/Documents/config/mpv ~/.config/
 ln -s ~/Documents/config/zathura ~/.config/
+ln -s ~/Documents/config/vis ~/.config/
 ln -s ~/Documents/config/.tmux.conf ~/
 ln -s ~/Documents/config/picom.conf ~/.config/
 ln -s ~/Documents/config/.xinitrc ~/
