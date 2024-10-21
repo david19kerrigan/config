@@ -21,3 +21,9 @@
 
 "exec mpc seek +10 ; playerctl position 10+"
     XF86AudioForward 
+
+"exec brightnessctl set 10%+"
+    XF86MonBrightnessUp
+
+"exec brightnessctl set 10%-"
+    XF86MonBrightnessDown

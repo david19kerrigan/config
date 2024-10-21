@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Check if DP-1 is connected and active
 if xrandr | grep -q "^DP-1 connected"; then
@@ -7,3 +7,7 @@ if xrandr | grep -q "^DP-1 connected"; then
 else
     echo "DP-1 is not connected."
 fi
+
+xinput set-prop "TPPS/2 IBM TrackPoint" "Coordinate Transformation Matrix" 20 0 0 0 20 0 0 0 1
+xinput set-prop "TPPS/2 IBM TrackPoint" "libinput Scrolling Pixel Distance" 10
+
