@@ -1,7 +1,7 @@
 redshift -l 41:-74 &
+/home/david/.fehbg
 picom -b &
 slstatus &
-/home/david/.fehbg &
 mpd &
 st &
 xbindkeys &
