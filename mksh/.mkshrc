@@ -36,6 +36,7 @@ alias c="cd ; clear"
 
 alias fzo='vis $(fzf --preview "bat -n --color=always {}")'
 alias fzc='cd $(fzf --preview "bat -n --color=always {}" | awk -F/ "NF{NF--};1" OFS=/)'
+alias lgc='cd "$(dirname "$(lgd | awk -F":" "{print \$1}")")"'
 alias gtp='git add --all; git commit -a -m "auto commit"; git push'
 alias gtu='git pull'
 alias gtb="git rev-parse --abbrev-ref HEAD"
