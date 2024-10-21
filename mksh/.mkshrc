@@ -45,6 +45,7 @@ alias autor="sudo xbps-remove -o"
 alias useri="sudo xbps-query -m"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alais nmr='nmcli device wifi resc'
 alias neo='neomutt'
 alias new='newsboat'
 alias ncm='ncmpcpp'
