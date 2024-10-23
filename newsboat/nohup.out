@@ -1,0 +1,1492 @@
+[ytdl_hook] ERROR: Unsupported URL: https://omny.fm/shows/masters-in-business/king-streets-brian-higgins-on-navigating-distresse/embed
+[ytdl_hook] youtube-dl failed: unexpected error occurred
+Failed to recognize file format.
+Exiting... (Errors when loading file)
+● Video  --vid=1               (vp9 1920x1080 24 fps) [default]
+● Audio  --aid=1  --alang=eng  (opus 2ch 48000 Hz) [default]
+File tags:
+ Date: 20240828
+ Uploader: Gerbert Johnson
+ Channel_URL: https://www.youtube.com/channel/UC3jf-WdvQaIl3Gp-SKMHZLA
+AO: [pipewire] 48000Hz stereo 2ch floatp
+VO: [gpu] 1920x1080 yuv420p
+AV: 00:00:00 / 00:25:27 (0%) A-V:  0.000 Cache: 2.5s/804KB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.040 Cache: 2.4s/800KB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.040 Cache: 2.4s/799KB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.036 Cache: 3.0s/980KB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.036 Cache: 3.2s/1015KB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.032 Cache: 3.2s/1014KB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.029 Cache: 3.2s/1013KB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.026 Cache: 3.2s/1002KB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.024 Cache: 3.2s/995KB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.021 Cache: 3.1s/986KB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.019 Cache: 3.1s/982KB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.017 Cache: 3.0s/975KB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.015 Cache: 3.0s/966KB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.014 Cache: 2.9s/956KB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.013 Cache: 2.9s/950KB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.011 Cache: 3.7s/1MB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.010 Cache: 3.7s/1MB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.009 Cache: 3.6s/1MB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.008 Cache: 3.6s/1MB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.007 Cache: 3.6s/1MB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.007 Cache: 3.5s/1MB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.006 Cache: 3.5s/1MB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.005 Cache: 3.5s/1MB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.005 Cache: 3.4s/1MB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.004 Cache: 3.4s/1MB
+AV: 00:00:00 / 00:25:27 (0%) A-V: -0.004 Cache: 4.2s/1MB
+AV: 00:00:01 / 00:25:27 (0%) A-V: -0.004 Cache: 4.1s/1MB
+AV: 00:00:01 / 00:25:27 (0%) A-V: -0.003 Cache: 4.1s/1MB
+AV: 00:00:01 / 00:25:27 (0%) A-V: -0.003 Cache: 4.0s/1MB
+AV: 00:00:01 / 00:25:27 (0%) A-V: -0.002 Cache: 4.0s/1MB
+AV: 00:00:01 / 00:25:27 (0%) A-V: -0.002 Cache: 3.9s/1MB
+AV: 00:00:01 / 00:25:27 (0%) A-V: -0.002 Cache: 3.8s/1MB
+AV: 00:00:01 / 00:25:27 (0%) A-V: -0.001 Cache: 3.8s/1MB
+AV: 00:00:01 / 00:25:27 (0%) A-V: -0.001 Cache: 4.1s/1MB
+AV: 00:00:01 / 00:25:27 (0%) A-V: -0.001 Cache: 4.0s/1MB
+AV: 00:00:01 / 00:25:27 (0%) A-V: -0.001 Cache: 4.3s/1MB
+AV: 00:00:01 / 00:25:27 (0%) A-V: -0.000 Cache: 4.2s/1MB
+AV: 00:00:01 / 00:25:27 (0%) A-V: -0.000 Cache: 4.1s/1MB
+AV: 00:00:01 / 00:25:27 (0%) A-V: -0.000 Cache: 4.0s/1MB
+AV: 00:00:02 / 00:25:27 (0%) A-V: -0.000 Cache: 4.0s/1MB
+AV: 00:00:02 / 00:25:27 (0%) A-V: -0.000 Cache: 3.9s/1MB
+AV: 00:00:02 / 00:25:27 (0%) A-V: -0.000 Cache: 4.7s/1MB
+AV: 00:00:02 / 00:25:27 (0%) A-V: -0.000 Cache: 4.6s/1MB
+AV: 00:00:02 / 00:25:27 (0%) A-V: -0.000 Cache: 4.5s/1MB
+AV: 00:00:02 / 00:25:27 (0%) A-V: -0.000 Cache: 4.4s/1MB
+AV: 00:00:02 / 00:25:27 (0%) A-V: -0.000 Cache: 5.2s/2MB
+AV: 00:00:02 / 00:25:27 (0%) A-V:  0.000 Cache: 5.2s/2MB
+AV: 00:00:02 / 00:25:27 (0%) A-V: -0.000 Cache: 5.1s/1MB
+AV: 00:00:02 / 00:25:27 (0%) A-V: -0.000 Cache: 5.0s/1MB
+AV: 00:00:02 / 00:25:27 (0%) A-V: -0.000 Cache: 4.9s/1MB
+AV: 00:00:02 / 00:25:27 (0%) A-V: -0.000 Cache: 4.8s/1MB
+AV: 00:00:03 / 00:25:27 (0%) A-V:  0.000 Cache: 4.7s/1MB
+AV: 00:00:03 / 00:25:27 (0%) A-V:  0.000 Cache: 5.9s/2MB
+AV: 00:00:03 / 00:25:27 (0%) A-V: -0.000 Cache: 5.8s/2MB
+AV: 00:00:03 / 00:25:27 (0%) A-V:  0.000 Cache: 5.8s/2MB
+AV: 00:00:03 / 00:25:27 (0%) A-V:  0.000 Cache: 5.7s/2MB
+AV: 00:00:03 / 00:25:27 (0%) A-V:  0.000 Cache: 5.6s/2MB
+AV: 00:00:03 / 00:25:27 (0%) A-V:  0.000 Cache: 5.5s/2MB
+AV: 00:00:03 / 00:25:27 (0%) A-V:  0.000 Cache: 5.4s/2MB
+AV: 00:00:03 / 00:25:27 (0%) A-V:  0.000 Cache: 6.6s/2MB
+AV: 00:00:03 / 00:25:27 (0%) A-V:  0.000 Cache: 6.5s/2MB
+AV: 00:00:03 / 00:25:27 (0%) A-V:  0.000 Cache: 6.4s/2MB
+AV: 00:00:03 / 00:25:27 (0%) A-V:  0.000 Cache: 6.3s/2MB
+AV: 00:00:04 / 00:25:27 (0%) A-V:  0.000 Cache: 6.2s/2MB
+AV: 00:00:04 / 00:25:27 (0%) A-V:  0.000 Cache: 7.2s/2MB
+AV: 00:00:04 / 00:25:27 (0%) A-V:  0.000 Cache: 7.1s/2MB
+AV: 00:00:04 / 00:25:27 (0%) A-V:  0.000 Cache: 7.0s/2MB
+AV: 00:00:04 / 00:25:27 (0%) A-V:  0.000 Cache: 6.9s/2MB
+AV: 00:00:04 / 00:25:27 (0%) A-V:  0.000 Cache: 6.8s/2MB
+AV: 00:00:04 / 00:25:27 (0%) A-V:  0.000 Cache: 6.7s/2MB
+AV: 00:00:04 / 00:25:27 (0%) A-V:  0.000 Cache: 7.7s/2MB
+AV: 00:00:04 / 00:25:27 (0%) A-V:  0.000 Cache: 7.6s/2MB
+AV: 00:00:04 / 00:25:27 (0%) A-V:  0.000 Cache: 7.5s/2MB
+AV: 00:00:04 / 00:25:27 (0%) A-V:  0.000 Cache: 7.4s/2MB
+AV: 00:00:05 / 00:25:27 (0%) A-V:  0.000 Cache: 7.3s/2MB
+AV: 00:00:05 / 00:25:27 (0%) A-V:  0.000 Cache: 7.2s/2MB
+AV: 00:00:05 / 00:25:27 (0%) A-V:  0.000 Cache: 8.2s/3MB
+AV: 00:00:05 / 00:25:27 (0%) A-V:  0.000 Cache: 8.1s/3MB
+AV: 00:00:05 / 00:25:27 (0%) A-V:  0.000 Cache: 8.0s/3MB
+AV: 00:00:05 / 00:25:27 (0%) A-V:  0.000 Cache: 8.0s/2MB
+AV: 00:00:05 / 00:25:27 (0%) A-V:  0.000 Cache: 7.9s/2MB
+AV: 00:00:05 / 00:25:27 (0%) A-V:  0.000 Cache: 7.8s/2MB
+AV: 00:00:05 / 00:25:27 (0%) A-V:  0.000 Cache: 7.7s/2MB
+AV: 00:00:05 / 00:25:27 (0%) A-V:  0.000 Cache: 7.6s/2MB
+AV: 00:00:05 / 00:25:27 (0%) A-V:  0.000 Cache: 8.5s/2MB
+AV: 00:00:05 / 00:25:27 (0%) A-V:  0.000 Cache: 8.4s/2MB
+AV: 00:00:05 / 00:25:27 (0%) A-V:  0.000 Cache: 8.3s/2MB
+AV: 00:00:06 / 00:25:27 (0%) A-V:  0.000 Cache: 8.2s/2MB
+AV: 00:00:06 / 00:25:27 (0%) A-V:  0.000 Cache: 8.5s/2MB
+AV: 00:00:06 / 00:25:27 (0%) A-V:  0.000 Cache: 8.4s/2MB
+AV: 00:00:06 / 00:25:27 (0%) A-V:  0.000 Cache: 9.0s/3MB
+AV: 00:00:06 / 00:25:27 (0%) A-V:  0.000 Cache: 8.9s/3MB
+AV: 00:00:06 / 00:25:27 (0%) A-V:  0.000 Cache: 8.8s/2MB
+AV: 00:00:06 / 00:25:27 (0%) A-V:  0.000 Cache: 8.7s/2MB
+AV: 00:00:06 / 00:25:27 (0%) A-V:  0.000 Cache: 8.6s/2MB
+AV: 00:00:06 / 00:25:27 (0%) A-V:  0.000 Cache: 9.5s/2MB
+AV: 00:00:06 / 00:25:27 (0%) A-V:  0.000 Cache: 9.4s/2MB
+AV: 00:00:06 / 00:25:27 (0%) A-V:  0.000 Cache: 9.3s/2MB
+AV: 00:00:06 / 00:25:27 (0%) A-V:  0.000 Cache: 9.2s/2MB
+AV: 00:00:07 / 00:25:27 (0%) A-V:  0.000 Cache: 9.2s/2MB
+AV: 00:00:07 / 00:25:27 (0%) A-V:  0.000 Cache: 9.1s/2MB
+AV: 00:00:07 / 00:25:27 (0%) A-V:  0.000 Cache: 9.0s/2MB
+AV: 00:00:07 / 00:25:27 (0%) A-V:  0.000 Cache: 10.0s/3MB
+AV: 00:00:07 / 00:25:27 (0%) A-V:  0.000 Cache: 9.9s/3MB
+AV: 00:00:07 / 00:25:27 (0%) A-V:  0.000 Cache: 9.8s/3MB
+AV: 00:00:07 / 00:25:27 (0%) A-V:  0.000 Cache: 9.7s/3MB
+AV: 00:00:07 / 00:25:27 (0%) A-V:  0.000 Cache: 9.6s/3MB
+AV: 00:00:07 / 00:25:27 (0%) A-V:  0.000 Cache: 10s/3MB
+AV: 00:00:07 / 00:25:27 (1%) A-V:  0.000 Cache: 10s/3MB
+AV: 00:00:08 / 00:25:27 (1%) A-V:  0.000 Cache: 10s/3MB
+AV: 00:00:08 / 00:25:27 (1%) A-V:  0.000 Cache: 11s/3MB
+AV: 00:00:09 / 00:25:27 (1%) A-V:  0.000 Cache: 11s/3MB
+AV: 00:00:09 / 00:25:27 (1%) A-V:  0.000 Cache: 10s/3MB
+AV: 00:00:09 / 00:25:27 (1%) A-V:  0.000 Cache: 11s/3MB
+AV: 00:00:09 / 00:25:27 (1%) A-V:  0.000 Cache: 12s/3MB
+AV: 00:00:09 / 00:25:27 (1%) A-V:  0.000 Cache: 11s/3MB
+AV: 00:00:10 / 00:25:27 (1%) A-V:  0.000 Cache: 11s/3MB
+AV: 00:00:10 / 00:25:27 (1%) A-V:  0.000 Cache: 12s/4MB
+AV: 00:00:10 / 00:25:27 (1%) A-V:  0.000 Cache: 12s/3MB
+AV: 00:00:10 / 00:25:27 (1%) A-V:  0.000 Cache: 11s/3MB
+AV: 00:00:10 / 00:25:27 (1%) A-V:  0.000 Cache: 12s/4MB
+AV: 00:00:11 / 00:25:27 (1%) A-V:  0.000 Cache: 12s/4MB
+AV: 00:00:11 / 00:25:27 (1%) A-V:  0.000 Cache: 13s/4MB
+AV: 00:00:11 / 00:25:27 (1%) A-V:  0.000 Cache: 12s/4MB
+AV: 00:00:11 / 00:25:27 (1%) A-V:  0.000 Cache: 13s/4MB
+AV: 00:00:12 / 00:25:27 (1%) A-V:  0.000 Cache: 13s/4MB
+AV: 00:00:12 / 00:25:27 (1%) A-V:  0.000 Cache: 14s/4MB
+AV: 00:00:12 / 00:25:27 (1%) A-V:  0.000 Cache: 15s/4MB
+AV: 00:00:13 / 00:25:27 (1%) A-V:  0.000 Cache: 15s/4MB
+AV: 00:00:13 / 00:25:27 (1%) A-V:  0.000 Cache: 14s/4MB
+AV: 00:00:13 / 00:25:27 (1%) A-V:  0.000 Cache: 15s/4MB
+AV: 00:00:13 / 00:25:27 (1%) A-V:  0.000 Cache: 16s/4MB
+AV: 00:00:14 / 00:25:27 (1%) A-V:  0.000 Cache: 15s/4MB
+AV: 00:00:14 / 00:25:27 (1%) A-V:  0.000 Cache: 16s/4MB
+AV: 00:00:14 / 00:25:27 (1%) A-V:  0.000 Cache: 17s/4MB
+AV: 00:00:14 / 00:25:27 (1%) A-V:  0.000 Cache: 16s/4MB
+AV: 00:00:15 / 00:25:27 (1%) A-V:  0.000 Cache: 16s/4MB
+AV: 00:00:15 / 00:25:27 (1%) A-V:  0.000 Cache: 17s/5MB
+AV: 00:00:15 / 00:25:27 (1%) A-V:  0.000 Cache: 17s/4MB
+AV: 00:00:15 / 00:25:27 (1%) A-V:  0.000 Cache: 16s/4MB
+AV: 00:00:16 / 00:25:27 (1%) A-V:  0.000 Cache: 17s/5MB
+AV: 00:00:16 / 00:25:27 (1%) A-V:  0.000 Cache: 18s/5MB
+AV: 00:00:16 / 00:25:27 (1%) A-V:  0.000 Cache: 17s/5MB
+AV: 00:00:17 / 00:25:27 (1%) A-V:  0.000 Cache: 18s/5MB
+Saving state.
+AV: 00:00:17 / 00:25:27 (1%) A-V:  0.000 Cache: 18s/5MB
+Exiting... (Quit)
+● Audio  --aid=1  (mp3 2ch 48000 Hz 128 kbps)
+AO: [pipewire] 48000Hz stereo 2ch floatp
+A: 00:00:00 / 01:12:48 (0%) Cache: 49s/1MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 487s/17MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 1186s/43MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 1324s/48MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 1407s/51MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 1530s/56MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 1663s/61MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 1700s/62MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 1708s/63MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 1912s/70MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 2107s/77MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 2251s/83MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 2376s/87MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 2487s/91MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 2531s/93MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 2736s/100MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 2909s/107MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 3058s/112MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 3230s/119MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 3330s/122MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 3406s/125MB
+A: 00:00:00 / 01:12:48 (0%) Cache: 3469s/127MB
+A: 00:00:01 / 01:12:48 (0%) Cache: 3606s/132MB
+A: 00:00:01 / 01:12:48 (0%) Cache: 3732s/137MB
+A: 00:00:01 / 01:12:48 (0%) Cache: 3893s/143MB
+A: 00:00:01 / 01:12:48 (0%) Cache: 3988s/147MB
+A: 00:00:01 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:02 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:03 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:04 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:05 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:06 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:07 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:08 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:09 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:10 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:11 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:12 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:13 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:14 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:15 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:16 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:17 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:18 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:19 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:20 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:21 / 01:12:48 (0%) Cache: 4067s/150MB
+A: 00:00:21 / 01:12:48 (1%) Cache: 4067s/150MB
+A: 00:00:22 / 01:12:48 (1%) Cache: 4067s/150MB
+A: 00:00:23 / 01:12:48 (1%) Cache: 4067s/150MB
+A: 00:00:24 / 01:12:48 (1%) Cache: 4067s/150MB
+A: 00:00:25 / 01:12:48 (1%) Cache: 4067s/150MB
+A: 00:00:26 / 01:12:48 (1%) Cache: 4067s/150MB
+A: 00:00:27 / 01:12:48 (1%) Cache: 4067s/150MB
+A: 00:00:28 / 01:12:48 (1%) Cache: 4067s/150MB
+A: 00:00:29 / 01:12:48 (1%) Cache: 4067s/150MB
+A: 00:00:30 / 01:12:48 (1%) Cache: 4067s/150MB
+A: 00:00:31 / 01:12:48 (1%) Cache: 4067s/150MB
+A: 00:00:32 / 01:12:48 (1%) Cache: 4067s/150MB
+A: 00:00:33 / 01:12:48 (1%) Cache: 4067s/150MB
+A: 00:00:34 / 01:12:48 (1%) Cache: 4067s/150MB
+Saving state.
+A: 00:00:34 / 01:12:48 (1%) Cache: 4067s/150MB
+Exiting... (Quit)
+Resuming playback. This behavior can be disabled with --no-resume-playback.
+[ffmpeg] Unknown attached picture mimetype: image/, skipping.
+[ffmpeg/demuxer] mp3: Estimating duration from bitrate, this may be inaccurate
+● Audio  --aid=1  (mp3 2ch 44100 Hz 128 kbps)
+File tags:
+ Album: PBD Podcast
+ Date: 2022
+ Genre: Podcast
+ Title: Elon Musk's $1M Giveaway, Trump's Poll Dominance, Tim Pool Quits w/ Chael Sonnen | PBD Podcast | Ep. 491
+[E] pw.loop [loop.c:69 pw_loop_new()] 0x5654bfb12a30: can't make support.system handle: No such file or directory
+AO: [pulse] 44100Hz stereo 2ch float
+A: 00:02:50 / 02:15:07 (2%) Cache: 103s/3MB
+A: 00:02:50 / 02:15:07 (2%) Cache: 209s/7MB
+A: 00:02:50 / 02:15:07 (2%) Cache: 247s/8MB
+A: 00:02:50 / 02:15:07 (2%) Cache: 317s/11MB
+A: 00:02:50 / 02:15:07 (2%) Cache: 429s/15MB
+A: 00:02:50 / 02:15:07 (2%) Cache: 571s/20MB
+A: 00:02:50 / 02:15:07 (2%) Cache: 619s/22MB
+A: 00:02:50 / 02:15:07 (2%) Cache: 735s/26MB
+A: 00:02:50 / 02:15:07 (2%) Cache: 830s/29MB
+A: 00:02:50 / 02:15:07 (2%) Cache: 876s/31MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 997s/35MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 1067s/38MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 1206s/42MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 1311s/46MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 1397s/49MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 1528s/54MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 1601s/57MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 1691s/60MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 1830s/65MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 1921s/68MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 2052s/73MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 2129s/75MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 2183s/77MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 2228s/79MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 2324s/82MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 2445s/87MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 2530s/90MB
+A: 00:02:51 / 02:15:07 (2%) Cache: 2583s/92MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 2695s/96MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 2707s/96MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 2723s/97MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 2838s/101MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 2839s/101MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 2969s/105MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 3054s/108MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 3100s/110MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 3225s/114MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 3328s/118MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 3369s/120MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 3531s/125MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 3624s/129MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 3740s/133MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 3828s/136MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 3886s/138MB
+A: 00:02:52 / 02:15:07 (2%) Cache: 4014s/143MB
+A: 00:02:53 / 02:15:07 (2%) Cache: 4017s/143MB
+A: 00:02:53 / 02:15:07 (2%) Cache: 4068s/144MB
+A: 00:02:53 / 02:15:07 (2%) Cache: 4152s/147MB
+A: 00:02:53 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:02:54 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:02:55 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:02:56 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:02:57 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:02:58 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:02:59 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:00 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:01 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:02 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:03 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:04 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:05 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:06 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:07 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:08 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:09 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:10 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:11 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:12 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:13 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:14 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:15 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:16 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:17 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:18 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:19 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:20 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:21 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:22 / 02:15:07 (2%) Cache: 4209s/150MB
+A: 00:03:22 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:23 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:24 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:25 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:26 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:27 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:28 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:29 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:30 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:31 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:32 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:33 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:34 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:35 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:36 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:37 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:38 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:39 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:40 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:41 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:42 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:43 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:44 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:45 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:46 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:47 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:48 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:49 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:50 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:51 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:52 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:53 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:54 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:55 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:56 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:57 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:58 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:03:59 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:00 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:01 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:02 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:03 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:04 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:05 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:06 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:07 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:08 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:09 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:10 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:11 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:12 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:13 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:14 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:15 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:16 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:17 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:18 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:19 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:20 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:21 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:22 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:23 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:24 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:25 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:26 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:27 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:28 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:29 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:30 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:31 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:32 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:33 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:34 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:35 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:36 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:37 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:38 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:39 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:40 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:41 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:42 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:43 / 02:15:07 (3%) Cache: 4209s/150MB
+A: 00:04:43 / 02:15:07 (4%) Cache: 4209s/150MB
+A: 00:04:44 / 02:15:07 (4%) Cache: 4209s/150MB
+A: 00:04:45 / 02:15:07 (4%) Cache: 4209s/150MB
+A: 00:04:46 / 02:15:07 (4%) Cache: 4209s/150MB
+A: 00:04:47 / 02:15:07 (4%) Cache: 4209s/150MB
+Saving state.
+A: 00:04:47 / 02:15:07 (4%) Cache: 4209s/150MB
+Exiting... (Quit)
+● Image  --vid=1  (mjpeg 600x600)
+● Audio  --aid=1  (mp3 2ch 44100 Hz 128 kbps)
+File tags:
+ Artist: iHeartMedia, Inc. © Any use of this intellectual property for text and data mining or computational analysis including as training material for artificial intelligence systems is strictly prohibited without express written consent from iHeartMedia
+ Album: Masters in Business
+ Album_Artist: iHeartMedia, Inc. © Any use of this intellectual property for text and data mining or computational analysis including as training material for artificial intelligence systems is strictly prohibited without express written consent from iHeartMedia
+ Comment: 
+ Date: 2024
+ Genre: Podcast
+ Title: At The Money: Our Complicated Relationship With Cash
+Displaying cover art. Use --no-audio-display to prevent this.
+VO: [gpu] 600x600 yuv444p
+[E] pw.loop [loop.c:69 pw_loop_new()] 0x55efd3138b40: can't make support.system handle: No such file or directory
+AO: [pulse] 44100Hz stereo 2ch float
+AV: 00:00:00 / 00:15:41 (0%) Cache: 15s/559KB
+AV: 00:00:00 / 00:15:41 (0%) Cache: 25s/939KB
+AV: 00:00:00 / 00:15:41 (0%) Cache: 45s/1MB
+AV: 00:00:00 / 00:15:41 (0%) Cache: 74s/2MB
+AV: 00:00:00 / 00:15:41 (0%) Cache: 140s/5MB
+AV: 00:00:00 / 00:15:41 (0%) Cache: 271s/9MB
+AV: 00:00:00 / 00:15:41 (0%) Cache: 411s/14MB
+AV: 00:00:00 / 00:15:41 (0%) Cache: 655s/23MB
+AV: 00:00:00 / 00:15:41 (0%) Cache: 736s/26MB
+AV: 00:00:00 / 00:15:41 (0%) Cache: 744s/26MB
+AV: 00:00:00 / 00:15:41 (0%) Cache: 853s/30MB
+AV: 00:00:00 / 00:15:41 (0%) Cache: 867s/30MB
+AV: 00:00:00 / 00:15:41 (0%) Cache: 939s/33MB
+AV: 00:00:01 / 00:15:41 (0%) Cache: 939s/33MB
+AV: 00:00:01 / 00:15:41 (0%) Cache: 938s/33MB
+AV: 00:00:02 / 00:15:41 (0%) Cache: 938s/33MB
+AV: 00:00:02 / 00:15:41 (0%) Cache: 937s/33MB
+AV: 00:00:03 / 00:15:41 (0%) Cache: 937s/33MB
+AV: 00:00:03 / 00:15:41 (0%) Cache: 936s/33MB
+AV: 00:00:04 / 00:15:41 (0%) Cache: 936s/33MB
+AV: 00:00:04 / 00:15:41 (1%) Cache: 936s/33MB
+AV: 00:00:04 / 00:15:41 (1%) Cache: 935s/33MB
+AV: 00:00:05 / 00:15:41 (1%) Cache: 935s/33MB
+AV: 00:00:05 / 00:15:41 (1%) Cache: 934s/33MB
+AV: 00:00:06 / 00:15:41 (1%) Cache: 934s/33MB
+Saving state.
+AV: 00:00:06 / 00:15:41 (1%) Cache: 934s/33MB
+Exiting... (Quit)
+mpv 0.39.0 Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+ built on Oct 14 2024 17:14:10
+libplacebo version: v6.338.2
+FFmpeg version: 6.1.2
+FFmpeg library versions:
+   libavcodec      60.31.102
+   libavdevice     60.3.100
+   libavfilter     9.12.100
+   libavformat     60.16.100
+   libavutil       58.29.100
+   libswresample   4.12.100
+   libswscale      7.5.100
+Usage:   mpv [options] [url|path/]filename
+
+Basic options:
+ --start=<time>    seek to given (percent, seconds, or hh:mm:ss) position
+ --no-audio        do not play sound
+ --no-video        do not play video
+ --fs              fullscreen playback
+ --sub-file=<file> specify subtitle file to use
+ --playlist=<file> specify playlist file
+
+ --list-options    list all mpv options
+ --h=<string>      print options which contain the given string in their name
+mpv 0.39.0 Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+ built on Oct 14 2024 17:14:10
+libplacebo version: v6.338.2
+FFmpeg version: 6.1.2
+FFmpeg library versions:
+   libavcodec      60.31.102
+   libavdevice     60.3.100
+   libavfilter     9.12.100
+   libavformat     60.16.100
+   libavutil       58.29.100
+   libswresample   4.12.100
+   libswscale      7.5.100
+Usage:   mpv [options] [url|path/]filename
+
+Basic options:
+ --start=<time>    seek to given (percent, seconds, or hh:mm:ss) position
+ --no-audio        do not play sound
+ --no-video        do not play video
+ --fs              fullscreen playback
+ --sub-file=<file> specify subtitle file to use
+ --playlist=<file> specify playlist file
+
+ --list-options    list all mpv options
+ --h=<string>      print options which contain the given string in their name
+Resuming playback. This behavior can be disabled with --no-resume-playback.
+● Video  --vid=1  --vlang=eng  (vp9 1920x1080 60 fps) [default]
+● Audio  --aid=1  --alang=eng  (opus 2ch 48000 Hz) [default]
+File tags:
+ Date: 20241022
+ Uploader: Mental Outlaw
+ Channel_URL: https://www.youtube.com/channel/UC7YOGHUfC1Tb6E4pudI9STA
+[E] pw.loop [loop.c:69 pw_loop_new()] 0x55b00ba18920: can't make support.system handle: No such file or directory
+AO: [pulse] 48000Hz stereo 2ch float
+VO: [gpu] 1920x1080 yuv420p
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.0s/0KB
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.0s
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.001 Cache: 0.0s/11KB
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.004 Cache: 0.0s/9KB
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.0s/2KB
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.0s/1KB
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.0s/0KB
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.0s
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.0s
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.1s/43KB
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.0s/9KB
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.1s/43KB
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.0s/40KB
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.0s/74KB
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.1s/94KB
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.2s/156KB
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.3s/177KB
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.4s/234KB
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.5s/254KB
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.5s/294KB
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.6s/311KB
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.7s/352KB
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.8s/376KB
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.8s/405KB
+(Buffering) AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.9s/451KB
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.001 Cache: 1.0s/461KB
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 1.0s/458KB
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 1.0s/453KB
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 1.0s/452KB
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 1.0s/450KB
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.001 Cache: 1.0s/453KB
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.9s/452KB
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.9s/447KB
+AV: 00:00:02 / 00:09:27 (0%) A-V:  0.000 Cache: 0.9s/444KB
+AV: 00:00:02 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/442KB
+AV: 00:00:02 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/416KB
+AV: 00:00:02 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/427KB
+AV: 00:00:02 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/420KB
+AV: 00:00:02 / 00:09:27 (1%) A-V: -0.000 Cache: 0.9s/413KB
+AV: 00:00:02 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/410KB
+AV: 00:00:02 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/432KB
+AV: 00:00:02 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/431KB
+AV: 00:00:02 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/429KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.001 Cache: 0.9s/386KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.001 Cache: 0.9s/385KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.001 Cache: 0.8s/382KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/385KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/383KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/376KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/373KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/365KB
+AV: 00:00:03 / 00:09:27 (1%) A-V: -0.000 Cache: 0.8s/358KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/357KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/356KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/318KB
+AV: 00:00:03 / 00:09:27 (1%) A-V: -0.000 Cache: 0.7s/318KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.001 Cache: 0.8s/348KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/346KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/339KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/337KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/328KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/357KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/350KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/348KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/316KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/314KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/313KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/307KB
+AV: 00:00:03 / 00:09:27 (1%) A-V: -0.000 Cache: 0.7s/304KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/299KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.6s/297KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.001 Cache: 0.6s/292KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.6s/291KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.6s/258KB
+AV: 00:00:03 / 00:09:27 (1%) A-V: -0.000 Cache: 0.6s/256KB
+AV: 00:00:03 / 00:09:27 (1%) A-V: -0.000 Cache: 0.6s/249KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.6s/293KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.001 Cache: 0.5s/285KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/282KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/275KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/273KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.6s/297KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/269KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/268KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/267KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/261KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/258KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/272KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/270KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/268KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/240KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/239KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.4s/236KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.4s/231KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.4s/230KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.4s/229KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.4s/227KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.4s/242KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.001 Cache: 0.4s/241KB
+AV: 00:00:03 / 00:09:27 (1%) A-V: -0.000 Cache: 0.3s/234KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/233KB
+AV: 00:00:03 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/231KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.4s/251KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.4s/226KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.4s/223KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/216KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/215KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.001 Cache: 0.4s/225KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.4s/224KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.001 Cache: 0.4s/189KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/187KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/177KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/176KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/170KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/168KB
+AV: 00:00:04 / 00:09:27 (1%) A-V: -0.000 Cache: 0.3s/162KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/159KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/157KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/154KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/153KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/152KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.001 Cache: 0.2s/142KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/140KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/154KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/153KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/147KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/139KB
+AV: 00:00:04 / 00:09:27 (1%) A-V: -0.000 Cache: 0.2s/138KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.001 Cache: 0.2s/137KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/105KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.001 Cache: 0.2s/105KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/101KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/99KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/92KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/91KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/82KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/80KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/119KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/118KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/116KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.001 Cache: 0.1s/77KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/77KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/74KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/85KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/84KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/77KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/75KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/68KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/61KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/89KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/88KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.001 Cache: 0.1s/57KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/57KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/49KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/47KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/42KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.001 Cache: 0.0s/40KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/33KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/32KB
+AV: 00:00:04 / 00:09:27 (1%) A-V: -0.000 Cache: 0.0s/27KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/26KB
+AV: 00:00:04 / 00:09:27 (1%) A-V:  0.001 Cache: 0.0s/25KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/7KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/6KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/46KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.0s/45KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/43KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.0s/43KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.0s
+(Buffering) AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.0s
+(Buffering) AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.1s/25KB
+(Buffering) AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.1s/36KB
+(Buffering) AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.0s/33KB
+(Buffering) AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.0s/97KB
+(Buffering) AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.2s/142KB
+(Buffering) AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.2s/182KB
+(Buffering) AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.3s/204KB
+(Buffering) AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.4s/227KB
+(Buffering) AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.5s/294KB
+(Buffering) AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.5s/313KB
+(Buffering) AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.6s/350KB
+(Buffering) AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.6s/370KB
+(Buffering) AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.7s/394KB
+(Buffering) AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.9s/452KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 1.0s/519KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 1.0s/511KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 1.0s/510KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 1.0s/506KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 1.0s/504KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 1.0s/496KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/494KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/482KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/479KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.9s/416KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/460KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.9s/447KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/446KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/436KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/434KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/426KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/430KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/429KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/428KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/387KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/386KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.8s/408KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/407KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/398KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/397KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.7s/389KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/409KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.8s/399KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.8s/398KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/397KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/361KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/359KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/358KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/350KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.7s/348KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/367KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.7s/366KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.7s/357KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/349KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.6s/348KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/366KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/329KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/328KB
+AV: 00:00:05 / 00:09:27 (1%) A-V: -0.000 Cache: 0.7s/320KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.6s/317KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.6s/310KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/331KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.7s/321KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.001 Cache: 0.6s/318KB
+AV: 00:00:05 / 00:09:27 (1%) A-V:  0.000 Cache: 0.6s/310KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.6s/309KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/319KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.6s/283KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.6s/282KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.6s/281KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.6s/273KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.6s/271KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.001 Cache: 0.6s/265KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/262KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/260KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.001 Cache: 0.5s/226KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/225KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/223KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.5s/218KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.4s/215KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.4s/205KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.4s/204KB
+AV: 00:00:06 / 00:09:27 (1%) A-V: -0.000 Cache: 0.4s/196KB
+AV: 00:00:06 / 00:09:27 (1%) A-V: -0.000 Cache: 0.4s/194KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.4s/193KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/158KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/157KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/230KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/222KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/220KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/214KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/211KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/210KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/180KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/179KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/178KB
+AV: 00:00:06 / 00:09:27 (1%) A-V: -0.000 Cache: 0.2s/168KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/209KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/201KB
+AV: 00:00:06 / 00:09:27 (1%) A-V: -0.000 Cache: 0.3s/200KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/193KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.3s/191KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.001 Cache: 0.3s/164KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/163KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/154KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/153KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/147KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/143KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/172KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/170KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/163KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/162KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/161KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/164KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.001 Cache: 0.2s/163KB
+AV: 00:00:06 / 00:09:27 (1%) A-V: -0.000 Cache: 0.2s/89KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.001 Cache: 0.2s/61KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/61KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/59KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/58KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.001 Cache: 0.1s/57KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/54KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/52KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.001 Cache: 0.1s/51KB
+AV: 00:00:06 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/99KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/98KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/96KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/64KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/74KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/72KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/69KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/68KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/64KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/92KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.001 Cache: 0.1s/89KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/87KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/85KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.001 Cache: 0.1s/53KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/52KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/74KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/71KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/67KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/62KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/60KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/55KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/51KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/50KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/48KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/22KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.001 Cache: 0.1s/57KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/53KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/49KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/46KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/44KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/62KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/60KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/54KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/52KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.001 Cache: 0.0s/51KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/22KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/21KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/20KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/17KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/14KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.001 Cache: 0.0s/10KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/44KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/42KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/38KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/37KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.001 Cache: 0.0s/36KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.001 Cache: 0.0s/21KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/21KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/17KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.001 Cache: 0.0s/14KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/11KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/8KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.001 Cache: 0.0s/6KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.001 Cache: 0.0s/4KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/1KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/0KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.001 Cache: 0.1s/52KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/19KB
+AV: 00:00:07 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/17KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/15KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/12KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/11KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/8KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/5KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/1KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/0KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/33KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.001 Cache: 0.0s/8KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/8KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/5KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/3KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/13KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/11KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/8KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/5KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/2KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/0KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s
+(Buffering) AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s
+(Buffering) AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/13KB
+(Buffering) AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/24KB
+(Buffering) AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.0s/21KB
+(Buffering) AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/69KB
+(Buffering) AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.1s/68KB
+(Buffering) AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/83KB
+(Buffering) AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.2s/130KB
+(Buffering) AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.4s/151KB
+(Buffering) AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.4s/192KB
+(Buffering) AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.6s/253KB
+(Buffering) AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.7s/265KB
+(Buffering) AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.8s/313KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.001 Cache: 1.1s/383KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 1.1s/383KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 1.1s/380KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 1.1s/379KB
+AV: 00:00:08 / 00:09:27 (1%) A-V: -0.000 Cache: 1.0s/374KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 1.0s/371KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 1.0s/368KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 1.0s/364KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.001 Cache: 1.0s/361KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 1.0s/358KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/355KB
+AV: 00:00:08 / 00:09:27 (1%) A-V:  0.000 Cache: 0.9s/324KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/361KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/358KB
+AV: 00:00:08 / 00:09:27 (2%) A-V: -0.000 Cache: 1.0s/354KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/348KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/345KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/340KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/350KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.001 Cache: 1.0s/345KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/343KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/341KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.002 Cache: 1.0s/339KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/338KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/335KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/330KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/325KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 1.1s/344KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/339KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.001 Cache: 1.0s/335KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.001 Cache: 1.0s/330KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.001 Cache: 1.0s/328KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/327KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/325KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.001 Cache: 0.9s/323KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/321KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.001 Cache: 0.9s/316KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/313KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/336KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/332KB
+AV: 00:00:08 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/328KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.001 Cache: 1.0s/324KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/322KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/343KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/314KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/313KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/310KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/305KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/315KB
+AV: 00:00:09 / 00:09:27 (2%) A-V: -0.000 Cache: 1.0s/312KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/308KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/305KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/301KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/298KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/296KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/267KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/266KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.001 Cache: 0.9s/263KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.001 Cache: 0.9s/259KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/254KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/251KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.001 Cache: 0.8s/248KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/242KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.001 Cache: 0.8s/239KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/292KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/290KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/264KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.001 Cache: 0.7s/263KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/259KB
+AV: 00:00:09 / 00:09:27 (2%) A-V: -0.000 Cache: 0.7s/256KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/287KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/284KB
+AV: 00:00:09 / 00:09:27 (2%) A-V: -0.000 Cache: 0.9s/281KB
+AV: 00:00:09 / 00:09:27 (2%) A-V: -0.000 Cache: 0.8s/276KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/271KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.001 Cache: 0.8s/269KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.001 Cache: 0.8s/268KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/247KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/243KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/240KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/237KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/233KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/229KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/281KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/275KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/273KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.001 Cache: 0.7s/273KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/250KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.001 Cache: 0.7s/267KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/264KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/259KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/254KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.001 Cache: 0.7s/253KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.001 Cache: 0.7s/249KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.001 Cache: 0.6s/246KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/242KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/239KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/238KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/218KB
+AV: 00:00:09 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/259KB
+AV: 00:00:10 / 00:09:27 (2%) A-V: -0.001 Cache: 0.6s/256KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/252KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/248KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/245KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/261KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/258KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.001 Cache: 0.6s/254KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/252KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/250KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/252KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/251KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/249KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/247KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/244KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.001 Cache: 0.5s/240KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/238KB
+AV: 00:00:10 / 00:09:27 (2%) A-V: -0.000 Cache: 0.5s/236KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/232KB
+AV: 00:00:10 / 00:09:27 (2%) A-V: -0.000 Cache: 0.4s/231KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/229KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.001 Cache: 0.5s/220KB
+AV: 00:00:10 / 00:09:27 (2%) A-V: -0.000 Cache: 0.5s/212KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/211KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/209KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/207KB
+AV: 00:00:10 / 00:09:27 (2%) A-V: -0.000 Cache: 0.5s/227KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.001 Cache: 0.5s/222KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/220KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/216KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.001 Cache: 0.4s/212KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.001 Cache: 0.4s/211KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/209KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.001 Cache: 0.4s/170KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/170KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/165KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/161KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/192KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/190KB
+AV: 00:00:10 / 00:09:27 (2%) A-V: -0.000 Cache: 0.3s/185KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/182KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/176KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/194KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.001 Cache: 0.3s/193KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/156KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.001 Cache: 0.3s/154KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/150KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/145KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.001 Cache: 0.3s/154KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/150KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/146KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/140KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.001 Cache: 0.3s/136KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/134KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.001 Cache: 0.2s/132KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.001 Cache: 0.2s/102KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.001 Cache: 0.2s/101KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/140KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/135KB
+AV: 00:00:10 / 00:09:27 (2%) A-V:  0.001 Cache: 0.2s/129KB
+AV: 00:00:10 / 00:09:27 (2%) A-V: -0.000 Cache: 0.2s/125KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/121KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/144KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/138KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.001 Cache: 0.2s/135KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/133KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.001 Cache: 0.2s/99KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/98KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/96KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/92KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/87KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.001 Cache: 0.1s/82KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/78KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/74KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.001 Cache: 0.1s/68KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/66KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/64KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/29KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.001 Cache: 0.0s/29KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/75KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.001 Cache: 0.0s/70KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/66KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/60KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/59KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/79KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/73KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/71KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/70KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/33KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/29KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/24KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.001 Cache: 0.0s/20KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/49KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.001 Cache: 0.0s/45KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/41KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/35KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/34KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.001 Cache: 0.0s/52KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/23KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.001 Cache: 0.0s/23KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/19KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.001 Cache: 0.0s/15KB
+AV: 00:00:11 / 00:09:27 (2%) A-V: -0.000 Cache: 0.0s/11KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/17KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/11KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/7KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/2KB
+AV: 00:00:11 / 00:09:27 (2%) A-V: -0.000 Cache: 0.0s/0KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s
+(Buffering) AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s
+(Buffering) AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/10KB
+(Buffering) AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/33KB
+(Buffering) AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.0s/28KB
+(Buffering) AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/84KB
+(Buffering) AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/83KB
+(Buffering) AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/101KB
+(Buffering) AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/162KB
+(Buffering) AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/217KB
+(Buffering) AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/246KB
+(Buffering) AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/318KB
+(Buffering) AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/378KB
+(Buffering) AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/391KB
+(Buffering) AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/435KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.003 Cache: 1.0s/455KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/454KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/449KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/448KB
+AV: 00:00:11 / 00:09:27 (2%) A-V: -0.000 Cache: 1.0s/442KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/450KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/446KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/442KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/437KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 1.0s/434KB
+AV: 00:00:11 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/432KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/396KB
+AV: 00:00:12 / 00:09:27 (2%) A-V: -0.000 Cache: 0.9s/395KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/391KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/386KB
+AV: 00:00:12 / 00:09:27 (2%) A-V: -0.000 Cache: 0.9s/381KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/422KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/417KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/415KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/409KB
+AV: 00:00:12 / 00:09:27 (2%) A-V: -0.000 Cache: 0.9s/407KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/419KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.001 Cache: 0.9s/382KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/382KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/377KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/371KB
+AV: 00:00:12 / 00:09:27 (2%) A-V: -0.000 Cache: 0.9s/367KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/362KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/358KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/352KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/346KB
+AV: 00:00:12 / 00:09:27 (2%) A-V: -0.000 Cache: 0.8s/344KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.001 Cache: 0.8s/388KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/357KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/353KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/347KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/370KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.9s/365KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.001 Cache: 0.8s/361KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.001 Cache: 0.8s/357KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/351KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/348KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/347KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.8s/312KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/311KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/307KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/299KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/296KB
+AV: 00:00:12 / 00:09:27 (2%) A-V: -0.000 Cache: 0.7s/293KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/288KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.001 Cache: 0.6s/284KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/279KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/326KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/324KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/289KB
+AV: 00:00:12 / 00:09:27 (2%) A-V: -0.000 Cache: 0.6s/289KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/284KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/303KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/297KB
+AV: 00:00:12 / 00:09:27 (2%) A-V: -0.000 Cache: 0.7s/292KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.7s/288KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/282KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/278KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/276KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/274KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.001 Cache: 0.6s/241KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.001 Cache: 0.5s/240KB
+AV: 00:00:12 / 00:09:27 (2%) A-V: -0.000 Cache: 0.5s/236KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/267KB
+AV: 00:00:12 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/262KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/258KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/252KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/247KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/265KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/262KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/260KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.6s/234KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/232KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/229KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/226KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/221KB
+AV: 00:00:13 / 00:09:27 (2%) A-V: -0.000 Cache: 0.5s/218KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/250KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/245KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/241KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/238KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/237KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/202KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/227KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/221KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/217KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/210KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/208KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/208KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.5s/204KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/197KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/196KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/194KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/158KB
+AV: 00:00:13 / 00:09:27 (2%) A-V: -0.000 Cache: 0.4s/153KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/147KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.001 Cache: 0.3s/143KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/138KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.001 Cache: 0.4s/187KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/182KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/176KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/175KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/173KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.4s/157KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/153KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/147KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/144KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/139KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.3s/135KB
+AV: 00:00:13 / 00:09:27 (2%) A-V: -0.000 Cache: 0.3s/132KB
+AV: 00:00:13 / 00:09:27 (2%) A-V: -0.000 Cache: 0.2s/127KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/125KB
+AV: 00:00:13 / 00:09:27 (2%) A-V: -0.000 Cache: 0.2s/124KB
+AV: 00:00:13 / 00:09:27 (2%) A-V: -0.000 Cache: 0.2s/132KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/131KB
+AV: 00:00:13 / 00:09:27 (2%) A-V: -0.000 Cache: 0.2s/130KB
+AV: 00:00:13 / 00:09:27 (2%) A-V: -0.000 Cache: 0.2s/126KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/145KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/142KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/137KB
+AV: 00:00:13 / 00:09:27 (2%) A-V: -0.000 Cache: 0.2s/133KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/128KB
+AV: 00:00:13 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/135KB
+AV: 00:00:14 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/134KB
+AV: 00:00:14 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/101KB
+AV: 00:00:14 / 00:09:27 (2%) A-V:  0.000 Cache: 0.2s/99KB
+AV: 00:00:14 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/95KB
+AV: 00:00:14 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/91KB
+AV: 00:00:14 / 00:09:27 (2%) A-V: -0.000 Cache: 0.1s/87KB
+AV: 00:00:14 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/111KB
+AV: 00:00:14 / 00:09:27 (2%) A-V: -0.000 Cache: 0.1s/109KB
+AV: 00:00:14 / 00:09:27 (2%) A-V: -0.000 Cache: 0.1s/105KB
+AV: 00:00:14 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/100KB
+AV: 00:00:14 / 00:09:27 (2%) A-V:  0.000 Cache: 0.1s/98KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.1s/120KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.1s/83KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.1s/78KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.1s/73KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.1s/78KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.1s/73KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.003 Cache: 0.1s/68KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.002 Cache: 0.1s/64KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.1s/57KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/56KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/55KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/26KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/25KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.0s/22KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.0s/65KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.0s/62KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/57KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.0s/54KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.0s/51KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.1s/62KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.1s/61KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/58KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.005 Cache: 0.0s/25KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.001 Cache: 0.0s/25KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/21KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.0s/19KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/16KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/12KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.0s/9KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.0s/6KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/42KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/41KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/40KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/10KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.0s/25KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/22KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.001 Cache: 0.0s/18KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.0s/15KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.0s/11KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/7KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/6KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.0s/2KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.0s/0KB
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s
+AV: 00:00:14 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/7KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.0s/3KB
+AV: 00:00:14 / 00:09:27 (3%) A-V: -0.000 Cache: 0.0s
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/17KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/13KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/10KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/6KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/1KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/0KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s
+(Buffering) AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s
+(Buffering) AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/13KB
+(Buffering) AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 0.1s/30KB
+(Buffering) AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/25KB
+(Buffering) AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 0.0s/48KB
+(Buffering) AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 0.3s/99KB
+(Buffering) AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 0.7s/207KB
+(Buffering) AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 0.9s/240KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.001 Cache: 1.1s/269KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.001 Cache: 1.0s/268KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.0s/265KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.0s/261KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.001 Cache: 1.2s/306KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.2s/302KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.2s/299KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.2s/295KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.2s/290KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.3s/314KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.3s/312KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.3s/290KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.001 Cache: 1.3s/289KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.3s/285KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.001 Cache: 1.3s/280KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.6s/321KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.5s/315KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.5s/312KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.5s/308KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.001 Cache: 1.5s/303KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.001 Cache: 1.7s/338KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.7s/337KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.7s/327KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.001 Cache: 1.7s/327KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.7s/325KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 2.0s/362KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 2.0s/361KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.9s/359KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.001 Cache: 1.9s/356KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 1.9s/356KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 2.2s/335KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.001 Cache: 2.2s/334KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.001 Cache: 2.2s/333KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.001 Cache: 2.2s/331KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 2.2s/329KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 2.5s/373KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 2.5s/371KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.001 Cache: 2.5s/370KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 2.5s/368KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 2.5s/366KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 2.4s/364KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 2.8s/391KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 2.8s/389KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.001 Cache: 2.8s/387KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 2.7s/386KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 3.0s/425KB
+AV: 00:00:15 / 00:09:27 (3%) A-V: -0.000 Cache: 3.0s/424KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 3.0s/422KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 3.0s/419KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 3.0s/418KB
+AV: 00:00:15 / 00:09:27 (3%) A-V:  0.000 Cache: 3.3s/457KB
+AV: 00:00:15 / 00:09:27 (3%) A-V: -0.000 Cache: 3.3s/441KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 3.3s/441KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 3.2s/438KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 3.2s/436KB
+AV: 00:00:16 / 00:09:27 (3%) A-V: -0.000 Cache: 3.2s/435KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 3.5s/475KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 3.5s/473KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.001 Cache: 3.5s/472KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 3.5s/469KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 3.5s/467KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 3.9s/515KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 3.9s/505KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 3.9s/504KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 3.8s/502KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 3.8s/501KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.2s/541KB
+AV: 00:00:16 / 00:09:27 (3%) A-V: -0.000 Cache: 4.2s/540KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.2s/538KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.2s/536KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.2s/533KB
+AV: 00:00:16 / 00:09:27 (3%) A-V: -0.000 Cache: 4.1s/530KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.1s/529KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.1s/528KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.1s/501KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.3s/537KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.2s/534KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.2s/533KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.2s/531KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.2s/530KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.4s/567KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.4s/566KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.3s/563KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.3s/561KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.3s/560KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.3s/549KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.5s/581KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.5s/580KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.5s/577KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.4s/576KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.4s/575KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.7s/612KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.7s/610KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.001 Cache: 4.7s/608KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.7s/606KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 5.0s/648KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 5.0s/641KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 5.0s/640KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.001 Cache: 5.0s/639KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 5.0s/637KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 4.9s/635KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.001 Cache: 5.1s/662KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 5.1s/661KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 5.1s/659KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.001 Cache: 5.1s/657KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 5.1s/656KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.001 Cache: 5.4s/696KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.001 Cache: 5.4s/691KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 5.4s/690KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.000 Cache: 5.3s/688KB
+AV: 00:00:16 / 00:09:27 (3%) A-V:  0.001 Cache: 5.3s/687KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 5.7s/731KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 5.7s/728KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.001 Cache: 5.7s/727KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 5.6s/726KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 5.6s/723KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.001 Cache: 5.6s/723KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 5.8s/754KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 5.8s/743KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 5.8s/741KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.001 Cache: 5.8s/739KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.1s/782KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.1s/780KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.1s/778KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.1s/777KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.1s/774KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.001 Cache: 6.3s/804KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.3s/804KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.3s/797KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.3s/795KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.3s/794KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.3s/793KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.001 Cache: 6.6s/834KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.6s/833KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.6s/832KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.6s/831KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.5s/828KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.9s/867KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.9s/866KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.8s/859KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.0s/880KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.0s/877KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.9s/875KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 6.9s/873KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.3s/921KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.3s/919KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.2s/917KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.001 Cache: 7.2s/916KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.2s/909KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.2s/908KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.6s/958KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.6s/956KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.6s/954KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.001 Cache: 7.6s/953KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.9s/989KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.9s/987KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.001 Cache: 7.9s/986KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.9s/984KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.001 Cache: 7.9s/982KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.001 Cache: 7.8s/996KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.8s/994KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.8s/993KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.8s/991KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.8s/990KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.7s/988KB
+AV: 00:00:17 / 00:09:27 (3%) A-V:  0.000 Cache: 7.7s/986KB
+AV: 00:00:18 / 00:09:27 (3%) A-V:  0.001 Cache: 7.7s/985KB
+AV: 00:00:18 / 00:09:27 (3%) A-V:  0.000 Cache: 7.7s/984KB
+AV: 00:00:18 / 00:09:27 (3%) A-V:  0.000 Cache: 7.7s/976KB
+AV: 00:00:18 / 00:09:27 (3%) A-V:  0.001 Cache: 7.7s/975KB
+AV: 00:00:18 / 00:09:27 (3%) A-V:  0.000 Cache: 7.7s/974KB
+AV: 00:00:18 / 00:09:27 (3%) A-V:  0.000 Cache: 7.6s/972KB
+AV: 00:00:18 / 00:09:27 (3%) A-V:  0.001 Cache: 7.6s/970KB
+AV: 00:00:18 / 00:09:27 (3%) A-V:  0.000 Cache: 7.6s/970KB
+AV: 00:00:18 / 00:09:27 (3%) A-V:  0.000 Cache: 7.6s/968KB
+AV: 00:00:18 / 00:09:27 (3%) A-V:  0.001 Cache: 7.6s/966KB
+AV: 00:00:18 / 00:09:27 (3%) A-V:  0.000 Cache: 7.6s/965KB
+AV: 00:00:18 / 00:09:27 (3%) A-V:  0.000 Cache: 7.5s/962KB
+Saving state.
+AV: 00:00:18 / 00:09:27 (3%) A-V:  0.000 Cache: 7.5s/962KB
+Exiting... (Quit)

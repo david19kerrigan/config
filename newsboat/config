@@ -43,3 +43,6 @@ bind-key g home
 bind-key d pagedown
 bind-key u pageup
 bind-key a toggle-article-read
+
+macro 1 set browser "setsid -f mpv"; open-in-browser
+macro 2 set browser "setsid -f mpv --force-window"; one
