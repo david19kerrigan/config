@@ -43,4 +43,3 @@ bind-key g home
 bind-key d pagedown
 bind-key u pageup
 bind-key a toggle-article-read
-bind-key c toggle-show-read-feeds
