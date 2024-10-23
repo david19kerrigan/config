@@ -30,13 +30,13 @@ HISTSIZE=100000
 export EDITOR="vis"
 export GPG_TTY=$(tty)
 export PATH=$PATH:~/.local/bin
-export NNN_ORDER='r:/home/david/Downloads/Podcasts'
+export NNN_TRASH=1
 
 alias c="cd ; clear"
-
+alias rm="trash-put"
 alias fzo='vis $(fzf --preview "bat -n --color=always {}")'
 alias fzc='cd $(fzf --preview "bat -n --color=always {}" | awk -F/ "NF{NF--};1" OFS=/)'
-alias lgc='cd "$(dirname "$(lgd | awk -F":" "{print \$1}")")"'
+alias lgc='cd "$(dirname "$(lgd)")"'
 alias gtp='git add --all; git commit -a -m "auto commit"; git push'
 alias gtu='git pull'
 alias gtb="git rev-parse --abbrev-ref HEAD"
