@@ -1,8 +1,10 @@
 -- load standard vis module, providing parts of the Lua API
 require('vis')
+require('themes/dark')
 
 vis.events.subscribe(vis.events.INIT, function()
 	vis:command('map normal ZX :q!<Enter>')
+	vis:command('set theme dark')
 end) 
 
 vis.events.subscribe(vis.events.WIN_OPEN, function(win)
@@ -17,8 +19,8 @@ local plug = require('vis-plug/init')
 -- configure plugins in an array of tables with git urls and options 
 local plugins = {
   { 'kupospelov/vis-ctags' },
-  { 'milhnl/vis-backspace' },
-  { 'samlwood/vis-gruvbox', theme = true, file = 'gruvbox' },
+  -- { 'milhnl/vis-backspace' },
+  -- { 'samlwood/vis-gruvbox', theme = true, file = 'gruvbox' },
 }
 
 -- require and optionally install plugins on init
