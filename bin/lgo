@@ -9,6 +9,6 @@ INITIAL_QUERY="${*:-}"
     --bind "start:reload:$RG_PREFIX {q}" \
     --bind "change:reload:sleep 0.1; $RG_PREFIX {q} || true" \
     --delimiter : \
-    --preview 'bat --theme=gruvbox-dark --color=always {1} --highlight-line {2}' \
+    --preview 'bat --theme=base16 --color=always {1} --highlight-line {2}' \
     --preview-window 'up,60%,border-bottom,+{2}+3/3,~3' \
 	--bind 'enter:become(vis +{2} {1})'
