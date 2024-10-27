@@ -1,7 +1,7 @@
 browser "firefox"
 
 color listnormal blue default
-color listnormal_unread cyan default
+color listnormal_unread green default
 color listfocus yellow color234 bold
 color listfocus_unread yellow color234 bold
 color info red default
