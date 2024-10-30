@@ -36,7 +36,7 @@ export NNN_TRASH=1
 alias c="cd ; clear"
 alias rm="trash-put"
 alias fzo='vis $(fzf --preview "bat -n --color=always {}")'
-alias fzc='cd $(fzf --preview "bat -n --color=always {}" | awk -F/ "NF{NF--};1" OFS=/)'
+alias fzc='cd $(dirname $(fzf --preview "bat -n --color=always {}"))'
 alias lgc='cd "$(dirname "$(lgd)")"'
 alias gtp='git add --all; git commit -a -m "auto commit"; git push'
 alias gtu='git pull'
