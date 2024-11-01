@@ -3,6 +3,7 @@ require('vis')
 
 vis.events.subscribe(vis.events.INIT, function()
 	vis:command('map normal ZX :q!<Enter>')
+	vis:command('set theme mocha')
 end) 
 
 vis.events.subscribe(vis.events.WIN_OPEN, function(win)
@@ -18,7 +19,7 @@ local plug = require('vis-plug/init')
 local plugins = {
   { 'kupospelov/vis-ctags' },
   -- { 'milhnl/vis-backspace' },
-  { 'samlwood/vis-gruvbox', theme = true, file = 'gruvbox' },
+  -- { 'samlwood/vis-gruvbox', theme = true, file = 'gruvbox' },
 }
 
 -- require and optionally install plugins on init
