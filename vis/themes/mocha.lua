@@ -68,11 +68,11 @@ vis.lexers.STYLE_IDENTIFIER		= 'fore:'..colors.fg0
 
 vis.lexers.STYLE_LINENUMBER		= 'fore:'..colors.bg4
 vis.lexers.STYLE_LINENUMBER_CURSOR	= 'fore:'..colors.yellow..',back:'..colors.bg1
-vis.lexers.STYLE_CURSOR			= 'back:'..colors.bg0..',fore:'..colors.fg0
+vis.lexers.STYLE_CURSOR			= 'back:'..colors.fg0..',fore:'..colors.bg0
 vis.lexers.STYLE_CURSOR_PRIMARY		= vis.lexers.STYLE_CURSOR..',fore:'..colors.yellow
 vis.lexers.STYLE_CURSOR_LINE		= 'back:'..colors.bg1
 vis.lexers.STYLE_COLOR_COLUMN		= 'reverse'
-vis.lexers.STYLE_SELECTION		= 'back:'..colors.bg3..',reverse'
+vis.lexers.STYLE_SELECTION		= 'back:'..colors.bg2..',fore:default'
 vis.lexers.STYLE_STATUS			= 'fore:'..colors.bg1..',back:'..colors.fg4..',reverse'
 vis.lexers.STYLE_STATUS_FOCUSED		= 'fore:'..colors.bg2..',back:'..colors.fg1..',reverse'
 vis.lexers.STYLE_SEPARATOR		= 'fore:'..colors.bg3
