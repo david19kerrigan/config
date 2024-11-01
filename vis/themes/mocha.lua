@@ -44,7 +44,7 @@ colors.aqua	= gruvbox.aqua0
 colors.orange	= gruvbox.orange0
 
 -- To use your terminal's default background (e.g. for transparency), set the value below to 'back:default,fore:'..colors.fg1
-vis.lexers.STYLE_DEFAULT		= 'back:'..colors.bg0..',fore:'..colors.fg1
+vis.lexers.STYLE_DEFAULT		= 'back:'..colors.bg0..',fore:'..colors.blue
 vis.lexers.STYLE_NOTHING		= ''
 vis.lexers.STYLE_CLASS			= 'fore:'..colors.yellow
 vis.lexers.STYLE_COMMENT		= 'fore:'..colors.gray..',italics'
@@ -64,11 +64,11 @@ vis.lexers.STYLE_TYPE			= 'fore:'..colors.yellow
 vis.lexers.STYLE_VARIABLE		= 'fore:'..colors.blue
 vis.lexers.STYLE_WHITESPACE		= ''
 vis.lexers.STYLE_EMBEDDED		= 'fore:'..colors.orange
-vis.lexers.STYLE_IDENTIFIER		= 'fore:'..colors.blue
+vis.lexers.STYLE_IDENTIFIER		= 'fore:'..colors.fg0
 
 vis.lexers.STYLE_LINENUMBER		= 'fore:'..colors.bg4
 vis.lexers.STYLE_LINENUMBER_CURSOR	= 'fore:'..colors.yellow..',back:'..colors.bg1
-vis.lexers.STYLE_CURSOR			= 'reverse'
+vis.lexers.STYLE_CURSOR			= 'back:'..colors.bg0..',fore:'..colors.fg0
 vis.lexers.STYLE_CURSOR_PRIMARY		= vis.lexers.STYLE_CURSOR..',fore:'..colors.yellow
 vis.lexers.STYLE_CURSOR_LINE		= 'back:'..colors.bg1
 vis.lexers.STYLE_COLOR_COLUMN		= 'reverse'
