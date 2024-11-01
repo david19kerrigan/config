@@ -1,6 +1,5 @@
 -- load standard vis module, providing parts of the Lua API
 require('vis')
-require('themes/dark')
 
 vis.events.subscribe(vis.events.INIT, function()
 	vis:command('map normal ZX :q!<Enter>')
