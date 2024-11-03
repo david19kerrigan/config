@@ -33,6 +33,9 @@ export GPG_TTY=$(tty)
 export PATH=$PATH:~/.local/bin
 export NNN_TRASH=1
 
+alias c="cd ; clear"
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
 alias trp="trash-put"
 alias fzo='vis $(fzf --preview "bat -n --color=always {}")'
 alias fzc='cd $(dirname $(fzf --preview "bat -n --color=always {}"))'
@@ -43,8 +46,6 @@ alias gtb="git rev-parse --abbrev-ref HEAD"
 alias upd="sudo xbps-install -Su"
 alias autor="sudo xbps-remove -o"
 alias useri="sudo xbps-query -m"
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
 alias nmr='nmcli device wifi resc'
 alias neo='neomutt'
 alias new='newsboat'
