@@ -33,8 +33,7 @@ export GPG_TTY=$(tty)
 export PATH=$PATH:~/.local/bin
 export NNN_TRASH=1
 
-alias c="cd ; clear"
-alias rm="trash-put"
+alias trp="trash-put"
 alias fzo='vis $(fzf --preview "bat -n --color=always {}")'
 alias fzc='cd $(dirname $(fzf --preview "bat -n --color=always {}"))'
 alias lgc='cd "$(dirname "$(lgd)")"'
@@ -59,4 +58,4 @@ alias xbi='sudo xbps-install'
 alias xbr='sudo xbps-remove -R'
 alias xbq='sudo xbps-query -Rs'
 alias psm='pulsemixer'
-alias cw='curl wttr.in/New+York+City'
+alias cwr='curl wttr.in/New+York+City'
