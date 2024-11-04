@@ -37,6 +37,7 @@ alias c="cd ; clear"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias spv='setsid -f mpv'
+alias xrb='xrandr --output eDP-1 --brightness'
 alias trp="trash-put"
 alias fzo='vis $(fzf --preview "bat -n --color=always {}")'
 alias fzc='cd $(dirname $(fzf --preview "bat -n --color=always {}"))'
