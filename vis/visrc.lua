@@ -4,6 +4,7 @@ require('vis')
 vis.events.subscribe(vis.events.INIT, function()
 	vis:command('map normal ZX :q!<Enter>')
 	vis:command('set theme mocha')
+    vis:map(vis.modes.INSERT, 'jj', '<Escape>')
 end) 
 
 vis.events.subscribe(vis.events.WIN_OPEN, function(win)
