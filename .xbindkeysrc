@@ -1,11 +1,26 @@
 "pactl set-sink-volume @DEFAULT_SINK@ +5%"
+    Shift + Control + M
+
+"pactl set-sink-volume @DEFAULT_SINK@ -5%"
+    Shift + Control + N
+
+"exec mpc toggle ; playerctl play-pause"
+    Shift + Control + K
+
+"exec mpc next ; playerctl next"
+    Shift + Control + L
+
+"exec mpc prev ; playerctl previous"
+    Shift + Control + J
+
+"pactl set-sink-volume @DEFAULT_SINK@ +5%"
     XF86AudioRaiseVolume
 
 "pactl set-sink-volume @DEFAULT_SINK@ -5%"
     XF86AudioLowerVolume 
 
 "exec mpc toggle ; playerctl play-pause"
-    XF86AudioPlay 
+    XF86AudioPlay
 
 "exec mpc toggle ; playerctl play-pause"
     XF86AudioPause 
