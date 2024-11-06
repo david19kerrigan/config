@@ -1,17 +1,32 @@
 "pactl set-sink-volume @DEFAULT_SINK@ +5%"
-    Shift + Control + M
+    XF86AudioRaiseVolume	
 
 "pactl set-sink-volume @DEFAULT_SINK@ -5%"
-    Shift + Control + N
+    XF86AudioLowerVolume
 
 "exec mpc toggle ; playerctl play-pause"
-    Shift + Control + K
+    Shift + Alt + K
 
 "exec mpc next ; playerctl next"
-    Shift + Control + L
+    Shift + Alt + L
 
 "exec mpc prev ; playerctl previous"
-    Shift + Control + J
+    Shift + Alt + J
+
+"loginctl suspend"
+    Shift + Alt + S
+
+"loginctl poweroff"
+    Shift + Alt + P
+
+"loginctl reboot"
+    Shift + Alt + R
+
+"/home/david/.local/bin/pmenu"
+    Shift + Alt + N
+
+"/home/david/.local/bin/omenu"
+    Shift + Alt + M
 
 "exec brightnessctl set 10%+"
     XF86MonBrightnessUp
