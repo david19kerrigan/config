@@ -19,8 +19,6 @@ local plug = require('vis-plug/init')
 -- configure plugins in an array of tables with git urls and options 
 local plugins = {
   { 'kupospelov/vis-ctags' },
-  -- { 'milhnl/vis-backspace' },
-  -- { 'samlwood/vis-gruvbox', theme = true, file = 'gruvbox' },
 }
 
 -- require and optionally install plugins on init

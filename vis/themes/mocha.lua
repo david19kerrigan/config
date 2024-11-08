@@ -1,6 +1,3 @@
--- Catppuccin color scheme by Pavel Pertsev (https://github.com/morhetz)
--- For the Vis text editor by Marc Tanner (https://github.com/martanne)
-
 local gruvbox = {
 	dark0	= '#1e1e2e',
 	dark1	= '#313244',
@@ -47,7 +44,7 @@ colors.orange	= gruvbox.orange0
 vis.lexers.STYLE_DEFAULT		= 'back:'..colors.bg0..',fore:'..colors.blue
 vis.lexers.STYLE_NOTHING		= ''
 vis.lexers.STYLE_CLASS			= 'fore:'..colors.yellow
-vis.lexers.STYLE_COMMENT		= 'fore:'..colors.gray..',italics'
+vis.lexers.STYLE_COMMENT		= 'fore:'..colors.gray
 vis.lexers.STYLE_CONSTANT		= 'fore:'..colors.purple
 vis.lexers.STYLE_DEFINITION		= 'fore:'..colors.yellow
 vis.lexers.STYLE_ERROR			= 'fore:'..colors.red..',back:'..colors.bg0..',reverse'
@@ -76,5 +73,5 @@ vis.lexers.STYLE_SELECTION		= 'back:'..colors.bg2..',fore:default'
 vis.lexers.STYLE_STATUS			= 'fore:'..colors.bg1..',back:'..colors.fg4..',reverse'
 vis.lexers.STYLE_STATUS_FOCUSED		= 'fore:'..colors.bg2..',back:'..colors.fg1..',reverse'
 vis.lexers.STYLE_SEPARATOR		= 'fore:'..colors.bg3
-vis.lexers.STYLE_INFO			= 'fore:'..colors.yellow..',bold'
+vis.lexers.STYLE_INFO			= 'fore:'..colors.yellow
 vis.lexers.STYLE_EOF			= vis.lexers.STYLE_LINENUMBER
