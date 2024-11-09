@@ -14,13 +14,13 @@
     Shift + Alt + J
 
 "loginctl suspend"
-    Shift + Alt + S
+    Shift + Alt + Control + S
 
 "loginctl poweroff"
-    Shift + Alt + P
+    Shift + Alt + Control + P
 
 "loginctl reboot"
-    Shift + Alt + R
+    Shift + Alt + Control + R
 
 "/home/david/.local/bin/pmenu"
     Shift + Alt + N
