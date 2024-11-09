@@ -22,10 +22,10 @@
 "loginctl reboot"
     Shift + Alt + Control + R
 
-"/home/david/.local/bin/pmenu"
+"/home/david/.local/bin/omenu"
     Shift + Alt + N
 
-"/home/david/.local/bin/omenu"
+"/home/david/.local/bin/pmenu"
     Shift + Alt + M
 
 "exec brightnessctl set 10%+"
@@ -33,3 +33,4 @@
 
 "exec brightnessctl set 10%-"
     XF86MonBrightnessDown
+
