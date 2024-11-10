@@ -1,0 +1,8 @@
+map <backspace2> delete
+
+cmd on-cd &{{
+    printf '%s\n' "$PWD" > ~/.local/share/lf/dir_history
+}}
+
+on-cd
+
