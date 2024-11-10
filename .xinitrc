@@ -2,8 +2,7 @@ redshift -l 41:-74 &
 /home/david/.fehbg
 picom -b &
 slstatus &
-mpd &
-st &
+st-tabbed &
 xbindkeys &
 firefox &
 dunst &

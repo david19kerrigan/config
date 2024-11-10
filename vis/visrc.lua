@@ -1,4 +1,3 @@
--- load standard vis module, providing parts of the Lua API
 require('vis')
 
 vis.events.subscribe(vis.events.INIT, function()
@@ -16,10 +15,8 @@ end)
 
 local plug = require('vis-plug/init')
 
--- configure plugins in an array of tables with git urls and options 
 local plugins = {
   { 'kupospelov/vis-ctags' },
 }
 
--- require and optionally install plugins on init
 plug.init(plugins, true)

@@ -28,12 +28,18 @@ HISTFILE="$HOME/.mksh_history"
 HISTSIZE=100000
 
 export EDITOR="vis"
+export BROWSER="firefox"
 export GPG_TTY=$(tty)
 export PATH=$PATH:~/.local/bin
 
 alias c='cd ; clear'
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
+alias v='vis'
+alias t='tmux'
+alias m='aerc'
+alias n='newsraft'
+alias s='padsp mocp'
+#alias ls='ls --color=auto'
+#alias grep='grep --color=auto'
 alias xrb='xrandr --output eDP-1 --brightness'
 alias fzo='vis $(fzf --preview "bat -n --color=always {}")'
 alias fzc='cd $(dirname $(fzf --preview "bat -n --color=always {}"))'
@@ -45,9 +51,6 @@ alias upd="sudo xbps-install -Su"
 alias autor="sudo xbps-remove -o"
 alias useri="sudo xbps-query -m"
 alias nmr='nmcli device wifi resc'
-alias neo='neomutt'
-alias new='newsboat'
-alias ncm='ncmpcpp'
 alias pys='source /home/david/.local/pip/venvs/env1/bin/activate'
 alias btd='bluetoothctl devices'
 alias bts='bluetoothctl scan on'
