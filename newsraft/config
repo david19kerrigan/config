@@ -1,1 +1,1 @@
-bind m exec mpv "%l"
+bind m exec spv "%l"
