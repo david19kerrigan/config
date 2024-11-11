@@ -1,0 +1,50 @@
+
+IMAPStore david19kerrigan@gmail.com-remote
+Host imap.gmail.com
+Port 993
+User david19kerrigan@gmail.com
+PassCmd "pass david19kerrigan@gmail.com"
+AuthMechs LOGIN
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+MaildirStore david19kerrigan@gmail.com-local
+Subfolders Verbatim
+Path /home/david/.local/share/mail/david19kerrigan@gmail.com/
+Inbox /home/david/.local/share/mail/david19kerrigan@gmail.com/INBOX
+
+Channel david19kerrigan@gmail.com
+Expunge Both
+Far :david19kerrigan@gmail.com-remote:
+Near :david19kerrigan@gmail.com-local:
+Patterns * !"[Gmail]/All Mail" !"*fts-flatcurve*" !"*virtual*"
+Create Both
+SyncState *
+MaxMessages 0
+ExpireUnread no
+# End profile
+
+IMAPStore dkerrigan@mailbox.org-remote
+Host imap.mailbox.org
+Port 993
+User dkerrigan@mailbox.org
+PassCmd "pass dkerrigan@mailbox.org"
+AuthMechs LOGIN
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+MaildirStore dkerrigan@mailbox.org-local
+Subfolders Verbatim
+Path /home/david/.local/share/mail/dkerrigan@mailbox.org/
+Inbox /home/david/.local/share/mail/dkerrigan@mailbox.org/INBOX
+
+Channel dkerrigan@mailbox.org
+Expunge Both
+Far :dkerrigan@mailbox.org-remote:
+Near :dkerrigan@mailbox.org-local:
+Patterns * !"[Gmail]/All Mail" !"*fts-flatcurve*" !"*virtual*"
+Create Both
+SyncState *
+MaxMessages 0
+ExpireUnread no
+# End profile
