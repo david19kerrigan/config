@@ -1,0 +1,34 @@
+#!/home/david/.local/pip/venvs/env1/bin/python
+import os
+import eyed3
+
+# Get the current directory
+current_directory = os.getcwd()
+
+# Loop through all the files in the current directory
+for filename in os.listdir(current_directory):
+    if filename.endswith(".mp3"):
+        # Get the full file path
+        file_path = os.path.join(current_directory, filename)
+
+        # Load the mp3 file using eyed3
+        audio_file = eyed3.load(file_path)
+
+        # Get the track number from the ID3 tags
+        if audio_file.tag is not None and audio_file.tag.track_num:
+            track_number = audio_file.tag.track_num.count
+            # Ensure the track number has a leading zero if it's less than 10
+            track_number_str = f"{track_number:02}"
+
+            # Create a new filename by prefixing the track number
+            new_filename = f"{track_number_str} - {filename}"
+
+            # Construct the full path for the new file
+            new_file_path = os.path.join(current_directory, new_filename)
+
+            # Rename the file
+            os.rename(file_path, new_file_path)
+
+            print(f"Renamed: {filename} -> {new_filename}")
+        else:
+            print(f"Track number not found for: {filename}")

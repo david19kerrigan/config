@@ -1,6 +1,6 @@
 c() {
     if [ -z "$1" ]; then
-        cd && clear
+        cd && clear 
     else
         cd "$1"
     fi
@@ -30,6 +30,7 @@ alias t='tmux'
 alias m='aerc'
 alias n='newsraft'
 alias s='padsp mocp'
+alias g='gurk'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias xrb='xrandr --output eDP-1 --brightness'
