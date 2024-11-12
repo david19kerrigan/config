@@ -1,13 +1,8 @@
-c() {
-    if [ -z "$1" ]; then
-        cd && clear 
-    else
-        cd "$1"
-    fi
-    printf '%s\n' "$PWD" > ~/.local/share/lf/dir_history
-}
-f() { 
-    c "$(command lf -print-last-dir "$@")" 
+f () { 
+   TMPFILE=$(mktemp /tmp/lfcd-XXXXXX)
+   \lf -print-last-dir $@ > $TMPFILE 
+   cd $(cat $TMPFILE) 
+   rm $TMPFILE
 }
 gcm() { 
     git commit -a -m "$1" && git push 
@@ -31,6 +26,7 @@ alias m='aerc'
 alias n='newsraft'
 alias s='padsp mocp'
 alias g='gurk'
+alias c='cd ; clear'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias xrb='xrandr --output eDP-1 --brightness'
@@ -52,6 +48,3 @@ alias psm='pulsemixer'
 alias cwr='curl wttr.in/New+York+City'
 alias rsm='sudo modprobe -r psmouse && sudo modprobe psmouse && sleep 2 && t480.sh'
 alias spd='spotdl --output "{track-number} - {artists} - {title}.{output-ext}"'
-
-lastdir="$(tail -n1 ~/.local/share/lf/dir_history)"
-[ -d "$lastdir" ] && cd "$lastdir"
