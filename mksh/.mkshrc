@@ -51,6 +51,7 @@ alias xbq='sudo xbps-query -Rs'
 alias psm='pulsemixer'
 alias cwr='curl wttr.in/New+York+City'
 alias rsm='sudo modprobe -r psmouse && sudo modprobe psmouse && sleep 2 && t480.sh'
+alias spd='spotdl --output "{track-number} - {artists} - {title}.{output-ext}"'
 
 lastdir="$(tail -n1 ~/.local/share/lf/dir_history)"
 [ -d "$lastdir" ] && cd "$lastdir"
