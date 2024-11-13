@@ -1,4 +1,1 @@
 map <backspace2> delete
-
-cmd on-cd &printf '\033]7;file://%s\033\\' "$PWD" > /dev/tty
-on-cd
