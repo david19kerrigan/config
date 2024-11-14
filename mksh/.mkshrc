@@ -1,4 +1,4 @@
-gcm() { 
+gm() { 
     git commit -a -m "$1" && git push 
 }
 o() {
@@ -13,7 +13,7 @@ o() {
         vis "$selected_file"
     fi
 }
-cpf() {
+cf() {
     selected_dir=$(fd . "/home/david/" | fzy -l 30)
     if [ $? -ne 0 ]; then
         return 0
@@ -28,7 +28,7 @@ cpf() {
         cp "$selected_dir" "$dest_dir"
     fi
 }
-mvf() {
+mf() {
     selected_dir=$(fd . "/home/david/" | fzy -l 30)
     if [ $? -ne 0 ]; then
         return 0
@@ -39,10 +39,10 @@ mvf() {
     fi
     mv "$selected_dir" "$dest_dir"
 }
-lgp() {
+lp() {
     rg -l "$1" | xargs less +/"$1"
 }
-lgo() {
+lo() {
     selected_file=$(rg -l "$1" | fzy -l 30)
     if [ $? -ne 0 ]; then
         return 0
@@ -71,6 +71,18 @@ s(){
     mpc add "$selected_dir"
     mpc play
 }
+sp(){
+    selected_song=$(mpc playlist | nl -s ". " | fzy -l 50 | awk -F '.' '{print $1}' | xargs)
+    mpc play "$selected_song"
+}
+nmc(){
+    selected_wifi=$(nmcli device wifi list | fzy -l 30)
+    if [ -e "$1" ]; then
+        nmcli device wifi connect "$selected_wifi" password "$1"
+    else
+        nmcli device wifi connect "$selected_wifi"
+    fi
+}
 
 PS1="$(print '\033[0;31m[\033[1;33m${USER:=$(id -un)}''\033[0;32m@\033[0;34m${HOSTNAME:=$(hostname)}' '\033[0;35m${PWD/#"$HOME"/\~}\033[0;31m]\033[0m\n$ ' )"
 
@@ -78,6 +90,7 @@ set -o vi
 
 HISTFILE="$HOME/.mksh_history"
 HISTSIZE=100000
+
 
 export EDITOR="vis"
 export BROWSER="firefox"
@@ -94,19 +107,21 @@ alias la='ls -a --color=auto -1 -p'
 alias l='ls --color=auto -1 -p'
 alias h='eval $(history -1000 | fzy | awk "{\$1=\"\"; print \$0}")'
 alias xrb='xrandr --output eDP-1 --brightness'
-alias gtp='git add --all; git commit -a -m "auto commit"; git push'
-alias gtu='git pull'
-alias gtb="git rev-parse --abbrev-ref HEAD"
-alias gtc="git checkout \$(git branch | fzy -l 30)"
-alias upd="sudo xbps-install -Su"
+alias gp='git add --all; git commit -a -m "auto commit"; git push'
+alias gu='git pull'
+alias gb="git branch"
+alias gc="git checkout \$(git branch | fzy -l 30)"
+alias up="sudo xbps-install -Su"
 alias autor="sudo xbps-remove -o"
 alias useri="sudo xbps-query -m"
 alias nmr='nmcli device wifi resc'
+alias nml='nmcli device wifi list'
 alias pys='source /home/david/.local/pip/venvs/env1/bin/activate'
-alias xbi='sudo xbps-install'
-alias xbr='sudo xbps-remove -R'
-alias xbq='sudo xbps-query -Rs'
-alias psm='pulsemixer'
-alias cwr='curl wttr.in/New+York+City'
+alias xi='sudo xbps-install'
+alias xr='sudo xbps-remove -R'
+alias xq='sudo xbps-query -Rs'
+alias pm='ncpamixer'
+alias cw='curl wttr.in/New+York+City'
 alias rsm='sudo modprobe -r psmouse && sudo modprobe psmouse && sleep 2 && t480.sh'
-alias spd='spotdl --output "{track-number} - {artists} - {title}.{output-ext}"'
+alias mm='mlist /home/david/.local/share/mail/dkerrigan@mailbox.org/INBOX | msort -d -r | mseq -S | mscan | head'
+alias mg='mlist /home/david/.local/share/mail/david19kerrigan@gmail.com/INBOX | msort -d -r | mseq -S | mscan | head'

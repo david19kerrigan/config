@@ -1,5 +1,6 @@
 redshift -l 41:-74 &
 /home/david/.fehbg
+mpd &
 picom -b &
 slstatus &
 st-tabbed &

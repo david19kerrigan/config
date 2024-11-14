@@ -15,7 +15,6 @@ feeds() {
     feed "Adam Friedland" https://www.youtube.com/feeds/videos.xml?channel_id=UC6ext5UAbrLT2e5y5BC6RTQ
     feed "Gerbert Johnson" https://www.youtube.com/feeds/videos.xml?channel_id=UC3jf-WdvQaIl3Gp-SKMHZLA
     feed "Jordan Has No Life" https://www.youtube.com/feeds/videos.xml?channel_id=UCbvDQKzAJ5GwCjTrv4FWkxg
-    feed "Patrick Bet David" https://www.youtube.com/feeds/videos.xml?channel_id=UCGX7nGXpz-CmO_Arg-cgJ7A
     feed "Theo Von" https://www.youtube.com/feeds/videos.xml?channel_id=UC5AQEUAwCh1sGDvkQtkDWUQ
     feed "Flagrant" https://www.youtube.com/feeds/videos.xml?channel_id=UC5PstSsGrRwj2o6asQpC4Rg
 }
