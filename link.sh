@@ -22,3 +22,4 @@ ln -s ~/Documents/config/aerc ~/.config/
 ln -s ~/Documents/config/.mbsyncrc ~/
 ln -s ~/Documents/config/.sfeed/sfeedrc ~/.sfeed/
 ln -s ~/Documents/config/.mpd/mpd.conf ~/.mpd/
+ln -s ~/Documents/config/.msmtprc ~/
