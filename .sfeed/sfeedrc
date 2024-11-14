@@ -1,0 +1,21 @@
+# for more details see the sfeedrc(5) and sfeed_update(1) man pages
+# and the README file.
+
+#sfeedpath="$HOME/.sfeed/feeds"
+
+# list of feeds to fetch:
+feeds() {
+	# feed <name> <feedurl> [basesiteurl] [encoding]
+	feed "Joe Rogan" "https://www.youtube.com/feeds/videos.xml?channel_id=UCzQUP1qoWDoEbmsQxvdjxgQ"
+    feed "Luke Smith" https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA
+    feed "Mental Outlaw" https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA
+    feed "Dunkey" https://www.youtube.com/feeds/videos.xml?channel_id=UCsvn_Po0SmunchJYOWpOxMg
+    feed "Natural Hypertrophy" https://www.youtube.com/feeds/videos.xml?channel_id=UCG-3rEW4IrDNa7-9iGByc2A
+    feed "NakeyJakey" https://www.youtube.com/feeds/videos.xml?channel_id=UCSdma21fnJzgmPodhC9SJ3g
+    feed "Adam Friedland" https://www.youtube.com/feeds/videos.xml?channel_id=UC6ext5UAbrLT2e5y5BC6RTQ
+    feed "Gerbert Johnson" https://www.youtube.com/feeds/videos.xml?channel_id=UC3jf-WdvQaIl3Gp-SKMHZLA
+    feed "Jordan Has No Life" https://www.youtube.com/feeds/videos.xml?channel_id=UCbvDQKzAJ5GwCjTrv4FWkxg
+    feed "Patrick Bet David" https://www.youtube.com/feeds/videos.xml?channel_id=UCGX7nGXpz-CmO_Arg-cgJ7A
+    feed "Theo Von" https://www.youtube.com/feeds/videos.xml?channel_id=UC5AQEUAwCh1sGDvkQtkDWUQ
+    feed "Flagrant" https://www.youtube.com/feeds/videos.xml?channel_id=UC5PstSsGrRwj2o6asQpC4Rg
+}
