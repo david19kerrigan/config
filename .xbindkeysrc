@@ -4,13 +4,13 @@
 "pactl set-sink-volume @DEFAULT_SINK@ -5%"
     XF86AudioLowerVolume
 
-"exec mocp -G"
+"exec mpc toggle"
     Shift + Alt + K
 
-"exec mocp -f"
+"exec mpc next"
     Shift + Alt + L
 
-"exec mocp -r"
+"exec mpc prev"
     Shift + Alt + J
 
 "loginctl suspend"

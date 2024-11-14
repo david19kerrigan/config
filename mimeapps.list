@@ -14,6 +14,7 @@ application/epub=org.pwmt.zathura.desktop
 application/epub+zip=org.pwmt.zathura.desktop
 video/webm=mpv.desktop
 image/jpeg=feh.desktop
+application/pgp-encrypted=pgpw3m.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Firefox-W9TCW2.desktop;

@@ -1,2 +1,0 @@
-#!/bin/sh
-setsid -f mpv "$1"
