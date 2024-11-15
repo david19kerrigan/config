@@ -76,7 +76,7 @@ sp(){
     mpc play "$selected_song"
 }
 nmc(){
-    selected_wifi=$(nmcli device wifi list | fzy -l 30)
+    selected_wifi=$(nmcli device wifi list | tail -n +2 | fzy -l 30)
     if [ -e "$1" ]; then
         nmcli device wifi connect "$selected_wifi" password "$1"
     else

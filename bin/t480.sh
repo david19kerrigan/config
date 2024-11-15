@@ -4,7 +4,7 @@ if xrandr | grep -q "^DP-1 connected"; then
     xrandr --output eDP-1 --off
 fi
 
-if ! lsusb | grep -q "04fe:0020" && if ! lsusb | grep -q "3434:01c0"; then
+if ! lsusb | grep -q "04fe:0020" && ! lsusb | grep -q "3434:01c0"; then
     setxkbmap -layout us -option ctrl:swapcaps
 fi
 

@@ -1,0 +1,10 @@
+#!/bin/sh
+cd ~/.sfeed/feeds/ || exit 1
+awk -F '\t' -v "old=$(($(date +'%s') - 604800))" '
+BEGIN {	OFS = "\t"; }
+int($1) >= old {
+	$2 = "[" FILENAME "] " $2;
+	print $0;
+}' * | \
+sort -k1,1rn | sed 's/^L/\n\n/g' | \
+sfeed_content
