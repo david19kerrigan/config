@@ -1,111 +1,58 @@
-gm() { 
-    git commit -a -m "$1" && git push 
-}
-o() {
-    selected_file=$(fd . "/home/david/" | fzy -l 30)
-    if [ $? -ne 0 ]; then
-        return 0
-    fi
-    if [ -d "$selected_file" ]; then
-        cd "$selected_file"
-    elif [ -f "$selected_file" ]; then
-        cd $(dirname "$selected_file")
-        vis "$selected_file"
-    fi
-}
-cf() {
-    selected_dir=$(fd . "/home/david/" | fzy -l 30)
-    if [ $? -ne 0 ]; then
-        return 0
-    fi
-    dest_dir=$(fd --type d . "/home/david/" | fzy -l 30)
-    if [ $? -ne 0 ]; then
-        dest_dir="./"
-    fi
-    if [ -d "$selected_dir" ]; then
-        cp -r "$selected_dir" "$dest_dir"
-    elif [ -f "$selected_dir" ]; then
-        cp "$selected_dir" "$dest_dir"
-    fi
-}
-mf() {
-    selected_dir=$(fd . "/home/david/" | fzy -l 30)
-    if [ $? -ne 0 ]; then
-        return 0
-    fi
-    dest_dir=$(fd --type d . "/home/david/" | fzy -l 30)
-    if [ $? -ne 0 ]; then
-        dest_dir="./"
-    fi
-    mv "$selected_dir" "$dest_dir"
-}
-lp() {
-    rg -l "$1" | xargs less +/"$1"
-}
-lo() {
-    selected_file=$(rg -l "$1" | fzy -l 30)
-    if [ $? -ne 0 ]; then
-        return 0
-    fi
-    vis +/"$1" "$selected_file" 
-    lgo "$1"
-}
-f() {
-    selected_dir=$(fd -d 1 | fzy -l 30)
-    if [ $? -ne 0 ]; then
-        return 0
-    fi
-    if [ -d "$selected_dir" ]; then
-        cd "$selected_dir"
-    elif [ -f "$selected_dir" ]; then
-        vis "$selected_dir"
-    fi
-    f
-}
-s(){
-    mpc clear
-    selected_dir=$(fd --type d . '/home/david/Music' | sed 's|^/home/david/Music/||' | fzy -l 50)
-    if [ $? -ne 0 ]; then
-        return 0
-    fi
-    mpc add "$selected_dir"
-    mpc play
-}
-sp(){
-    selected_song=$(mpc playlist | nl -s ". " | fzy -l 50 | awk -F '.' '{print $1}' | xargs)
-    mpc play "$selected_song"
-}
-nmc(){
-    selected_wifi=$(nmcli device wifi list | tail -n +2 | fzy -l 30)
-    if [ -e "$1" ]; then
-        nmcli device wifi connect "$selected_wifi" password "$1"
-    else
-        nmcli device wifi connect "$selected_wifi"
-    fi
-}
-
-PS1="$(print '\033[0;31m[\033[1;33m${USER:=$(id -un)}''\033[0;32m@\033[0;34m${HOSTNAME:=$(hostname)}' '\033[0;35m${PWD/#"$HOME"/\~}\033[0;31m]\033[0m\n$ ' )"
-
 set -o vi
-
+PS1="$(print '\033[0;31m[\033[1;33m${USER:=$(id -un)}''\033[0;32m@\033[0;34m${HOSTNAME:=$(hostname)}' '\033[0;35m${PWD/#"$HOME"/\~}\033[0;31m]\033[0m\n$ ' )"
 HISTFILE="$HOME/.mksh_history"
 HISTSIZE=100000
-
 
 export EDITOR="vis"
 export BROWSER="firefox"
 export GPG_TTY=$(tty)
 export PATH=$PATH:~/.local/bin
 
+handle_res() {
+    test -z "$1" && return
+    test -d "$1" && cd "$selected_res"
+    test -f "$1" && cd $(dirname "$selected_res") && vise $(basename "$selected_res")
+}
+ro() {
+    selected_res=$(rg -l -g "!tags" "$1" | fzy -l 50)
+    test -z "$selected_res" && return
+    vise +/"$1" "$selected_res" 
+    lo "$1"
+}
+nmc(){
+    selected_wifi=$(nmcli device wifi list | tail -n +2 | fzy -l 50 | awk 'BEGIN{FS="   *"}{print $3}' | xargs)
+    test -n "$1" && nmcli device wifi connect "$selected_wifi" password "$1"
+    test -z "$1" && nmcli device wifi connect "$selected_wifi"
+}
+ms() { selected_song=$(mpc playlist | nl -s ". " | fzy -l 50 | awk -F '.' '{print $1}' | xargs) && mpc play "$selected_song"; }
+gm() { git commit -a -m "$1" && git push; }
+rp() { rg -l -g "!tags" "$1" | xargs less +/"$1"; }
+cl() { readlink -f "$1" | xclip; }
+
+alias copy_or_move_helper='selected_res=$(fd . "$HOME" | fzy -l 50) && \
+    dest_dir=$(fd --type d . "$HOME" | fzy -l 50) && \
+    test -z "$dest_dir" && dest_dir="./"'
+alias cf='copy_or_move_helper ; \
+    test -d "$selected_res" && cp -r "$selected_res" "$dest_dir" ; \
+    test -f "$selected_res" && cp "$selected_res" "$dest_dir"'
+alias mp='selected_dir=$(fd --type d . "$HOME/Music" | fzy -l 50) &&  \
+    mpc clear && \
+    mpc add "$selected_dir" && \
+    mpc play'
+alias mf='copy_or_move_helper ; mv "$selected_res" "$dest_dir"'
+alias oi='selected_res=$(fd | fzy -l 50) ; handle_res "$selected_res"'
+alias oc='selected_res=$(fd -d 1 | fzy -l 50) ; handle_res "$selected_res"'
+alias oa='selected_res=$(fd . "$HOME" | fzy -l 50) ; handle_res "$selected_res"'
+alias ba='echo $PWD >> ~/.marks ; cat ~/.marks | sort | uniq > ~/.marks'
+alias bj='selected=$(cat ~/.marks | fzy -l 50) && cd "$selected"'
 alias p='fd --type f -d 1 | xargs less'
 alias c='cd'
 alias v='vis'
-alias m='aerc'
 alias n='newsraft'
 alias g='gurk'
-alias la='ls -a --color=auto -1 -p'
-alias l='ls --color=auto -1 -p'
-alias h='eval $(history -1000 | fzy | awk "{\$1=\"\"; print \$0}")'
+alias l='ls -a --color=auto -1 -p'
+alias h='eval $(history -1000 | fzy | awk "{\$1=\"\"; print \$0}" | xargs)'
+alias ml='mless'
 alias xrb='xrandr --output eDP-1 --brightness'
 alias gp='git add --all; git commit -a -m "auto commit"; git push'
 alias gu='git pull'
@@ -115,13 +62,11 @@ alias up="sudo xbps-install -Su"
 alias autor="sudo xbps-remove -o"
 alias useri="sudo xbps-query -m"
 alias nmr='nmcli device wifi resc'
-alias nml='nmcli device wifi list'
 alias pys='source /home/david/.local/pip/venvs/env1/bin/activate'
 alias xi='sudo xbps-install'
 alias xr='sudo xbps-remove -R'
 alias xq='sudo xbps-query -Rs'
 alias pm='ncpamixer'
 alias cw='curl wttr.in/New+York+City'
-alias rsm='sudo modprobe -r psmouse && sudo modprobe psmouse && sleep 2 && t480.sh'
-alias mm='mlist /home/david/.local/share/mail/dkerrigan@mailbox.org/INBOX | msort -d -r | mseq -S | mscan | head'
-alias mg='mlist /home/david/.local/share/mail/david19kerrigan@gmail.com/INBOX | msort -d -r | mseq -S | mscan | head'
+alias mm='mlist /home/david/.local/share/mail/dkerrigan@mailbox.org/INBOX | msort -d -r | mseq -S | mscan | head -n 50 | tac'
+alias mg='mlist /home/david/.local/share/mail/david19kerrigan@gmail.com/INBOX | msort -d -r | mseq -S | mscan | head -n 50 | tac'
