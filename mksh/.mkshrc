@@ -11,23 +11,19 @@ export PATH=$PATH:~/.local/bin
 handle_res() {
     test -z "$1" && return
     test -d "$1" && cd "$selected_res"
-    test -f "$1" && cd $(dirname "$selected_res") && vise $(basename "$selected_res")
+    test -f "$1" && cd $(dirname "$selected_res") && vis $(basename "$selected_res")
 }
 ro() {
     selected_res=$(rg -l -g "!tags" "$1" | fzy -l 50)
     test -z "$selected_res" && return
-    vise +/"$1" "$selected_res" 
+    vis +/"$1" "$selected_res" 
     lo "$1"
-}
-nmc(){
-    selected_wifi=$(nmcli device wifi list | tail -n +2 | fzy -l 50 | awk 'BEGIN{FS="   *"}{print $3}' | xargs)
-    test -n "$1" && nmcli device wifi connect "$selected_wifi" password "$1"
-    test -z "$1" && nmcli device wifi connect "$selected_wifi"
 }
 ms() { selected_song=$(mpc playlist | nl -s ". " | fzy -l 50 | awk -F '.' '{print $1}' | xargs) && mpc play "$selected_song"; }
 gm() { git commit -a -m "$1" && git push; }
 rp() { rg -l -g "!tags" "$1" | xargs less +/"$1"; }
-cl() { readlink -f "$1" | xclip; }
+cl() { readlink -f "$1" | xclip -sel clip; }
+mo() { mshow "$1" > /dev/null 2>&1; mless; }
 
 alias copy_or_move_helper='selected_res=$(fd . "$HOME" | fzy -l 50) && \
     dest_dir=$(fd --type d . "$HOME" | fzy -l 50) && \
@@ -35,7 +31,7 @@ alias copy_or_move_helper='selected_res=$(fd . "$HOME" | fzy -l 50) && \
 alias cf='copy_or_move_helper ; \
     test -d "$selected_res" && cp -r "$selected_res" "$dest_dir" ; \
     test -f "$selected_res" && cp "$selected_res" "$dest_dir"'
-alias mp='selected_dir=$(fd --type d . "$HOME/Music" | fzy -l 50) &&  \
+alias mp='selected_dir=$(fd --type d . "$HOME/Music" | sed "s|$HOME\/Music\/||" | fzy -l 50) &&  \
     mpc clear && \
     mpc add "$selected_dir" && \
     mpc play'
@@ -48,7 +44,6 @@ alias bj='selected=$(cat ~/.marks | fzy -l 50) && cd "$selected"'
 alias p='fd --type f -d 1 | xargs less'
 alias c='cd'
 alias v='vis'
-alias n='newsraft'
 alias g='gurk'
 alias l='ls -a --color=auto -1 -p'
 alias h='eval $(history -1000 | fzy | awk "{\$1=\"\"; print \$0}" | xargs)'
@@ -61,7 +56,6 @@ alias gc="git checkout \$(git branch | fzy -l 30)"
 alias up="sudo xbps-install -Su"
 alias autor="sudo xbps-remove -o"
 alias useri="sudo xbps-query -m"
-alias nmr='nmcli device wifi resc'
 alias pys='source /home/david/.local/pip/venvs/env1/bin/activate'
 alias xi='sudo xbps-install'
 alias xr='sudo xbps-remove -R'

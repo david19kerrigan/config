@@ -13,13 +13,13 @@
 "exec mpc prev"
     Shift + Alt + J
 
-"loginctl suspend"
+"zzz"
     Shift + Alt + Control + S
 
-"loginctl poweroff"
+"poweroff"
     Shift + Alt + Control + P
 
-"loginctl reboot"
+"reboot"
     Shift + Alt + Control + R
 
 "/home/david/.local/bin/omenu"

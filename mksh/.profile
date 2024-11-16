@@ -1,5 +1,5 @@
 export ENV="/home/david/.mkshrc"
 
-if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
-  exec startx
+if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
+    startx
 fi
