@@ -24,7 +24,6 @@ gm() { git commit -a -m "$1" && git push; }
 rp() { rg -l -g "!tags" "$1" | xargs less +/"$1"; }
 cl() { readlink -f "$1" | xclip -sel clip; }
 mo() { mshow "$1" > /dev/null 2>&1; mless; }
-tor() { btcli add -d $HOME/Downloads "$1" && watch 'btcli list' && btcli del "$1" && btcli kill; }
 
 alias copy_or_move_helper='selected_res=$(fd . "$HOME" | fzy -l 50) && \
     dest_dir=$(fd --type d . "$HOME" | fzy -l 50) && \
@@ -66,5 +65,4 @@ alias cw='curl wttr.in/New+York+City'
 alias mm='mlist /home/david/.local/share/mail/dkerrigan@mailbox.org/INBOX | msort -d -r | mseq -S | mscan | head -n 50 | tac'
 alias mg='mlist /home/david/.local/share/mail/david19kerrigan@gmail.com/INBOX | msort -d -r | mseq -S | mscan | head -n 50 | tac'
 alias vpo='sudo setsid -f openvpn --config /etc/openvpn/mullvad_se_mma.conf'
-alias vps='sudo pkill openvpn'
-alias trd='btpd &'
+alias vpq='sudo pkill openvpn'
