@@ -13,13 +13,13 @@
 "exec mpc prev"
     Shift + Alt + J
 
-"zzz"
+"sudo zzz"
     Shift + Alt + Control + S
 
-"poweroff"
+"sudo poweroff"
     Shift + Alt + Control + P
 
-"reboot"
+"sudo reboot"
     Shift + Alt + Control + R
 
 "/home/david/.local/bin/omenu"
