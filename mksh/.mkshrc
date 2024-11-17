@@ -4,7 +4,6 @@ HISTFILE="$HOME/.mksh_history"
 HISTSIZE=100000
 
 export EDITOR="vis"
-export BROWSER="firefox"
 export GPG_TTY=$(tty)
 export PATH=$PATH:~/.local/bin
 
@@ -20,8 +19,7 @@ rp() { rg -l -g "!tags" "$1" | xargs less +/"$1"; }
 cl() { readlink -f "$1" | xclip -sel clip; }
 mo() { mshow "$1" > /dev/null 2>&1; mless; }
 
-alias handle_res='test -z "$selected_res" && return ; \
-    test -d "$selected_res" && cd "$selected_res" ; \
+alias handle_res='test -d "$selected_res" && cd "$selected_res" ; \
     test -f "$selected_res" && cd $(dirname "$selected_res") && vis $(basename "$selected_res")'
 alias copy_or_move_helper='selected_res=$(fd . "$HOME" | fzy -l 50) && \
     dest_dir=$(fd --type d . "$HOME" | fzy -l 50) && \
@@ -29,7 +27,7 @@ alias copy_or_move_helper='selected_res=$(fd . "$HOME" | fzy -l 50) && \
 alias cf='copy_or_move_helper ; \
     test -d "$selected_res" && cp -r "$selected_res" "$dest_dir" ; \
     test -f "$selected_res" && cp "$selected_res" "$dest_dir"'
-alias mp='selected_dir=$(fd --type d . "$HOME/Music" | sed "s|$HOME\/Music\/||" | fzy -l 50) &&  \
+alias mp='selected_dir=$(ls $HOME/Music | fzy -l 50) && \
     mpc clear && \
     mpc add "$selected_dir" && \
     mpc play'
@@ -44,23 +42,23 @@ alias v='vis'
 alias g='gurk'
 alias l='ls -a --color=auto -1 -p'
 alias h='eval $(history -1000 | fzy | awk "{\$1=\"\"; print \$0}" | xargs)'
-alias ml='mless'
+alias ml='mo 1'
 alias xrb='xrandr --output eDP-1 --brightness'
 alias gp='git add --all; git commit -a -m "auto commit"; git push'
 alias gu='git pull'
 alias gb="git branch"
 alias gc="git checkout \$(git branch | fzy -l 30)"
 alias up="sudo xbps-install -Su"
-alias autor="sudo xbps-remove -Oo"
-alias useri="sudo xbps-query -m"
+alias clean="sudo xbps-remove -Oo ; sudo vkpurge rm all"
 alias pys='source /home/david/.local/pip/venvs/env1/bin/activate'
 alias xi='sudo xbps-install'
 alias xr='sudo xbps-remove -R'
 alias xq='sudo xbps-query -Rs'
 alias pm='ncpamixer'
 alias cw='curl wttr.in/New+York+City'
-alias mm='mlist /home/david/.local/share/mail/dkerrigan@mailbox.org/INBOX | msort -d -r | mseq -S | mscan | head -n 50 | tac'
-alias mg='mlist /home/david/.local/share/mail/david19kerrigan@gmail.com/INBOX | msort -d -r | mseq -S | mscan | head -n 50 | tac'
+alias ma='mdirs /home/david/.local/share/mail | xargs mlist | msort -d -r | mseq -S | mscan | head -n 50 | tac'
+alias mn='mdirs /home/david/.local/share/mail | xargs -0 minc'
 alias vpo='sudo setsid -f openvpn --config /etc/openvpn/mullvad_se_mma.conf'
 alias vpq='sudo pkill openvpn'
 alias spv='setsid -f mpv'
+alias tor='aria2c --seed-ratio=1.0'

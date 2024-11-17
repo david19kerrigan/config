@@ -1,0 +1,10 @@
+#!/bin/sh
+sfeed_update
+prev_len=$(wc -l < $HOME/.sfeed/feeds.txt)
+sfeed_plain $HOME/.sfeed/feeds/* > "$HOME/.sfeed/feeds.txt"
+after_len=$(wc -l < $HOME/.sfeed/feeds.txt)
+diff=$(($after_len - $prev_len))
+if [ "$prev_len" -ne "$after_len" ]; then
+    herbe "$diff new feeds"
+fi
+

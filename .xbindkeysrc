@@ -1,7 +1,7 @@
-"pactl set-sink-volume @DEFAULT_SINK@ +5%"
+"$HOME/.local/bin/raise_volume"
     XF86AudioRaiseVolume	
 
-"pactl set-sink-volume @DEFAULT_SINK@ -5%"
+"$HOME/.local/bin/lower_volume"
     XF86AudioLowerVolume
 
 "exec mpc toggle"

@@ -1,0 +1,2 @@
+#!/bin/sh
+pkill herbe ; pactl set-sink-volume @DEFAULT_SINK@ +5% && herbe "volume $(pactl get-sink-volume @DEFAULT_SINK@ | grep -o '[0-9]\+%' | uniq)"
