@@ -16,7 +16,7 @@ Channel david19kerrigan@gmail.com
 Expunge Both
 Far :david19kerrigan@gmail.com-remote:
 Near :david19kerrigan@gmail.com-local:
-Patterns * !"[Gmail]/All Mail" !"*fts-flatcurve*" !"*virtual*"
+Patterns * !"*fts-flatcurve*" !"*virtual*" !"[Gmail]*" !"GMAIL*"
 Create Both
 SyncState *
 MaxMessages 0
