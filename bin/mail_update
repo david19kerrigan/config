@@ -1,7 +1,7 @@
 #!/bin/sh
-prev_len=$(( $(ls $HOME/.local/share/mail/david19kerrigan@gmail.com/INBOX/new | xargs wc -l) + $(ls $HOME/.local/share/mail/dkerrigan@mailbox.org/INBOX/new | xargs wc -l) ))
+prev_len=$(( $(ls $HOME/.local/share/mail/david19kerrigan@gmail.com/INBOX/new | wc -l) + $(ls $HOME/.local/share/mail/dkerrigan@mailbox.org/INBOX/new | wc -l) ))
 mbsync -a
-after_len=$(( $(ls $HOME/.local/share/mail/david19kerrigan@gmail.com/INBOX/new | xargs wc -l) + $(ls $HOME/.local/share/mail/dkerrigan@mailbox.org/INBOX/new | xargs wc -l) ))
+after_len=$(( $(ls $HOME/.local/share/mail/david19kerrigan@gmail.com/INBOX/new | wc -l) + $(ls $HOME/.local/share/mail/dkerrigan@mailbox.org/INBOX/new | wc -l) ))
 diff=$(($after_len - $prev_len))
 if [ "$prev_len" -ne "$after_len" ]; then
     herbe "$diff new emails"
