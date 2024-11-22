@@ -1,24 +1,25 @@
 #!/bin/sh
-mkdir ~/.config/gtk-3.0
-mkdir ~/.config/gtk-4.0
-mkdir ~/.sfeed
-mkdir ~/.mpd
-ln -s ~/Documents/config/mksh/.mkshrc ~/
-ln -s ~/Documents/config/mksh/.profile ~/
-ln -s ~/Documents/config/mpv ~/.config/
-ln -s ~/Documents/config/zathura ~/.config/
-ln -s ~/Documents/config/vis ~/.config/
-ln -s ~/Documents/config/picom.conf ~/.config/
-ln -s ~/Documents/config/.xinitrc ~/
-ln -s ~/Documents/config/.xbindkeysrc ~/
-ln -s ~/Documents/config/.gnupg/gpg-agent.conf ~/.gnupg/
-ln -s ~/Documents/config/bin ~/.local/
-ln -s ~/Documents/config/mpv ~/.config/
-ln -s ~/Documents/config/settings.ini ~/.config/gtk-3.0/
-ln -s ~/Documents/config/settings.ini ~/.config/gtk-4.0/
-ln -s ~/Documents/config/mimeapps.list ~/.config/
-ln -s ~/Documents/config/.mbsyncrc ~/
-ln -s ~/Documents/config/.sfeed/sfeedrc ~/.sfeed/
-ln -s ~/Documents/config/.mpd/mpd.conf ~/.mpd/
-ln -s ~/Documents/config/.msmtprc ~/
-ln -s ~/Documents/config/.lesskey ~/
+mkdir $HOME/.config/gtk-3.0
+mkdir $HOME/config/gtk-4.0
+mkdir $HOME/.sfeed
+mkdir $HOME/.config/mpd
+mkdir $HOME/.mblaze
+ln -sf $HOME/dox/config/mksh/.mkshrc $HOME/
+ln -sf $HOME/dox/config/mksh/.profile $HOME/
+ln -sf $HOME/dox/config/mpv $XDG_CONFIG_HOME/
+ln -sf $HOME/dox/config/zathura $XDG_CONFIG_HOME/
+ln -sf $HOME/dox/config/vis $XDG_CONFIG_HOME/
+ln -sf $HOME/dox/config/picom.conf $XDG_CONFIG_HOME/
+ln -sf $HOME/dox/config/.xinitrc $HOME/
+ln -sf $HOME/dox/config/.xbindkeysrc $HOME/
+ln -sf $HOME/dox/config/.gnupg/gpg-agent.conf $HOME/.gnupg/
+ln -sf $HOME/dox/config/bin $HOME/.local/
+ln -sf $HOME/dox/config/mpv $XDG_CONFIG_HOME/
+ln -sf $HOME/dox/config/settings.ini $XDG_CONFIG_HOME/gtk-3.0/
+ln -sf $HOME/dox/config/settings.ini $XDG_CONFIG_HOME/gtk-4.0/
+ln -sf $HOME/dox/config/mimeapps.list $XDG_CONFIG_HOME/
+ln -sf $HOME/dox/config/.mbsyncrc $HOME/
+ln -sf $HOME/dox/config/.sfeed/sfeedrc $HOME/.sfeed/
+ln -sf $HOME/dox/config/mpd/mpd.conf $XDG_CONFIG_HOME/mpd/
+ln -sf $HOME/dox/config/.msmtprc $XDG_CONFIG_HOME/msmtp/config
+ln -sf $HOME/dox/config/lesskey $HOME
