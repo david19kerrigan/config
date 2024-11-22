@@ -5,7 +5,6 @@ HISTSIZE=100000
 
 export EDITOR="vis"
 export GPG_TTY=$(tty)
-export PATH=$PATH:~/.local/bin
 
 ro() {
     selected_res=$(rg -l -g "!tags" "$1" | fzy -l 50)
