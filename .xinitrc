@@ -1,5 +1,5 @@
 redshift -l 41:-74 &
-/home/david/.local/share/fehbg
+/home/david/.local/bin/fehbg
 mpd &
 picom -b &
 slstatus &

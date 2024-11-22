@@ -6,8 +6,6 @@ HISTSIZE=100000
 export EDITOR="vis"
 export GPG_TTY=$(tty)
 export PATH=$PATH:~/.local/bin
-export XDG_CONFIG_HOME=$HOME/.config
-export XDG_DATA_HOME=$HOME/.local/share
 
 ro() {
     selected_res=$(rg -l -g "!tags" "$1" | fzy -l 50)
@@ -49,6 +47,7 @@ alias oa='selected_res=$(fd . "$HOME" | fzy -l 50) ; handle_res'
 alias oc='selected_res=$(fd -d 1 | fzy -l 50) ; handle_res'
 alias ba='echo $PWD >> ~/.local/share/marks ; cat ~/.local/share/marks | sort | uniq > ~/.local/share/marks'
 alias bj='selected=$(cat ~/.local/share/marks | fzy -l 50) && cd "$selected"'
+alias be='vis $XDG_DATA_HOME/marks'
 alias p='fd --type f -d 1 | xargs less'
 alias c='cd'
 alias v='vis'
