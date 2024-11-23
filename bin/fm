@@ -1,4 +1,4 @@
 #!/bin/sh
-url=$(sfeed_plain "$HOME/.sfeed/feeds/"* | sort -k 1,2r -k 2,3r | nl -s ". " | fzy -l 50 | \
+url=$(cat "$HOME/.sfeed/feeds.txt" | sort -k 1,2r -k 2,3r | nl -s ". " | fzy -l 50 | \
 	sed -n 's@^.* \([a-zA-Z]*://\)\(.*\)$@\1\2@p')
-test -n "${url}" && setsid -f mpv "${url}"
+test -n "${url}" && setsid -f mpv --force-window "${url}"
