@@ -13,6 +13,7 @@ feeds() {
     feed "JRE" https://feeds.megaphone.fm/GLT1412515089
     feed "Flagrant" https://feeds.megaphone.fm/APPI6857213837
     feed "Theo Von" https://feeds.megaphone.fm/thispastweekend
+    feed "PBD" https://anchor.fm/s/2fa50a94/podcast/rss
 }
 
 

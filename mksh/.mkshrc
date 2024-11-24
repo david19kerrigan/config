@@ -1,6 +1,6 @@
 set -o vi
 PS1="$(print '\033[0;31m[\033[1;33m${USER:=$(id -un)}''\033[0;32m@\033[0;34m${HOSTNAME:=$(hostname)}' '\033[0;35m${PWD/#"$HOME"/\~}\033[0;31m]\033[0m\n$ ' )"
-HISTFILE="$HOME/.local/share/mksh_history"
+HISTFILE="$XDG_DATA_HOME"/mksh_history
 HISTSIZE=100000
 
 export EDITOR="vis"
@@ -44,9 +44,9 @@ alias mf='copy_or_move_helper ; mv "$selected_res" "$dest_dir"'
 alias oi='selected_res=$(fd | fzy -l 50) ; handle_res'
 alias oa='selected_res=$(fd . "$HOME" | fzy -l 50) ; handle_res'
 alias oc='selected_res=$(fd -d 1 | fzy -l 50) ; handle_res'
-alias ba='echo $PWD >> ~/.local/share/marks ; cat ~/.local/share/marks | sort | uniq > ~/.local/share/marks'
-alias bj='selected=$(cat ~/.local/share/marks | fzy -l 50) && cd "$selected"'
-alias be='vis $XDG_DATA_HOME/marks'
+alias ba='echo $PWD >> "$XDG_DATA_HOME"/marks ; cat "$XDG_DATA_HOME"/marks | sort | uniq > "$XDG_DATA_HOME"/marks'
+alias bj='selected=$(cat "$XDG_DATA_HOME"/marks | fzy -l 50) && cd "$selected"'
+alias be='vis "$XDG_DATA_HOME"/marks'
 alias p='fd --type f -d 1 | xargs less'
 alias c='cd'
 alias v='vis'
@@ -63,14 +63,14 @@ alias gb="git branch"
 alias gc="git checkout \$(git branch | fzy -l 30)"
 alias up="sudo xbps-install -Su"
 alias clean="sudo xbps-remove -Oo ; sudo vkpurge rm all"
-alias pys='source /home/david/.local/pip/venvs/env1/bin/activate'
+alias pys='source "$XDG_DATA_HOME"/pip/venvs/env1/bin/activate'
 alias xi='sudo xbps-install'
 alias xr='sudo xbps-remove -R'
 alias xq='sudo xbps-query'
 alias pm='ncpamixer'
 alias cw='curl wttr.in/New+York+City'
-alias ma="mdirs /home/david/.local/share/mail | sed '/Trash/d' | sed '/Spam/d' | xargs mlist | msort -d -r | mseq -S | mscan | tac"
-alias mn="mdirs /home/david/.local/share/mail -0 | sed '/Trash/d' | sed '/Spam/d' | xargs -0 minc | msort -d -r | mseq -S | mscan | tac"
+alias ma='mdirs "$XDG_DATA_HOME"/mail | xargs mlist | msort -d -r | mseq -S | mscan | tac'
+alias mn='mdirs "$XDG_DATA_HOME"/mail -0 | xargs -0 minc | msort -d -r | mseq -S | mscan | tac'
 alias vpo='sudo setsid -f openvpn --config /etc/openvpn/mullvad_se_mma.conf'
 alias vpq='sudo pkill openvpn'
 alias tor='aria2c --seed-ratio=1.0'
