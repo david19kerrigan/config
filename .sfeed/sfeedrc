@@ -14,6 +14,10 @@ feeds() {
     feed "Flagrant" https://feeds.megaphone.fm/APPI6857213837
     feed "Theo Von" https://feeds.megaphone.fm/thispastweekend
     feed "PBD" https://anchor.fm/s/2fa50a94/podcast/rss
+    feed "Chapo Trap House" https://feeds.soundcloud.com/users/soundcloud:users:211911700/sounds.rss
+    feed "Ezra Klein" https://feeds.simplecast.com/82FI35Px
+    feed "Dave Smith" https://rss.art19.com/part-of-the-problem
+    feed "Shawn Ryan" https://feeds.megaphone.fm/WWO7410387571
 }
 
 
