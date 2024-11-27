@@ -1,8 +1,9 @@
 #!/bin/sh
-mkdir $HOME/.config/gtk-3.0
-mkdir $HOME/.config/gtk-4.0
+mkdir $XDG_CONFIG_HOME/gtk-3.0
+mkdir $XDG_CONFIG_HOME/gtk-4.0
 mkdir $HOME/.sfeed
-mkdir $HOME/.config/mpd
+mkdir $XDG_CONFIG_HOME/mpd
+mkdir $XDG_CONFIG_HOME/X11
 mkdir $HOME/.mblaze
 ln -sf $PWD/mksh/.mkshrc $HOME/
 ln -sf $PWD/mksh/.profile $HOME/
@@ -10,7 +11,7 @@ ln -sf $PWD/mpv $XDG_CONFIG_HOME/
 ln -sf $PWD/zathura $XDG_CONFIG_HOME/
 ln -sf $PWD/vis $XDG_CONFIG_HOME/
 ln -sf $PWD/picom.conf $XDG_CONFIG_HOME/
-ln -sf $PWD/.xinitrc $HOME/
+ln -sf $PWD/xinitrc $XDG_CONFIG_HOME/X11/
 ln -sf $PWD/.xbindkeysrc $HOME/
 ln -sf $PWD/gnupg/gpg-agent.conf $XDG_DATA_HOME/gnupg
 ln -sf $PWD/bin $HOME/.local/
