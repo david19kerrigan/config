@@ -4,8 +4,8 @@ mkdir $XDG_CONFIG_HOME/gtk-4.0
 mkdir $HOME/.sfeed
 mkdir $XDG_CONFIG_HOME/mpd
 mkdir $XDG_CONFIG_HOME/X11
-mkdir $HOME/.mblaze
-ln -sf $PWD/mksh/.mkshrc $HOME/
+mkdir $XDG_CONFIG_HOME/mblaze
+ln -sf $PWD/mksh/mkshrc $XDG_CONFIG_HOME/
 ln -sf $PWD/mksh/.profile $HOME/
 ln -sf $PWD/mpv $XDG_CONFIG_HOME/
 ln -sf $PWD/zathura $XDG_CONFIG_HOME/
