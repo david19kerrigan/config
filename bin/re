@@ -1,0 +1,8 @@
+#!/bin/sh
+files=$(ls -1A | fzy)
+temp_file=$(mktemp)
+echo "$files" > "$temp_file"
+vise "$temp_file"
+new_files=$(cat "$temp_file")
+mv "$files" "$new_files"
+rm "$temp_file"
