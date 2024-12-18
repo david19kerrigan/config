@@ -54,7 +54,7 @@ alias v='vis'
 alias g='gurk'
 alias m='setsid -f mpv'
 alias z='zathura'
-alias l='ls -a --color=auto -1 -p'
+alias l='ls -A --color=auto -1 -p'
 alias h='eval $(history 0 | fzy | awk "{\$1=\"\"; print \$0}" | xargs)'
 alias ml='mo 1'
 alias xrb='xrandr --output eDP-1 --brightness'
@@ -64,7 +64,7 @@ alias gb="git branch"
 alias gc="git checkout \$(git branch | fzy -l 30)"
 alias up="sudo xbps-install -Su"
 alias clean="sudo xbps-remove -Oo ; sudo vkpurge rm all"
-alias pys='source "$XDG_DATA_HOME"/pip/venvs/env1/bin/activate'
+alias pys='source ~/.local/pip/venvs/env1/bin/activate'
 alias xi='sudo xbps-install'
 alias xr='sudo xbps-remove -R'
 alias xq='sudo xbps-query'

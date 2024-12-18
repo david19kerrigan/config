@@ -16,11 +16,11 @@ feeds() {
     feed "PBD" https://anchor.fm/s/2fa50a94/podcast/rss
     feed "Chapo Trap House" https://feeds.soundcloud.com/users/soundcloud:users:211911700/sounds.rss
     feed "Ezra Klein" https://feeds.simplecast.com/82FI35Px
-    feed "Dave Smith" https://rss.art19.com/part-of-the-problem
     feed "Shawn Ryan" https://feeds.megaphone.fm/WWO7410387571
     feed "Tucker Carlson" https://feeds.megaphone.fm/RSV1597324942
     feed "Jocko" https://feeds.redcircle.com/64a89f88-a245-4098-8d8d-496325ec4f74
     feed "Lex Fridman" https://lexfridman.com/feed/podcast/
+    feed "Alex Jones" https://www.spreaker.com/show/5039062/episodes/feed
 }
 
 
