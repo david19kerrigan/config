@@ -1,32 +1,23 @@
-# for more details see the sfeedrc(5) and sfeed_update(1) man pages
-# and the README file.
-
-#sfeedpath="$HOME/.sfeed/feeds"
-
-# list of feeds to fetch:
 feeds() {
-	# feed <name> <feedurl> [basesiteurl] [encoding]
-    feed "Luke Smith" https://odysee.com/$/rss/@Luke:7
     feed "Mental Outlaw" https://odysee.com/$/rss/@AlphaNerd:8
     feed "NakeyJakey" https://www.youtube.com/feeds/videos.xml?channel_id=UCSdma21fnJzgmPodhC9SJ3g
     feed "Gerbert Johnson" https://www.youtube.com/feeds/videos.xml?channel_id=UC3jf-WdvQaIl3Gp-SKMHZLA
-    feed "JRE" https://feeds.megaphone.fm/GLT1412515089
-    feed "Flagrant" https://feeds.megaphone.fm/APPI6857213837
-    feed "Theo Von" https://feeds.megaphone.fm/thispastweekend
-    feed "PBD" https://anchor.fm/s/2fa50a94/podcast/rss
-    feed "Chapo Trap House" https://feeds.soundcloud.com/users/soundcloud:users:211911700/sounds.rss
-    feed "Ezra Klein" https://feeds.simplecast.com/82FI35Px
-    feed "Shawn Ryan" https://feeds.megaphone.fm/WWO7410387571
-    feed "Tucker Carlson" https://feeds.megaphone.fm/RSV1597324942
-    feed "Jocko" https://feeds.redcircle.com/64a89f88-a245-4098-8d8d-496325ec4f74
-    feed "Lex Fridman" https://lexfridman.com/feed/podcast/
-    feed "Alex Jones" https://www.spreaker.com/show/5039062/episodes/feed
+    feed "Gatsu" https://www.youtube.com/feeds/videos.xml?channel_id=UCCCmapQ-VnHWNZlK1Jdnalg
+    feed "Red Line" https://feeds.megaphone.fm/ARML4010200722
+    feed "Foreign Affairs" https://feed.podbean.com/foreignaffairsmagazine/feed.xml
+    feed "War on the Rocks" https://warontherocks.libsyn.com/rss
+    feed "Macro Musings" https://macromusings.libsyn.com/rss
+    feed "Inside Economics" https://feeds.simplecast.com/4LZRim3c
+    feed "Tim Dillon" https://audioboom.com/channels/5093219.rss
+    feed "Pendejo Time" https://feeds.buzzsprout.com/1547017.rss
+    feed "MSSP" https://audioboom.com/channels/5118708.rss
+    feed "TAFS" https://audioboom.com/channels/5111301.rss
+    feed "Lemon Party" https://feeds.megaphone.fm/TPC2913664141
 }
-
 
 filter() {
 	case "$1" in
-	"NakeyJakey" | "Gerbert Johnson")
+	"NakeyJakey" | "Gerbert Johnson" | "Gatsu")
 		cat;;
 	*)
 		cat | \

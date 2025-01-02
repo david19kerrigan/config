@@ -13,15 +13,16 @@ ro() {
     lo "$1"
 }
 nmc() {
-    selected_wifi=$(nmcli device wifi list | tail -n +2 | fzy -l 50 | awk 'BEGIN{FS="   *"}{print $3}' | xargs)
-    test -n "$selected_wifi" && test -n "$1" && nmcli device wifi connect "$selected_wifi" password "$1"
-    test -n "$selected_wifi" && test -z "$1" && nmcli device wifi connect "$selected_wifi"
+    selected_wifi=$(sudo nmcli device wifi list | tail -n +2 | fzy -l 50 | awk 'BEGIN{FS="   *"}{print $3}' | xargs)
+    test -n "$selected_wifi" && test -n "$1" && sudo nmcli device wifi connect "$selected_wifi" password "$1"
+    test -n "$selected_wifi" && test -z "$1" && sudo nmcli device wifi connect "$selected_wifi"
 }
 t() {
     level="${2:-99}"
     dir="${1:-.}"
     tree -C -I "__pycache__" -L"$level" "$dir" | less -R; 
 }
+fp() { ls | fzy | xargs -I{} "$1" {}; }
 ms() { selected_song=$(mpc playlist | nl -s ". " | fzy -l 50 | awk -F '.' '{print $1}' | xargs) && mpc play "$selected_song"; }
 gm() { git commit -a -m "$1" && git push; }
 rp() { rg -l -g "!tags" "$1" | xargs less +/"$1"; }
@@ -41,7 +42,7 @@ alias mp='selected_dir=$(ls $HOME/tunes | fzy -l 50) && \
     mpc add "$selected_dir" && \
     mpc play'
 alias mf='copy_or_move_helper ; mv "$selected_res" "$dest_dir"'
-alias oi='selected_res=$(fd | fzy -l 50) ; handle_res'
+alias oi='selected_res=$(fd . "$PWD" | fzy -l 50) ; handle_res'
 alias oa='selected_res=$(fd . "$HOME" | fzy -l 50) ; handle_res'
 alias oc='selected_res=$(fd -d 1 | fzy -l 50) ; handle_res'
 alias ba='echo $PWD >> "$XDG_DATA_HOME"/marks ; cat "$XDG_DATA_HOME"/marks | sort | uniq > "$XDG_DATA_HOME"/marks'
