@@ -6,13 +6,10 @@ feeds() {
     feed "Red Line" https://feeds.megaphone.fm/ARML4010200722
     feed "Foreign Affairs" https://feed.podbean.com/foreignaffairsmagazine/feed.xml
     feed "War on the Rocks" https://warontherocks.libsyn.com/rss
-    feed "Macro Musings" https://macromusings.libsyn.com/rss
-    feed "Inside Economics" https://feeds.simplecast.com/4LZRim3c
     feed "Tim Dillon" https://audioboom.com/channels/5093219.rss
-    feed "Pendejo Time" https://feeds.buzzsprout.com/1547017.rss
-    feed "MSSP" https://audioboom.com/channels/5118708.rss
     feed "TAFS" https://audioboom.com/channels/5111301.rss
     feed "Lemon Party" https://feeds.megaphone.fm/TPC2913664141
+    feed "Perfect Guy Life" https://audioboom.com/channels/5143759.rss
 }
 
 filter() {
