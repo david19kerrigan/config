@@ -1,0 +1,5 @@
+#!/bin/sh
+selected_dir=$(ls $HOME/tunes | dmenu -i -l 50) && \
+mpc clear && \
+mpc add "$selected_dir" && \
+mpc play

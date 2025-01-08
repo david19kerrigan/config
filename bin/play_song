@@ -1,0 +1,4 @@
+#!/bin/sh
+
+selected_song=$(mpc playlist | nl -s ". " | dmenu -i -l 50 | awk -F '.' '{print $1}' | xargs) && mpc play "$selected_song"
+
