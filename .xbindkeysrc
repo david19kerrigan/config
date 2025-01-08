@@ -7,11 +7,23 @@
 "exec mpc toggle"
     Shift + Alt + K
 
-"exec mpc next"
+"mpc next ; mpc_status"
     Shift + Alt + L
 
-"exec mpc prev"
+"mpc prev ; mpc_status"
     Shift + Alt + J
+
+"exec play_album"
+    Shift + Alt + A
+
+"exec play_song"
+    Shift + Alt + S
+
+"exec play_podcast"
+    Shift + Alt + P
+
+"exec mpc_status"
+    Shift + Alt + M
 
 "sudo zzz"
     Shift + Alt + Control + S
@@ -23,10 +35,10 @@
     Shift + Alt + Control + R
 
 "/home/david/.local/bin/omenu"
-    Shift + Alt + N
+    Shift + Alt + B
 
 "/home/david/.local/bin/pmenu"
-    Shift + Alt + M
+    Shift + Alt + N
 
 "exec brightnessctl set 10%+"
     XF86MonBrightnessUp

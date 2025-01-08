@@ -23,7 +23,6 @@ t() {
     tree -C -I "__pycache__" -L"$level" "$dir" | less -R; 
 }
 fp() { ls | fzy | xargs -I{} "$1" {}; }
-ms() { selected_song=$(mpc playlist | nl -s ". " | fzy -l 50 | awk -F '.' '{print $1}' | xargs) && mpc play "$selected_song"; }
 gm() { git commit -a -m "$1" && git push; }
 rp() { rg -l -g "!tags" "$1" | xargs less +/"$1"; }
 cl() { readlink -f "$1" | xclip -sel clip; }
@@ -37,10 +36,6 @@ alias copy_or_move_helper='selected_res=$(fd . "$HOME" | fzy -l 50) && \
 alias cf='copy_or_move_helper ; \
     test -d "$selected_res" && cp -r "$selected_res" "$dest_dir" ; \
     test -f "$selected_res" && cp "$selected_res" "$dest_dir"'
-alias mp='selected_dir=$(ls $HOME/tunes | fzy -l 50) && \
-    mpc clear && \
-    mpc add "$selected_dir" && \
-    mpc play'
 alias mf='copy_or_move_helper ; mv "$selected_res" "$dest_dir"'
 alias oi='selected_res=$(fd . "$PWD" | fzy -l 50) ; handle_res'
 alias oa='selected_res=$(fd . "$HOME" | fzy -l 50) ; handle_res'

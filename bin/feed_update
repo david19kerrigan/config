@@ -4,6 +4,6 @@ prev_len=$(wc -l < $HOME/.sfeed/feeds.txt)
 sfeed_plain $HOME/.sfeed/feeds/* | uniq > "$HOME/.sfeed/feeds.txt"
 after_len=$(wc -l < $HOME/.sfeed/feeds.txt)
 if [ "$prev_len" -ne "$after_len" ]; then
-    herbe "$(( $after_len - $prev_len )) new feeds"
+    herbe "$(( $after_len - $prev_len )) new feeds" &
 fi
 

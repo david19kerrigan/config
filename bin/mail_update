@@ -3,7 +3,7 @@ prev_len=$(( $(ls $HOME/.local/share/mail/david19kerrigan@gmail.com/INBOX/new | 
 mbsync -a
 after_len=$(( $(ls $HOME/.local/share/mail/david19kerrigan@gmail.com/INBOX/new | wc -l) + $(ls $HOME/.local/share/mail/dkerrigan@mailbox.org/INBOX/new | wc -l) ))
 if [ "$prev_len" -ne "$after_len" ]; then
-    herbe "$(( $after_len - $prev_len )) new emails"
+    herbe "$(( $after_len - $prev_len )) new emails" &
 fi
 
 
