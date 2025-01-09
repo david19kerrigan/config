@@ -1,0 +1,8 @@
+#!/bin/sh
+
+export SUDO_ASKPASS=/usr/bin/gnome-ssh-askpass
+selected_wifi=$(sudo -A nmcli device wifi list | tail -n +2 | dmenu -i -l 50 | awk 'BEGIN{FS="   *"}{print $3}' | xargs)
+password=$(gnome-ssh-askpass)
+test -n "$selected_wifi" && test -n "$1" && sudo nmcli device wifi connect "$selected_wifi" password "$password"
+test -n "$selected_wifi" && test -z "$1" && sudo nmcli device wifi connect "$selected_wifi"
+

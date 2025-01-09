@@ -25,6 +25,15 @@
 "exec mpc_status"
     Shift + Alt + M
 
+"exec select_wifi"
+    Shift + Alt + W
+
+"exec read_email"
+    Shift + Alt + E
+
+"exec mail_update"
+    Shift + Alt + R
+
 "sudo zzz"
     Shift + Alt + Control + S
 

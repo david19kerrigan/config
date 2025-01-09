@@ -1,0 +1,12 @@
+#!/bin/bash
+
+line=$(mdirs "$XDG_DATA_HOME"/mail | xargs mlist | msort -d | mseq -S | mscan | tac | dmenu -l 40)
+test -z "$line" && exit
+one=$(echo "$line" | awk 'BEGIN{FS=" "}{print $1}')
+two=$(echo "$line" | awk 'BEGIN{FS=" "}{print $2}')
+if [[ "$one" =~ ^[0-9]+$ ]]; then
+    mshow "$one" && st -e mless
+else
+    mshow "$two" && st -e mless
+fi
+

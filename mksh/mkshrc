@@ -12,11 +12,6 @@ ro() {
     vis +/"$1" "$selected_res" 
     lo "$1"
 }
-nmc() {
-    selected_wifi=$(sudo nmcli device wifi list | tail -n +2 | fzy -l 50 | awk 'BEGIN{FS="   *"}{print $3}' | xargs)
-    test -n "$selected_wifi" && test -n "$1" && sudo nmcli device wifi connect "$selected_wifi" password "$1"
-    test -n "$selected_wifi" && test -z "$1" && sudo nmcli device wifi connect "$selected_wifi"
-}
 t() {
     level="${2:-99}"
     dir="${1:-.}"
