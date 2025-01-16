@@ -1,7 +1,7 @@
 #!/bin/bash
 
 wd=30000
-line=$(mdirs "$XDG_DATA_HOME"/mail | xargs mlist | msort -d | mseq -S | mscan -f "%c%u%r %-3n %10d %17f %t %2i%100s" | tac | dmenu -l 40)
+line=$(mdirs "$XDG_DATA_HOME"/mail | xargs mlist | msort -d | mseq -S | mscan -f "%c%u%r %-3n %10d %17f %t %2i%100s" | tac | dmenu -i -l 40)
 test -z "$line" && exit
 one=$(echo "$line" | awk 'BEGIN{FS=" "}{print $1}')
 two=$(echo "$line" | awk 'BEGIN{FS=" "}{print $2}')
