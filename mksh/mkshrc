@@ -4,6 +4,7 @@ HISTFILE="$XDG_DATA_HOME"/mksh_history
 HISTSIZE=100000
 
 export EDITOR="vis"
+export OPEN="xdg-open"
 export GPG_TTY=$(tty)
 
 ro() {
@@ -45,6 +46,7 @@ alias v='vis'
 alias g='gurk'
 alias m='setsid -f mpv'
 alias z='zathura'
+alias f='rover -d "$XDG_DATA_HOME/rover_cwd" ; cd "$(cat $XDG_DATA_HOME/rover_cwd)"'
 alias l='ls -A --color=auto -1 -p'
 alias h='eval $(history 0 | fzy | awk "{\$1=\"\"; print \$0}" | xargs)'
 alias ml='mo 1'
