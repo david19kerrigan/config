@@ -13,7 +13,7 @@ ln -sf $PWD/vis $XDG_CONFIG_HOME/
 ln -sf $PWD/picom.conf $XDG_CONFIG_HOME/
 ln -sf $PWD/xinitrc $XDG_CONFIG_HOME/X11/
 ln -sf $PWD/.xbindkeysrc $HOME/
-ln -sf $PWD/gnupg/gpg-agent.conf $XDG_DATA_HOME/gnupg
+ln -sf $PWD/gnupg $XDG_DATA_HOME/gnupg
 ln -sf $PWD/bin $HOME/.local/
 ln -sf $PWD/mpv $XDG_CONFIG_HOME/
 ln -sf $PWD/settings.ini $XDG_CONFIG_HOME/gtk-3.0/
